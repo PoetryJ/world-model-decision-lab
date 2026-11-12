@@ -67,3 +67,8 @@
 1. 密封 E2/E3 汇总完成后，过 A10 审计，并独立复跑关键结果（确定性重跑逐 episode 一致）。
 2. E3：比较世界模型路线与直接历史路线、适应与不适应、负对照中的试探率。
 3. 20:26 冻结，之后导入本仓库并提交最终报告。
+
+## 10. 终版（20:30）
+- 最终报告：reports/integration/FINAL_REPORT.md，复制自 /workspace/wmprobe@996d7ba 中的 reports/controller/FINAL_REPORT.md。
+- 确定性密封测试复跑 5040/5040 一致；pytest 71 项全部通过（运行时需加 --ignore=adapters）。
+- 模块代码仍留在原目录 /workspace/wmprobe，未搬迁；等负责人决定后再选择性导入。
