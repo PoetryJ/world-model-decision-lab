@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-12",
+  "validation_scope": "Paper, project and repository identity and inspected release status only; runtime, dependencies, checkpoints and scientific results are not verified.",
+  "lock_policy": "reference_commit is a reading baseline. Record the actual checkout commit separately before running. Null repository fields must not be guessed.",
+  "sources": [
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "cosmos_policy",
+      "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+      "paper": "https://arxiv.org/abs/2601.16163",
+      "full_text": "https://arxiv.org/html/2601.16163v1",
+      "algorithm_repository": "https://github.com/NVlabs/cosmos-policy",
+      "project": "https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/",
+      "code_status": "algorithm_repository_verified",
+      "reference_commit": "18a2accadf4e7a3531e56754102af5a24d2316da",
+      "role": "Primary source decomposition and optional model adapter",
+      "notes": [
+        "Reference commit is an inspected version, not a claim about the executor checkout.",
+        "648 ALOHA planning rollouts are explicitly not released in the inspected config."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "best_of_n_headroom",
+      "title": "How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop",
+      "paper": "https://arxiv.org/abs/2610.37196",
+      "full_text": "https://arxiv.org/html/2610.37196v1",
+      "algorithm_repository": null,
+      "project": null,
+      "code_status": "code_pending",
+      "role": "Counterfactual branching, selectable headroom, repeated continuations and failure-gated selection",
+      "notes": [
+        "Paper describes HeadroomBench as to be released; no official algorithm repository confirmed in this check.",
+        "Read the paper now; do not block on code or guess a repository."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "t2z",
+      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "paper": "https://arxiv.org/abs/2610.22364",
+      "full_text": "https://arxiv.org/html/2610.22364v1",
+      "algorithm_repository": "https://github.com/T2-z-latent-optimization/T2-z",
+      "project": "https://t2-z-latent-optimization.github.io/",
+      "data": "https://huggingface.co/datasets/huagailuowen/T2-z-datasets",
+      "code_status": "algorithm_repository_verified",
+      "role": "Environment latent and test-time interaction adaptation",
+      "notes": [
+        "Not a drop-in Cosmos Policy module.",
+        "Start from t2z/train.py and t2z/infer.py; verify paths against actual checkout."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "few_shot_residual",
+      "title": "Few-Shot Residual Adaptation of Pretrained Latent World Models",
+      "paper": "https://arxiv.org/abs/2611.13592",
+      "full_text": "https://arxiv.org/html/2611.13592v1",
+      "algorithm_repository": null,
+      "website_repository": "https://github.com/intuitive-robots/Dual-Site-Adapter",
+      "project": "https://intuitive-robots.github.io/Dual-Site-Adapter/",
+      "code_status": "algorithm_code_pending",
+      "role": "Frozen-model residual adaptation and dual-site correction",
+      "evidence": "https://github.com/intuitive-robots/Dual-Site-Adapter/blob/master/index.html",
+      "notes": [
+        "The confirmed repository contains the project website and media, not a verified algorithm implementation.",
+        "The website source has a commented code-link placeholder. Do not install it as an algorithm package."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "task_oriented_exploration",
+      "title": "Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap",
+      "paper": "https://arxiv.org/abs/2006.01952",
+      "full_text": "https://arxiv.org/html/2006.01952v2",
+      "algorithm_repository": null,
+      "project": "https://sites.google.com/view/task-oriented-exploration/",
+      "code_status": "algorithm_code_unconfirmed",
+      "role": "Classical task-oriented exploration and system identification baseline",
+      "notes": [
+        "Official algorithm repository not confirmed in this check; this is not a claim that none exists.",
+        "Read the method and implement the bounded mechanism without waiting for a repository."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "worldfoundry",
+      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+      "paper": "https://arxiv.org/abs/2611.10771",
+      "full_text": "https://arxiv.org/html/2611.10771v1",
+      "algorithm_repository": null,
+      "infrastructure_repository": "https://github.com/OpenEnvision/WorldFoundry",
+      "project": "https://openenvision.org/WorldFoundry/",
+      "code_status": "infrastructure_repository_verified",
+      "role": "Manifest, adapters, execution artifacts and evaluation organization",
+      "notes": [
+        "Infrastructure, not a physics simulator or robot policy.",
+        "Read architecture and evaluation design; full installation is not a prerequisite."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "opendm",
+      "title": "OpenDM / DM0.5",
+      "paper": null,
+      "algorithm_repository": "https://github.com/dexmal/opendm",
+      "project": "https://www.dexmal.com/blog/dm0.5?lang=en-US",
+      "code_status": "algorithm_repository_verified",
+      "paper_status": "standalone_paper_unconfirmed",
+      "role": "Optional VLA/action-expert design reference",
+      "notes": [
+        "Dexmal OpenDM, not OpenDroneMap/ODM.",
+        "No standalone arXiv paper confirmed; use the official technical blog."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "spotter",
+      "title": "Spotter: Let the Embodied Model Lead, and the VLM Reflect for It",
+      "paper": "https://arxiv.org/abs/2609.36808",
+      "full_text": "https://arxiv.org/html/2609.36808v1",
+      "algorithm_repository": "https://github.com/zqc3117/Spotter",
+      "project": "https://zqc3117.github.io/Spotter/",
+      "code_status": "algorithm_repository_verified",
+      "role": "Failure monitoring, recovery and same-failure-state counterfactual analysis",
+      "notes": [
+        "Start with cf_bench and recovery_explore; verify paths against actual checkout."
+      ]
+    },
+    {
+      "checked_on": "2026-11-12",
+      "execution_verified": false,
+      "id": "rea_robotics",
+      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+      "paper": "https://arxiv.org/abs/2610.42053",
+      "full_text": "https://arxiv.org/html/2610.42053v1",
+      "algorithm_repository": "https://github.com/InfRec-Cardinal/REA",
+      "project": "https://mikeeeeeeeeeeeeee.github.io/REA/",
+      "code_status": "algorithm_repository_verified",
+      "role": "Policy routing, asynchronous execution and shared recovery budgets",
+      "notes": [
+        "This is the robotics REA, not morluto/rea (reverse engineering)."
+      ]
+    }
+  ]
+}
