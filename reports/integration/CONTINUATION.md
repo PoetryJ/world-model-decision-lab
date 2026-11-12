@@ -60,7 +60,7 @@
 
 ## 8. 来源纠错（依据 d5d09ad SOURCES.md）
 - A1/A2：已使用 NVlabs/cosmos-policy @ 18a2acc，正确，无需纠正。
-- A3：Best-of-N（2610.37196）、T2-z（T2-z-latent-optimization/T2-z）、WorldFoundry（OpenEnvision）一致。A3 先前写“无法确认 REA”，现已指向 InfRec-Cardinal/REA（2610.42053，不是 morluto/rea），并核对 OpenDM=dexmal/opendm、Spotter=zqc3117/Spotter、Dual-Site-Adapter 只是网页仓库。勘误由 A3 补进 reports/a3。
+- A3：Best-of-N（2610.37196）、T2-z（T2-z-latent-optimization/T2-z）、WorldFoundry（OpenEnvision）一致。A3 先前写“无法确认 REA”，现已指向 InfRec-Cardinal/REA（2610.42053，不是 morluto/rea），并核对 OpenDM=dexmal/opendm、Spotter=zqc3117/Spotter、Dual-Site-Adapter 只是网页仓库。18:51 A3 已完成勘误（reports/a3/REPORT.md §Source corrections）：REA 已识别，不只在开头路由，作为 runner/A10 的共享预算与只读评分设计参考，不集成（Node.js）；OpenDM 排除结论不变；Spotter cf_bench 的快照校验与失败态分支复放可供 A4/A7/A10 参考；Dual-Site-Adapter 明确为不可安装；Best-of-N 未引用仓库。访问失败：Spotter cf_bench/README.md 返回 404；api.github.com 两次返回 403（速率限制）。
 - 尚未确认官方代码的：Best-of-N/HeadroomBench、Few-Shot Residual 算法代码、Liang 2020。三者都直接读论文，不等代码。
 
 ## 9. 下一道验收门
