@@ -1,0 +1,11729 @@
+{
+ "conditions": {
+  "neg_control": {
+   "mu_hi": {
+    "mu": 0.6
+   },
+   "mu_lo": {
+    "mu": 0.1
+   },
+   "mu_mid": {
+    "mu": 0.3
+   }
+  },
+  "test": {
+   "mu_hi": {
+    "mu": 0.6
+   },
+   "mu_lo": {
+    "mu": 0.1
+   },
+   "mu_mid": {
+    "mu": 0.3
+   }
+  },
+  "train_val": {
+   "mu_hi": {
+    "mu": 0.6
+   },
+   "mu_lo": {
+    "mu": 0.1
+   },
+   "tr_mu_0.15": {
+    "mu": 0.15
+   },
+   "tr_mu_0.2": {
+    "mu": 0.2
+   },
+   "tr_mu_0.4": {
+    "mu": 0.4
+   },
+   "tr_mu_0.5": {
+    "mu": 0.5
+   }
+  }
+ },
+ "e0": [
+  {
+   "init": {
+    "goal": [
+     0.050084,
+     -0.219801
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.124043,
+     -0.034996
+    ],
+    "pusher": [
+     -0.19262,
+     0.037786
+    ]
+   },
+   "init_state_id": "e0_pos_000",
+   "meta": {
+    "goal_dist": 0.2539154210171144,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400100
+  },
+  {
+   "init": {
+    "goal": [
+     -0.22477,
+     0.242024
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.053032,
+     0.100516
+    ],
+    "pusher": [
+     0.024144,
+     0.036925
+    ]
+   },
+   "init_state_id": "e0_pos_001",
+   "meta": {
+    "goal_dist": 0.22252617664502677,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400101
+  },
+  {
+   "init": {
+    "goal": [
+     0.116111,
+     -0.138326
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.018863,
+     0.051897
+    ],
+    "pusher": [
+     -0.076731,
+     0.133452
+    ]
+   },
+   "init_state_id": "e0_pos_002",
+   "meta": {
+    "goal_dist": 0.23324366372321403,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400102
+  },
+  {
+   "init": {
+    "goal": [
+     0.040166,
+     0.270969
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.115289,
+     0.103857
+    ],
+    "pusher": [
+     -0.183399,
+     0.030638
+    ]
+   },
+   "init_state_id": "e0_pos_003",
+   "meta": {
+    "goal_dist": 0.22823795001359007,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400103
+  },
+  {
+   "init": {
+    "goal": [
+     0.326325,
+     -0.052253
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.106723,
+     0.092608
+    ],
+    "pusher": [
+     0.023249,
+     0.147672
+    ]
+   },
+   "init_state_id": "e0_pos_004",
+   "meta": {
+    "goal_dist": 0.2630772281043371,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400104
+  },
+  {
+   "init": {
+    "goal": [
+     0.367342,
+     -0.097934
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.143009,
+     0.059045
+    ],
+    "pusher": [
+     0.061077,
+     0.116378
+    ]
+   },
+   "init_state_id": "e0_pos_005",
+   "meta": {
+    "goal_dist": 0.27380239830018316,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400105
+  },
+  {
+   "init": {
+    "goal": [
+     0.044467,
+     -0.238031
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.098586,
+     -0.015123
+    ],
+    "pusher": [
+     -0.152597,
+     0.069037
+    ]
+   },
+   "init_state_id": "e0_pos_006",
+   "meta": {
+    "goal_dist": 0.26486275333319576,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400106
+  },
+  {
+   "init": {
+    "goal": [
+     0.001074,
+     0.208575
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.122332,
+     -0.037064
+    ],
+    "pusher": [
+     0.166597,
+     -0.126733
+    ]
+   },
+   "init_state_id": "e0_pos_007",
+   "meta": {
+    "goal_dist": 0.27393783245111686,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400107
+  },
+  {
+   "init": {
+    "goal": [
+     -0.242022,
+     -0.022081
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.029163,
+     -0.113309
+    ],
+    "pusher": [
+     0.062751,
+     -0.152702
+    ]
+   },
+   "init_state_id": "e0_pos_008",
+   "meta": {
+    "goal_dist": 0.23158463812412494,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400108
+  },
+  {
+   "init": {
+    "goal": [
+     -0.234941,
+     0.195335
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.025877,
+     0.048835
+    ],
+    "pusher": [
+     0.113065,
+     -0.000138
+    ]
+   },
+   "init_state_id": "e0_pos_009",
+   "meta": {
+    "goal_dist": 0.2991461123994077,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400109
+  },
+  {
+   "init": {
+    "goal": [
+     0.074287,
+     0.130194
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.123525,
+     -0.121529
+    ],
+    "pusher": [
+     0.142721,
+     -0.219669
+    ]
+   },
+   "init_state_id": "e0_pos_010",
+   "meta": {
+    "goal_dist": 0.25649390232497227,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400110
+  },
+  {
+   "init": {
+    "goal": [
+     0.053232,
+     -0.303097
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.091768,
+     -0.113438
+    ],
+    "pusher": [
+     -0.152503,
+     -0.033995
+    ]
+   },
+   "init_state_id": "e0_pos_011",
+   "meta": {
+    "goal_dist": 0.23873674727323274,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 400111
+  }
+ ],
+ "e0_neg": [
+  {
+   "init": {
+    "goal": [
+     0.017225,
+     0.050291
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.021212,
+     0.099838
+    ],
+    "pusher": [
+     -0.082507,
+     0.17885
+    ]
+   },
+   "init_state_id": "e0_neg_000",
+   "meta": {
+    "goal_dist": 0.06270857195147474,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400600
+  },
+  {
+   "init": {
+    "goal": [
+     -0.178799,
+     0.084293
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.106935,
+     0.114365
+    ],
+    "pusher": [
+     -0.014686,
+     0.152968
+    ]
+   },
+   "init_state_id": "e0_neg_001",
+   "meta": {
+    "goal_dist": 0.07790186698852529,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400601
+  },
+  {
+   "init": {
+    "goal": [
+     0.086426,
+     -0.006516
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.042449,
+     0.025658
+    ],
+    "pusher": [
+     -0.038258,
+     0.084704
+    ]
+   },
+   "init_state_id": "e0_neg_002",
+   "meta": {
+    "goal_dist": 0.05448990641705311,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400602
+  },
+  {
+   "init": {
+    "goal": [
+     -0.017728,
+     -0.017392
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.007236,
+     -0.096582
+    ],
+    "pusher": [
+     0.005897,
+     -0.195716
+    ]
+   },
+   "init_state_id": "e0_neg_003",
+   "meta": {
+    "goal_dist": 0.07988192547280078,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400603
+  },
+  {
+   "init": {
+    "goal": [
+     0.145156,
+     -0.068515
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.110475,
+     -0.117909
+    ],
+    "pusher": [
+     0.053011,
+     -0.19975
+    ]
+   },
+   "init_state_id": "e0_neg_004",
+   "meta": {
+    "goal_dist": 0.06035332869800591,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400604
+  },
+  {
+   "init": {
+    "goal": [
+     0.067157,
+     -0.211951
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.077162,
+     -0.143121
+    ],
+    "pusher": [
+     0.091547,
+     -0.044161
+    ]
+   },
+   "init_state_id": "e0_neg_005",
+   "meta": {
+    "goal_dist": 0.0695531943957506,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400605
+  },
+  {
+   "init": {
+    "goal": [
+     0.091377,
+     -0.044021
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.051441,
+     -0.013241
+    ],
+    "pusher": [
+     -0.027765,
+     0.047804
+    ]
+   },
+   "init_state_id": "e0_neg_006",
+   "meta": {
+    "goal_dist": 0.05042142808139426,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400606
+  },
+  {
+   "init": {
+    "goal": [
+     -0.139614,
+     -0.12158
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.075848,
+     -0.094593
+    ],
+    "pusher": [
+     0.016243,
+     -0.055617
+    ]
+   },
+   "init_state_id": "e0_neg_007",
+   "meta": {
+    "goal_dist": 0.06924123773785695,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400607
+  },
+  {
+   "init": {
+    "goal": [
+     0.092977,
+     0.044028
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.038325,
+     -0.012248
+    ],
+    "pusher": [
+     -0.031343,
+     -0.083986
+    ]
+   },
+   "init_state_id": "e0_neg_008",
+   "meta": {
+    "goal_dist": 0.07844617495477643,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400608
+  },
+  {
+   "init": {
+    "goal": [
+     0.056966,
+     0.021015
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.097011,
+     -0.015016
+    ],
+    "pusher": [
+     0.171348,
+     -0.081904
+    ]
+   },
+   "init_state_id": "e0_neg_009",
+   "meta": {
+    "goal_dist": 0.05386890646461653,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400609
+  },
+  {
+   "init": {
+    "goal": [
+     0.005375,
+     -0.177612
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.002513,
+     -0.126317
+    ],
+    "pusher": [
+     -0.017714,
+     -0.027479
+    ]
+   },
+   "init_state_id": "e0_neg_010",
+   "meta": {
+    "goal_dist": 0.05189783847461336,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400610
+  },
+  {
+   "init": {
+    "goal": [
+     0.092325,
+     0.148042
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.136366,
+     0.098046
+    ],
+    "pusher": [
+     0.202466,
+     0.023008
+    ]
+   },
+   "init_state_id": "e0_neg_011",
+   "meta": {
+    "goal_dist": 0.06662779295572156,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 400611
+  }
+ ],
+ "e0_probes": {
+  "names": [
+   "tap_fast",
+   "push_slow",
+   "retreat"
+  ],
+  "source": "src.env.scenarios.probe_set(obs) (A4): tap_fast, push_slow, retreat; h=5 each"
+ },
+ "e1": [
+  {
+   "init": {
+    "goal": [
+     0.160078,
+     0.284879
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.028924,
+     0.030679
+    ],
+    "pusher": [
+     -0.016928,
+     -0.058189
+    ]
+   },
+   "init_state_id": "e1_pos_000",
+   "meta": {
+    "goal_dist": 0.2860394471969225,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500100
+  },
+  {
+   "init": {
+    "goal": [
+     0.196755,
+     -0.312531
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.113318,
+     -0.06439
+    ],
+    "pusher": [
+     0.081446,
+     0.030395
+    ]
+   },
+   "init_state_id": "e1_pos_001",
+   "meta": {
+    "goal_dist": 0.2617930128105933,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500101
+  },
+  {
+   "init": {
+    "goal": [
+     0.083622,
+     -0.221711
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.115101,
+     0.01426
+    ],
+    "pusher": [
+     0.128324,
+     0.113382
+    ]
+   },
+   "init_state_id": "e1_pos_002",
+   "meta": {
+    "goal_dist": 0.23806196149406972,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500102
+  },
+  {
+   "init": {
+    "goal": [
+     -0.285395,
+     0.16113
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.044416,
+     -0.002733
+    ],
+    "pusher": [
+     0.038277,
+     -0.058963
+    ]
+   },
+   "init_state_id": "e1_pos_003",
+   "meta": {
+    "goal_dist": 0.29141351064243737,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500103
+  },
+  {
+   "init": {
+    "goal": [
+     0.124464,
+     0.299414
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.018234,
+     0.102644
+    ],
+    "pusher": [
+     -0.029272,
+     0.014648
+    ]
+   },
+   "init_state_id": "e1_pos_004",
+   "meta": {
+    "goal_dist": 0.22361439222674648,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500104
+  },
+  {
+   "init": {
+    "goal": [
+     0.20509,
+     -0.044793
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.035103,
+     0.05873
+    ],
+    "pusher": [
+     -0.126937,
+     0.09831
+    ]
+   },
+   "init_state_id": "e1_pos_005",
+   "meta": {
+    "goal_dist": 0.26155346503489996,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500105
+  },
+  {
+   "init": {
+    "goal": [
+     -0.085414,
+     -0.332032
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.134627,
+     -0.113503
+    ],
+    "pusher": [
+     -0.156597,
+     -0.015947
+    ]
+   },
+   "init_state_id": "e1_pos_006",
+   "meta": {
+    "goal_dist": 0.22400191279142703,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500106
+  },
+  {
+   "init": {
+    "goal": [
+     -0.058871,
+     0.148835
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.097605,
+     -0.10098
+    ],
+    "pusher": [
+     0.150689,
+     -0.185728
+    ]
+   },
+   "init_state_id": "e1_pos_007",
+   "meta": {
+    "goal_dist": 0.29477537522522157,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500107
+  },
+  {
+   "init": {
+    "goal": [
+     -0.145065,
+     -0.203081
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.106379,
+     -0.090318
+    ],
+    "pusher": [
+     0.197624,
+     -0.049398
+    ]
+   },
+   "init_state_id": "e1_pos_008",
+   "meta": {
+    "goal_dist": 0.2755723080371361,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500108
+  },
+  {
+   "init": {
+    "goal": [
+     -0.141683,
+     -0.031392
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.108761,
+     0.049169
+    ],
+    "pusher": [
+     0.203957,
+     0.079791
+    ]
+   },
+   "init_state_id": "e1_pos_009",
+   "meta": {
+    "goal_dist": 0.26308168181973535,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500109
+  },
+  {
+   "init": {
+    "goal": [
+     -0.232902,
+     -0.056808
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.043167,
+     0.044375
+    ],
+    "pusher": [
+     0.137059,
+     0.078788
+    ]
+   },
+   "init_state_id": "e1_pos_010",
+   "meta": {
+    "goal_dist": 0.29402701866784176,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500110
+  },
+  {
+   "init": {
+    "goal": [
+     0.067447,
+     0.231601
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.095332,
+     0.043895
+    ],
+    "pusher": [
+     -0.160848,
+     -0.031654
+    ]
+   },
+   "init_state_id": "e1_pos_011",
+   "meta": {
+    "goal_dist": 0.2484564504034255,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500111
+  },
+  {
+   "init": {
+    "goal": [
+     -0.093168,
+     -0.339796
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.021809,
+     -0.118621
+    ],
+    "pusher": [
+     0.067933,
+     -0.029893
+    ]
+   },
+   "init_state_id": "e1_pos_012",
+   "meta": {
+    "goal_dist": 0.249275340738069,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500112
+  },
+  {
+   "init": {
+    "goal": [
+     0.021513,
+     -0.167873
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.080541,
+     0.089227
+    ],
+    "pusher": [
+     0.102918,
+     0.186691
+    ]
+   },
+   "init_state_id": "e1_pos_013",
+   "meta": {
+    "goal_dist": 0.2637892666620005,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500113
+  },
+  {
+   "init": {
+    "goal": [
+     -0.076064,
+     0.229221
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.14691,
+     0.016319
+    ],
+    "pusher": [
+     -0.178483,
+     -0.078566
+    ]
+   },
+   "init_state_id": "e1_pos_014",
+   "meta": {
+    "goal_dist": 0.22438018198773285,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500114
+  },
+  {
+   "init": {
+    "goal": [
+     0.332595,
+     -0.142157
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.055202,
+     -0.061624
+    ],
+    "pusher": [
+     -0.040833,
+     -0.033743
+    ]
+   },
+   "init_state_id": "e1_pos_015",
+   "meta": {
+    "goal_dist": 0.2888467484527242,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500115
+  },
+  {
+   "init": {
+    "goal": [
+     -0.194966,
+     0.032039
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.072174,
+     -0.064251
+    ],
+    "pusher": [
+     0.166249,
+     -0.098161
+    ]
+   },
+   "init_state_id": "e1_pos_016",
+   "meta": {
+    "goal_dist": 0.2839641416288982,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500116
+  },
+  {
+   "init": {
+    "goal": [
+     -0.240981,
+     -0.000894
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.01286,
+     -0.098642
+    ],
+    "pusher": [
+     0.079057,
+     -0.138028
+    ]
+   },
+   "init_state_id": "e1_pos_017",
+   "meta": {
+    "goal_dist": 0.24818116820908015,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500117
+  },
+  {
+   "init": {
+    "goal": [
+     0.114362,
+     -0.047008
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.071898,
+     0.071992
+    ],
+    "pusher": [
+     -0.156168,
+     0.125831
+    ]
+   },
+   "init_state_id": "e1_pos_018",
+   "meta": {
+    "goal_dist": 0.2210291868397401,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500118
+  },
+  {
+   "init": {
+    "goal": [
+     -0.078297,
+     0.254281
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.127458,
+     0.045123
+    ],
+    "pusher": [
+     0.197586,
+     -0.026166
+    ]
+   },
+   "init_state_id": "e1_pos_019",
+   "meta": {
+    "goal_dist": 0.293397537486255,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 500119
+  }
+ ],
+ "e2_budget": {
+  "dt": 0.1,
+  "env_seed_rule": "env seed = test seed (same for all methods; CRN)",
+  "max_physical_time_s": 6.0,
+  "max_probe_steps": 10,
+  "max_steps_total": 60,
+  "stochastic_variant": {
+   "action_noise": 0.02,
+   "n_reps": 3,
+   "rep_seed_rule": "seed*10 + rep"
+  },
+  "termination": [
+   "success",
+   "out_of_bounds",
+   "timeout",
+   "budget"
+  ]
+ },
+ "goal_radius": 0.05,
+ "offline": {
+  "eval_rep_seeds": [
+   21,
+   22,
+   23
+  ],
+  "select_rep_seeds": [
+   11,
+   12,
+   13
+  ],
+  "settle_steps": 20,
+  "tie_tol_m": 0.001
+ },
+ "seed_base": {
+  "e0": 400000,
+  "e1": 500000,
+  "test": 300000,
+  "train": 100000,
+  "val": 200000
+ },
+ "test": [
+  {
+   "init": {
+    "goal": [
+     0.262071,
+     -0.051186
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.041687,
+     0.023551
+    ],
+    "pusher": [
+     -0.053015,
+     0.055667
+    ]
+   },
+   "init_state_id": "test_pos_000",
+   "meta": {
+    "goal_dist": 0.2327118317986856,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300100
+  },
+  {
+   "init": {
+    "goal": [
+     0.254911,
+     -0.068683
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.033036,
+     -0.09307
+    ],
+    "pusher": [
+     -0.066365,
+     -0.103995
+    ]
+   },
+   "init_state_id": "test_pos_001",
+   "meta": {
+    "goal_dist": 0.22321095530480112,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300101
+  },
+  {
+   "init": {
+    "goal": [
+     0.246251,
+     0.071781
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.025228,
+     0.069235
+    ],
+    "pusher": [
+     -0.074765,
+     0.068083
+    ]
+   },
+   "init_state_id": "test_pos_002",
+   "meta": {
+    "goal_dist": 0.22103698178545966,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300102
+  },
+  {
+   "init": {
+    "goal": [
+     -0.239132,
+     0.3132
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.023937,
+     0.120524
+    ],
+    "pusher": [
+     0.050564,
+     0.053819
+    ]
+   },
+   "init_state_id": "test_pos_003",
+   "meta": {
+    "goal_dist": 0.2888480075782814,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300103
+  },
+  {
+   "init": {
+    "goal": [
+     0.150229,
+     0.06943
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.088221,
+     0.113597
+    ],
+    "pusher": [
+     -0.186549,
+     0.131809
+    ]
+   },
+   "init_state_id": "test_pos_004",
+   "meta": {
+    "goal_dist": 0.24250597041443933,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300104
+  },
+  {
+   "init": {
+    "goal": [
+     0.231051,
+     0.164326
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.014173,
+     0.101661
+    ],
+    "pusher": [
+     -0.11106,
+     0.076902
+    ]
+   },
+   "init_state_id": "test_pos_005",
+   "meta": {
+    "goal_dist": 0.2531046922410262,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300105
+  },
+  {
+   "init": {
+    "goal": [
+     -0.102992,
+     0.332456
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.088928,
+     0.035138
+    ],
+    "pusher": [
+     -0.084203,
+     -0.064751
+    ]
+   },
+   "init_state_id": "test_pos_006",
+   "meta": {
+    "goal_dist": 0.29765075298290977,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300106
+  },
+  {
+   "init": {
+    "goal": [
+     -0.330942,
+     -0.070364
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.099604,
+     -0.048175
+    ],
+    "pusher": [
+     -6.1e-05,
+     -0.038628
+    ]
+   },
+   "init_state_id": "test_pos_007",
+   "meta": {
+    "goal_dist": 0.23240029199005569,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300107
+  },
+  {
+   "init": {
+    "goal": [
+     -0.20153,
+     -0.218604
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.01711,
+     -0.136052
+    ],
+    "pusher": [
+     0.110664,
+     -0.10073
+    ]
+   },
+   "init_state_id": "test_pos_008",
+   "meta": {
+    "goal_dist": 0.2337056193320751,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300108
+  },
+  {
+   "init": {
+    "goal": [
+     -0.171079,
+     -0.110285
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.033974,
+     0.044513
+    ],
+    "pusher": [
+     0.113786,
+     0.104763
+    ]
+   },
+   "init_state_id": "test_pos_009",
+   "meta": {
+    "goal_dist": 0.2569219644193793,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300109
+  },
+  {
+   "init": {
+    "goal": [
+     -0.321399,
+     0.08506
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.088604,
+     0.120388
+    ],
+    "pusher": [
+     0.010264,
+     0.135391
+    ]
+   },
+   "init_state_id": "test_pos_010",
+   "meta": {
+    "goal_dist": 0.23546054325157925,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300110
+  },
+  {
+   "init": {
+    "goal": [
+     0.13218,
+     0.294971
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.044703,
+     0.118642
+    ],
+    "pusher": [
+     -0.115525,
+     0.048042
+    ]
+   },
+   "init_state_id": "test_pos_011",
+   "meta": {
+    "goal_dist": 0.24975930248781417,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300111
+  },
+  {
+   "init": {
+    "goal": [
+     -0.189362,
+     -0.139303
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.055035,
+     0.007561
+    ],
+    "pusher": [
+     0.14075,
+     0.059069
+    ]
+   },
+   "init_state_id": "test_pos_012",
+   "meta": {
+    "goal_dist": 0.28513006565369653,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300112
+  },
+  {
+   "init": {
+    "goal": [
+     0.314158,
+     0.050747
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.071033,
+     0.097548
+    ],
+    "pusher": [
+     -0.027164,
+     0.11645
+    ]
+   },
+   "init_state_id": "test_pos_013",
+   "meta": {
+    "goal_dist": 0.24758864839698852,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300113
+  },
+  {
+   "init": {
+    "goal": [
+     -0.077309,
+     0.147636
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.083873,
+     -0.009216
+    ],
+    "pusher": [
+     0.15554,
+     -0.078957
+    ]
+   },
+   "init_state_id": "test_pos_014",
+   "meta": {
+    "goal_dist": 0.22490404704983308,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300114
+  },
+  {
+   "init": {
+    "goal": [
+     -0.120972,
+     0.226789
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.002309,
+     0.026763
+    ],
+    "pusher": [
+     0.048713,
+     -0.059242
+    ]
+   },
+   "init_state_id": "test_pos_015",
+   "meta": {
+    "goal_dist": 0.23257579613875726,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300115
+  },
+  {
+   "init": {
+    "goal": [
+     0.094478,
+     0.239577
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.120969,
+     -0.014253
+    ],
+    "pusher": [
+     0.131349,
+     -0.113713
+    ]
+   },
+   "init_state_id": "test_pos_016",
+   "meta": {
+    "goal_dist": 0.25520884889771117,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300116
+  },
+  {
+   "init": {
+    "goal": [
+     0.283528,
+     -0.162698
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.037338,
+     -0.013325
+    ],
+    "pusher": [
+     -0.048157,
+     0.038548
+    ]
+   },
+   "init_state_id": "test_pos_017",
+   "meta": {
+    "goal_dist": 0.2879620414637555,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300117
+  },
+  {
+   "init": {
+    "goal": [
+     0.297369,
+     -0.252802
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.069236,
+     -0.137282
+    ],
+    "pusher": [
+     -0.019978,
+     -0.092106
+    ]
+   },
+   "init_state_id": "test_pos_018",
+   "meta": {
+    "goal_dist": 0.25571336690417085,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300118
+  },
+  {
+   "init": {
+    "goal": [
+     -0.282386,
+     0.027711
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.059098,
+     -0.062964
+    ],
+    "pusher": [
+     0.033554,
+     -0.100589
+    ]
+   },
+   "init_state_id": "test_pos_019",
+   "meta": {
+    "goal_dist": 0.24099725591020807,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300119
+  },
+  {
+   "init": {
+    "goal": [
+     0.000796,
+     0.189719
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.020961,
+     -0.097393
+    ],
+    "pusher": [
+     0.027968,
+     -0.197147
+    ]
+   },
+   "init_state_id": "test_pos_020",
+   "meta": {
+    "goal_dist": 0.2878189040683268,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300120
+  },
+  {
+   "init": {
+    "goal": [
+     0.013139,
+     0.214091
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.036615,
+     -0.004861
+    ],
+    "pusher": [
+     -0.058773,
+     -0.102375
+    ]
+   },
+   "init_state_id": "test_pos_021",
+   "meta": {
+    "goal_dist": 0.22453389579779,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300121
+  },
+  {
+   "init": {
+    "goal": [
+     -0.175518,
+     0.049104
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.092205,
+     -0.034307
+    ],
+    "pusher": [
+     0.187679,
+     -0.064053
+    ]
+   },
+   "init_state_id": "test_pos_022",
+   "meta": {
+    "goal_dist": 0.2804161666840083,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300122
+  },
+  {
+   "init": {
+    "goal": [
+     -0.10307,
+     -0.112677
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.110344,
+     0.021684
+    ],
+    "pusher": [
+     0.19497,
+     0.074962
+    ]
+   },
+   "init_state_id": "test_pos_023",
+   "meta": {
+    "goal_dist": 0.2521871616051756,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300123
+  },
+  {
+   "init": {
+    "goal": [
+     -0.009211,
+     0.290215
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.015389,
+     -0.007978
+    ],
+    "pusher": [
+     -0.017461,
+     -0.107956
+    ]
+   },
+   "init_state_id": "test_pos_024",
+   "meta": {
+    "goal_dist": 0.2982563392903029,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300124
+  },
+  {
+   "init": {
+    "goal": [
+     -0.033468,
+     -0.133919
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.119677,
+     0.057558
+    ],
+    "pusher": [
+     0.182137,
+     0.135652
+    ]
+   },
+   "init_state_id": "test_pos_025",
+   "meta": {
+    "goal_dist": 0.24518670546756277,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300125
+  },
+  {
+   "init": {
+    "goal": [
+     -0.058793,
+     -0.333258
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.016322,
+     -0.068889
+    ],
+    "pusher": [
+     -0.00046,
+     0.029845
+    ]
+   },
+   "init_state_id": "test_pos_026",
+   "meta": {
+    "goal_dist": 0.26775900358586147,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300126
+  },
+  {
+   "init": {
+    "goal": [
+     -0.256551,
+     -0.167488
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.040134,
+     -0.060316
+    ],
+    "pusher": [
+     0.04948,
+     -0.015938
+    ]
+   },
+   "init_state_id": "test_pos_027",
+   "meta": {
+    "goal_dist": 0.2415002515246997,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300127
+  },
+  {
+   "init": {
+    "goal": [
+     -0.052922,
+     -0.293634
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.02813,
+     -0.07757
+    ],
+    "pusher": [
+     0.063253,
+     0.016059
+    ]
+   },
+   "init_state_id": "test_pos_028",
+   "meta": {
+    "goal_dist": 0.23076657508769335,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300128
+  },
+  {
+   "init": {
+    "goal": [
+     0.197137,
+     0.085127
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.074007,
+     -0.113054
+    ],
+    "pusher": [
+     0.021233,
+     -0.197995
+    ]
+   },
+   "init_state_id": "test_pos_029",
+   "meta": {
+    "goal_dist": 0.23331656022869474,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300129
+  },
+  {
+   "init": {
+    "goal": [
+     0.058018,
+     0.124921
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.14219,
+     -0.001866
+    ],
+    "pusher": [
+     -0.226674,
+     -0.055368
+    ]
+   },
+   "init_state_id": "test_pos_030",
+   "meta": {
+    "goal_dist": 0.23697648613780503,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300130
+  },
+  {
+   "init": {
+    "goal": [
+     -0.045156,
+     -0.244994
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.128579,
+     -0.065032
+    ],
+    "pusher": [
+     0.198034,
+     0.006913
+    ]
+   },
+   "init_state_id": "test_pos_031",
+   "meta": {
+    "goal_dist": 0.25014026924121263,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300131
+  },
+  {
+   "init": {
+    "goal": [
+     -0.222742,
+     -0.043191
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.009186,
+     0.117591
+    ],
+    "pusher": [
+     0.091369,
+     0.174564
+    ]
+   },
+   "init_state_id": "test_pos_032",
+   "meta": {
+    "goal_dist": 0.2822081311748863,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300132
+  },
+  {
+   "init": {
+    "goal": [
+     0.11995,
+     0.153956
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.140103,
+     -0.138337
+    ],
+    "pusher": [
+     0.146981,
+     -0.238101
+    ]
+   },
+   "init_state_id": "test_pos_033",
+   "meta": {
+    "goal_dist": 0.2929873360835813,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300133
+  },
+  {
+   "init": {
+    "goal": [
+     0.255714,
+     0.158504
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.004377,
+     0.107899
+    ],
+    "pusher": [
+     -0.093655,
+     0.088161
+    ]
+   },
+   "init_state_id": "test_pos_034",
+   "meta": {
+    "goal_dist": 0.2563807046107266,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300134
+  },
+  {
+   "init": {
+    "goal": [
+     -0.095495,
+     0.224393
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.091016,
+     0.054798
+    ],
+    "pusher": [
+     0.165002,
+     -0.012478
+    ]
+   },
+   "init_state_id": "test_pos_035",
+   "meta": {
+    "goal_dist": 0.2520892103297698,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300135
+  },
+  {
+   "init": {
+    "goal": [
+     -0.242284,
+     0.177154
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.014688,
+     0.128293
+    ],
+    "pusher": [
+     0.083084,
+     0.107302
+    ]
+   },
+   "init_state_id": "test_pos_036",
+   "meta": {
+    "goal_dist": 0.2327811157963002,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300136
+  },
+  {
+   "init": {
+    "goal": [
+     0.333536,
+     0.102821
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.07885,
+     0.015535
+    ],
+    "pusher": [
+     -0.015749,
+     -0.016886
+    ]
+   },
+   "init_state_id": "test_pos_037",
+   "meta": {
+    "goal_dist": 0.26922795620814166,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300137
+  },
+  {
+   "init": {
+    "goal": [
+     0.281324,
+     -0.175586
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.110634,
+     0.030998
+    ],
+    "pusher": [
+     0.046938,
+     0.108088
+    ]
+   },
+   "init_state_id": "test_pos_038",
+   "meta": {
+    "goal_dist": 0.267978080903889,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300138
+  },
+  {
+   "init": {
+    "goal": [
+     0.04519,
+     -0.205077
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.029251,
+     0.025318
+    ],
+    "pusher": [
+     0.022348,
+     0.125079
+    ]
+   },
+   "init_state_id": "test_pos_039",
+   "meta": {
+    "goal_dist": 0.2309459671924659,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 300139
+  }
+ ],
+ "test_neg": [
+  {
+   "init": {
+    "goal": [
+     0.086714,
+     -0.061014
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.022898,
+     -0.061098
+    ],
+    "pusher": [
+     -0.077102,
+     -0.06123
+    ]
+   },
+   "init_state_id": "test_neg_000",
+   "meta": {
+    "goal_dist": 0.06381617694757499,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300600
+  },
+  {
+   "init": {
+    "goal": [
+     0.129836,
+     0.03661
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.054048,
+     0.020038
+    ],
+    "pusher": [
+     -0.043643,
+     -0.001323
+    ]
+   },
+   "init_state_id": "test_neg_001",
+   "meta": {
+    "goal_dist": 0.07757849728813054,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300601
+  },
+  {
+   "init": {
+    "goal": [
+     0.180455,
+     -0.146368
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.128383,
+     -0.088645
+    ],
+    "pusher": [
+     0.0614,
+     -0.014394
+    ]
+   },
+   "init_state_id": "test_neg_002",
+   "meta": {
+    "goal_dist": 0.07773846199635795,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300602
+  },
+  {
+   "init": {
+    "goal": [
+     -0.139084,
+     0.001298
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.12995,
+     0.079215
+    ],
+    "pusher": [
+     -0.118307,
+     0.178535
+    ]
+   },
+   "init_state_id": "test_neg_003",
+   "meta": {
+    "goal_dist": 0.07845147733164101,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300603
+  },
+  {
+   "init": {
+    "goal": [
+     -0.079934,
+     -0.167653
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.100531,
+     -0.104561
+    ],
+    "pusher": [
+     -0.131564,
+     -0.009498
+    ]
+   },
+   "init_state_id": "test_neg_004",
+   "meta": {
+    "goal_dist": 0.06636852201050383,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300604
+  },
+  {
+   "init": {
+    "goal": [
+     0.158754,
+     0.103987
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.137915,
+     0.031633
+    ],
+    "pusher": [
+     0.11024,
+     -0.064461
+    ]
+   },
+   "init_state_id": "test_neg_005",
+   "meta": {
+    "goal_dist": 0.07529548304531028,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300605
+  },
+  {
+   "init": {
+    "goal": [
+     0.030599,
+     -0.137457
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.080977,
+     -0.107592
+    ],
+    "pusher": [
+     0.166998,
+     -0.056598
+    ]
+   },
+   "init_state_id": "test_neg_006",
+   "meta": {
+    "goal_dist": 0.05856491991563837,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300606
+  },
+  {
+   "init": {
+    "goal": [
+     0.16035,
+     0.068681
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.120288,
+     0.127183
+    ],
+    "pusher": [
+     0.063787,
+     0.209691
+    ]
+   },
+   "init_state_id": "test_neg_007",
+   "meta": {
+    "goal_dist": 0.0709042274541694,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300607
+  },
+  {
+   "init": {
+    "goal": [
+     0.142762,
+     0.117531
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.135698,
+     0.064671
+    ],
+    "pusher": [
+     0.122452,
+     -0.034448
+    ]
+   },
+   "init_state_id": "test_neg_008",
+   "meta": {
+    "goal_dist": 0.05333040778306129,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300608
+  },
+  {
+   "init": {
+    "goal": [
+     0.141635,
+     0.060083
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.066534,
+     0.087199
+    ],
+    "pusher": [
+     -0.027523,
+     0.12116
+    ]
+   },
+   "init_state_id": "test_neg_009",
+   "meta": {
+    "goal_dist": 0.0798473665454814,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300609
+  },
+  {
+   "init": {
+    "goal": [
+     -0.126925,
+     0.122867
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.095097,
+     0.078457
+    ],
+    "pusher": [
+     -0.036843,
+     -0.002824
+    ]
+   },
+   "init_state_id": "test_neg_010",
+   "meta": {
+    "goal_dist": 0.054637699070020265,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300610
+  },
+  {
+   "init": {
+    "goal": [
+     0.042778,
+     0.132591
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.01341,
+     0.061653
+    ],
+    "pusher": [
+     -0.024841,
+     -0.030742
+    ]
+   },
+   "init_state_id": "test_neg_011",
+   "meta": {
+    "goal_dist": 0.0767770866939414,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300611
+  },
+  {
+   "init": {
+    "goal": [
+     0.044898,
+     0.01181
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.03052,
+     -0.014429
+    ],
+    "pusher": [
+     -0.124967,
+     -0.047289
+    ]
+   },
+   "init_state_id": "test_neg_012",
+   "meta": {
+    "goal_dist": 0.07985209112980403,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300612
+  },
+  {
+   "init": {
+    "goal": [
+     -0.130259,
+     -0.073425
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.075032,
+     -0.059764
+    ],
+    "pusher": [
+     0.022042,
+     -0.035752
+    ]
+   },
+   "init_state_id": "test_neg_013",
+   "meta": {
+    "goal_dist": 0.056892120967642706,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300613
+  },
+  {
+   "init": {
+    "goal": [
+     -0.086209,
+     -0.030832
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.149064,
+     -0.061995
+    ],
+    "pusher": [
+     -0.238657,
+     -0.106415
+    ]
+   },
+   "init_state_id": "test_neg_014",
+   "meta": {
+    "goal_dist": 0.07015652908822606,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300614
+  },
+  {
+   "init": {
+    "goal": [
+     0.072748,
+     0.074029
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.111008,
+     0.020098
+    ],
+    "pusher": [
+     0.168867,
+     -0.061463
+    ]
+   },
+   "init_state_id": "test_neg_015",
+   "meta": {
+    "goal_dist": 0.06612397908003381,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300615
+  },
+  {
+   "init": {
+    "goal": [
+     0.195579,
+     -0.14903
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.119037,
+     -0.136947
+    ],
+    "pusher": [
+     0.02026,
+     -0.121353
+    ]
+   },
+   "init_state_id": "test_neg_016",
+   "meta": {
+    "goal_dist": 0.07749018128378524,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300616
+  },
+  {
+   "init": {
+    "goal": [
+     -0.088822,
+     -0.170718
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.136804,
+     -0.14729
+    ],
+    "pusher": [
+     -0.226665,
+     -0.103415
+    ]
+   },
+   "init_state_id": "test_neg_017",
+   "meta": {
+    "goal_dist": 0.053396353653606635,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300617
+  },
+  {
+   "init": {
+    "goal": [
+     -0.048558,
+     -0.073341
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.043582,
+     -0.016324
+    ],
+    "pusher": [
+     -0.034887,
+     0.083297
+    ]
+   },
+   "init_state_id": "test_neg_018",
+   "meta": {
+    "goal_dist": 0.057233044924574525,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300618
+  },
+  {
+   "init": {
+    "goal": [
+     0.145576,
+     0.07209
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.088984,
+     0.081649
+    ],
+    "pusher": [
+     -0.009619,
+     0.098303
+    ]
+   },
+   "init_state_id": "test_neg_019",
+   "meta": {
+    "goal_dist": 0.057393504354473185,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300619
+  },
+  {
+   "init": {
+    "goal": [
+     0.078081,
+     -0.129981
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.075579,
+     -0.072554
+    ],
+    "pusher": [
+     0.071227,
+     0.027351
+    ]
+   },
+   "init_state_id": "test_neg_020",
+   "meta": {
+    "goal_dist": 0.05748114801896887,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300620
+  },
+  {
+   "init": {
+    "goal": [
+     -0.051708,
+     -0.139609
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.04869,
+     -0.079695
+    ],
+    "pusher": [
+     -0.043658,
+     0.020178
+    ]
+   },
+   "init_state_id": "test_neg_021",
+   "meta": {
+    "goal_dist": 0.05998996126792525,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300621
+  },
+  {
+   "init": {
+    "goal": [
+     -0.133983,
+     -0.020211
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.063452,
+     0.008556
+    ],
+    "pusher": [
+     0.029142,
+     0.046323
+    ]
+   },
+   "init_state_id": "test_neg_022",
+   "meta": {
+    "goal_dist": 0.0761711595388721,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300622
+  },
+  {
+   "init": {
+    "goal": [
+     0.101452,
+     -0.084282
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.051031,
+     -0.143244
+    ],
+    "pusher": [
+     -0.013961,
+     -0.219244
+    ]
+   },
+   "init_state_id": "test_neg_023",
+   "meta": {
+    "goal_dist": 0.07758058320483291,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300623
+  },
+  {
+   "init": {
+    "goal": [
+     0.004944,
+     -0.076929
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.060225,
+     -0.108323
+    ],
+    "pusher": [
+     -0.150316,
+     -0.151723
+    ]
+   },
+   "init_state_id": "test_neg_024",
+   "meta": {
+    "goal_dist": 0.07233676121985783,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300624
+  },
+  {
+   "init": {
+    "goal": [
+     0.023566,
+     -0.04612
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.051612,
+     -0.097616
+    ],
+    "pusher": [
+     0.09944,
+     -0.185437
+    ]
+   },
+   "init_state_id": "test_neg_025",
+   "meta": {
+    "goal_dist": 0.05863790270739891,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300625
+  },
+  {
+   "init": {
+    "goal": [
+     0.02646,
+     -0.067661
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.056194,
+     -0.108601
+    ],
+    "pusher": [
+     0.11496,
+     -0.189512
+    ]
+   },
+   "init_state_id": "test_neg_026",
+   "meta": {
+    "goal_dist": 0.05059867979538774,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300626
+  },
+  {
+   "init": {
+    "goal": [
+     -0.013565,
+     -0.130325
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.087062,
+     -0.14465
+    ],
+    "pusher": [
+     -0.185215,
+     -0.16378
+    ]
+   },
+   "init_state_id": "test_neg_027",
+   "meta": {
+    "goal_dist": 0.07487988873541009,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300627
+  },
+  {
+   "init": {
+    "goal": [
+     0.08783,
+     0.09239
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.085544,
+     0.040333
+    ],
+    "pusher": [
+     0.081159,
+     -0.05957
+    ]
+   },
+   "init_state_id": "test_neg_028",
+   "meta": {
+    "goal_dist": 0.052106302644109016,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300628
+  },
+  {
+   "init": {
+    "goal": [
+     0.098627,
+     0.065845
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.034216,
+     0.100336
+    ],
+    "pusher": [
+     -0.053941,
+     0.147541
+    ]
+   },
+   "init_state_id": "test_neg_029",
+   "meta": {
+    "goal_dist": 0.07306446936958101,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300629
+  },
+  {
+   "init": {
+    "goal": [
+     0.18729,
+     -0.10577
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.141965,
+     -0.044292
+    ],
+    "pusher": [
+     0.082623,
+     0.036198
+    ]
+   },
+   "init_state_id": "test_neg_030",
+   "meta": {
+    "goal_dist": 0.0763804750614485,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300630
+  },
+  {
+   "init": {
+    "goal": [
+     -0.055865,
+     -0.007892
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.017413,
+     0.045946
+    ],
+    "pusher": [
+     0.040708,
+     0.127321
+    ]
+   },
+   "init_state_id": "test_neg_031",
+   "meta": {
+    "goal_dist": 0.06615933914548486,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300631
+  },
+  {
+   "init": {
+    "goal": [
+     0.12027,
+     -0.094078
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.065774,
+     -0.06353
+    ],
+    "pusher": [
+     -0.021457,
+     -0.014634
+    ]
+   },
+   "init_state_id": "test_neg_032",
+   "meta": {
+    "goal_dist": 0.06247396043174319,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300632
+  },
+  {
+   "init": {
+    "goal": [
+     -0.061925,
+     -0.119804
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.037341,
+     -0.046444
+    ],
+    "pusher": [
+     -0.005567,
+     0.048374
+    ]
+   },
+   "init_state_id": "test_neg_033",
+   "meta": {
+    "goal_dist": 0.07736980122622687,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300633
+  },
+  {
+   "init": {
+    "goal": [
+     -0.033257,
+     0.008218
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.016564,
+     0.049205
+    ],
+    "pusher": [
+     0.093789,
+     0.112737
+    ]
+   },
+   "init_state_id": "test_neg_034",
+   "meta": {
+    "goal_dist": 0.06451403188596608,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300634
+  },
+  {
+   "init": {
+    "goal": [
+     -0.037157,
+     -0.075654
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.028932,
+     -0.036733
+    ],
+    "pusher": [
+     0.1151,
+     0.014013
+    ]
+   },
+   "init_state_id": "test_neg_035",
+   "meta": {
+    "goal_dist": 0.07669839061790207,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300635
+  },
+  {
+   "init": {
+    "goal": [
+     0.147797,
+     0.027497
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.111009,
+     0.080221
+    ],
+    "pusher": [
+     0.053788,
+     0.162232
+    ]
+   },
+   "init_state_id": "test_neg_036",
+   "meta": {
+    "goal_dist": 0.06428997393976169,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300636
+  },
+  {
+   "init": {
+    "goal": [
+     -0.050168,
+     0.009618
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.079832,
+     0.082469
+    ],
+    "pusher": [
+     -0.117544,
+     0.175086
+    ]
+   },
+   "init_state_id": "test_neg_037",
+   "meta": {
+    "goal_dist": 0.07865948537074983,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300637
+  },
+  {
+   "init": {
+    "goal": [
+     0.106291,
+     -0.091307
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.148023,
+     -0.126123
+    ],
+    "pusher": [
+     0.224809,
+     -0.190184
+    ]
+   },
+   "init_state_id": "test_neg_038",
+   "meta": {
+    "goal_dist": 0.05434735592791393,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300638
+  },
+  {
+   "init": {
+    "goal": [
+     -0.076265,
+     -0.067615
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.096345,
+     -0.007805
+    ],
+    "pusher": [
+     -0.128174,
+     0.086994
+    ]
+   },
+   "init_state_id": "test_neg_039",
+   "meta": {
+    "goal_dist": 0.0630903167881547,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 300639
+  }
+ ],
+ "train": [
+  {
+   "init": {
+    "goal": [
+     -0.204474,
+     -0.207223
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.146205,
+     0.021761
+    ],
+    "pusher": [
+     -0.121545,
+     0.118672
+    ]
+   },
+   "init_state_id": "train_pos_000",
+   "meta": {
+    "goal_dist": 0.23628090283132844,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100100
+  },
+  {
+   "init": {
+    "goal": [
+     -0.201969,
+     0.130907
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.027833,
+     0.130417
+    ],
+    "pusher": [
+     0.127833,
+     0.130204
+    ]
+   },
+   "init_state_id": "train_pos_001",
+   "meta": {
+    "goal_dist": 0.2298024243287159,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100101
+  },
+  {
+   "init": {
+    "goal": [
+     -0.276152,
+     0.210369
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.094582,
+     0.004128
+    ],
+    "pusher": [
+     -0.028504,
+     -0.070929
+    ]
+   },
+   "init_state_id": "train_pos_002",
+   "meta": {
+    "goal_dist": 0.27477780337631774,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100102
+  },
+  {
+   "init": {
+    "goal": [
+     0.330653,
+     -0.166964
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.11672,
+     -0.108645
+    ],
+    "pusher": [
+     0.020241,
+     -0.082345
+    ]
+   },
+   "init_state_id": "train_pos_003",
+   "meta": {
+    "goal_dist": 0.22173936047536583,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100103
+  },
+  {
+   "init": {
+    "goal": [
+     0.14335,
+     -0.13523
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.062371,
+     -0.022984
+    ],
+    "pusher": [
+     -0.150155,
+     0.024912
+    ]
+   },
+   "init_state_id": "train_pos_004",
+   "meta": {
+    "goal_dist": 0.23435098721945458,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100104
+  },
+  {
+   "init": {
+    "goal": [
+     0.106211,
+     -0.342136
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.099287,
+     -0.084906
+    ],
+    "pusher": [
+     0.096596,
+     0.015058
+    ]
+   },
+   "init_state_id": "train_pos_005",
+   "meta": {
+    "goal_dist": 0.2573227833831363,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100105
+  },
+  {
+   "init": {
+    "goal": [
+     -0.148893,
+     0.240766
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.054029,
+     0.138434
+    ],
+    "pusher": [
+     0.143318,
+     0.093406
+    ]
+   },
+   "init_state_id": "train_pos_006",
+   "meta": {
+    "goal_dist": 0.22726482599059894,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100106
+  },
+  {
+   "init": {
+    "goal": [
+     -0.261801,
+     0.072189
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.042445,
+     0.092643
+    ],
+    "pusher": [
+     0.057123,
+     0.101927
+    ]
+   },
+   "init_state_id": "train_pos_007",
+   "meta": {
+    "goal_dist": 0.220308029632409,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100107
+  },
+  {
+   "init": {
+    "goal": [
+     -0.15117,
+     -0.151858
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.074841,
+     -0.14225
+    ],
+    "pusher": [
+     0.174751,
+     -0.138002
+    ]
+   },
+   "init_state_id": "train_pos_008",
+   "meta": {
+    "goal_dist": 0.22621537110491155,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100108
+  },
+  {
+   "init": {
+    "goal": [
+     0.285648,
+     0.156106
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.103124,
+     -0.017532
+    ],
+    "pusher": [
+     0.030671,
+     -0.086457
+    ]
+   },
+   "init_state_id": "train_pos_009",
+   "meta": {
+    "goal_dist": 0.2519232505968479,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100109
+  },
+  {
+   "init": {
+    "goal": [
+     -0.203732,
+     0.077608
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.075205,
+     -0.017882
+    ],
+    "pusher": [
+     0.169815,
+     -0.050271
+    ]
+   },
+   "init_state_id": "train_pos_010",
+   "meta": {
+    "goal_dist": 0.2948290450267603,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100110
+  },
+  {
+   "init": {
+    "goal": [
+     -0.205873,
+     0.163616
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.001252,
+     0.037308
+    ],
+    "pusher": [
+     0.086629,
+     -0.014756
+    ]
+   },
+   "init_state_id": "train_pos_011",
+   "meta": {
+    "goal_dist": 0.24259897989097648,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100111
+  },
+  {
+   "init": {
+    "goal": [
+     -0.160077,
+     0.076433
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.084236,
+     0.066918
+    ],
+    "pusher": [
+     0.184161,
+     0.063026
+    ]
+   },
+   "init_state_id": "train_pos_012",
+   "meta": {
+    "goal_dist": 0.2444988167461164,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100112
+  },
+  {
+   "init": {
+    "goal": [
+     -0.123953,
+     0.279331
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.034622,
+     0.058113
+    ],
+    "pusher": [
+     0.092882,
+     -0.023163
+    ]
+   },
+   "init_state_id": "train_pos_013",
+   "meta": {
+    "goal_dist": 0.2721823299685484,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100113
+  },
+  {
+   "init": {
+    "goal": [
+     -0.190443,
+     0.322049
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.051501,
+     0.121242
+    ],
+    "pusher": [
+     0.005398,
+     0.039008
+    ]
+   },
+   "init_state_id": "train_pos_014",
+   "meta": {
+    "goal_dist": 0.24418905072146846,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100114
+  },
+  {
+   "init": {
+    "goal": [
+     -0.177554,
+     0.209988
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.056471,
+     0.056922
+    ],
+    "pusher": [
+     0.14016,
+     0.002184
+    ]
+   },
+   "init_state_id": "train_pos_015",
+   "meta": {
+    "goal_dist": 0.27963700806958497,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100115
+  },
+  {
+   "init": {
+    "goal": [
+     0.006696,
+     0.308227
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.134006,
+     0.126343
+    ],
+    "pusher": [
+     0.191349,
+     0.044418
+    ]
+   },
+   "init_state_id": "train_pos_016",
+   "meta": {
+    "goal_dist": 0.22201244388924912,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100116
+  },
+  {
+   "init": {
+    "goal": [
+     -0.21811,
+     0.07495
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.009673,
+     -0.084251
+    ],
+    "pusher": [
+     0.091638,
+     -0.141538
+    ]
+   },
+   "init_state_id": "train_pos_017",
+   "meta": {
+    "goal_dist": 0.27790341996956336,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100117
+  },
+  {
+   "init": {
+    "goal": [
+     0.012264,
+     0.109994
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.024561,
+     -0.120947
+    ],
+    "pusher": [
+     -0.040307,
+     -0.219699
+    ]
+   },
+   "init_state_id": "train_pos_018",
+   "meta": {
+    "goal_dist": 0.23385793025767188,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100118
+  },
+  {
+   "init": {
+    "goal": [
+     0.073857,
+     -0.192185
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.131303,
+     0.088595
+    ],
+    "pusher": [
+     0.151347,
+     0.186566
+    ]
+   },
+   "init_state_id": "train_pos_019",
+   "meta": {
+    "goal_dist": 0.2865965923798304,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100119
+  },
+  {
+   "init": {
+    "goal": [
+     0.110211,
+     -0.081253
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.095411,
+     0.070585
+    ],
+    "pusher": [
+     -0.175856,
+     0.129988
+    ]
+   },
+   "init_state_id": "train_pos_020",
+   "meta": {
+    "goal_dist": 0.2556080120033429,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100120
+  },
+  {
+   "init": {
+    "goal": [
+     0.289161,
+     -0.001226
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.066417,
+     0.147118
+    ],
+    "pusher": [
+     -0.016814,
+     0.202549
+    ]
+   },
+   "init_state_id": "train_pos_021",
+   "meta": {
+    "goal_dist": 0.26762028399907256,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100121
+  },
+  {
+   "init": {
+    "goal": [
+     0.242663,
+     -0.102676
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.081717,
+     0.068718
+    ],
+    "pusher": [
+     0.013263,
+     0.141616
+    ]
+   },
+   "init_state_id": "train_pos_022",
+   "meta": {
+    "goal_dist": 0.23511617374048652,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100122
+  },
+  {
+   "init": {
+    "goal": [
+     -0.120908,
+     0.316831
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.037866,
+     0.113657
+    ],
+    "pusher": [
+     0.099441,
+     0.034863
+    ]
+   },
+   "init_state_id": "train_pos_023",
+   "meta": {
+    "goal_dist": 0.25785370899843385,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100123
+  },
+  {
+   "init": {
+    "goal": [
+     -0.141024,
+     0.08914
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.120502,
+     0.104634
+    ],
+    "pusher": [
+     0.220327,
+     0.110548
+    ]
+   },
+   "init_state_id": "train_pos_024",
+   "meta": {
+    "goal_dist": 0.26198467654373947,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100124
+  },
+  {
+   "init": {
+    "goal": [
+     -0.144438,
+     -0.116535
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.028395,
+     0.083061
+    ],
+    "pusher": [
+     0.021866,
+     0.169512
+    ]
+   },
+   "init_state_id": "train_pos_025",
+   "meta": {
+    "goal_dist": 0.23087760968613527,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100125
+  },
+  {
+   "init": {
+    "goal": [
+     0.331582,
+     -0.028717
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.096612,
+     0.012532
+    ],
+    "pusher": [
+     -0.001881,
+     0.029823
+    ]
+   },
+   "init_state_id": "train_pos_026",
+   "meta": {
+    "goal_dist": 0.23856277180053978,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100126
+  },
+  {
+   "init": {
+    "goal": [
+     0.221368,
+     0.193719
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.093056,
+     -0.021949
+    ],
+    "pusher": [
+     0.041925,
+     -0.107889
+    ]
+   },
+   "init_state_id": "train_pos_027",
+   "meta": {
+    "goal_dist": 0.2509524418954728,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100127
+  },
+  {
+   "init": {
+    "goal": [
+     0.083895,
+     -0.134412
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.028909,
+     0.121603
+    ],
+    "pusher": [
+     0.007911,
+     0.219373
+    ]
+   },
+   "init_state_id": "train_pos_028",
+   "meta": {
+    "goal_dist": 0.26185262362987527,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100128
+  },
+  {
+   "init": {
+    "goal": [
+     0.326979,
+     0.063773
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.056474,
+     0.078076
+    ],
+    "pusher": [
+     -0.043386,
+     0.083356
+    ]
+   },
+   "init_state_id": "train_pos_029",
+   "meta": {
+    "goal_dist": 0.2708820778998533,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100129
+  },
+  {
+   "init": {
+    "goal": [
+     -0.286717,
+     0.080587
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.06216,
+     -0.097916
+    ],
+    "pusher": [
+     0.016121,
+     -0.160142
+    ]
+   },
+   "init_state_id": "train_pos_030",
+   "meta": {
+    "goal_dist": 0.286860996207451,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100130
+  },
+  {
+   "init": {
+    "goal": [
+     -0.33785,
+     -0.000296
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.125697,
+     -0.067856
+    ],
+    "pusher": [
+     -0.030411,
+     -0.098199
+    ]
+   },
+   "init_state_id": "train_pos_031",
+   "meta": {
+    "goal_dist": 0.2226505458191221,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100131
+  },
+  {
+   "init": {
+    "goal": [
+     -0.23782,
+     -0.144652
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.010042,
+     -0.13556
+    ],
+    "pusher": [
+     0.089879,
+     -0.131572
+    ]
+   },
+   "init_state_id": "train_pos_032",
+   "meta": {
+    "goal_dist": 0.22795913855599967,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100132
+  },
+  {
+   "init": {
+    "goal": [
+     -0.082421,
+     0.219268
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.095924,
+     0.065801
+    ],
+    "pusher": [
+     0.171724,
+     0.000575
+    ]
+   },
+   "init_state_id": "train_pos_033",
+   "meta": {
+    "goal_dist": 0.23528550407676924,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100133
+  },
+  {
+   "init": {
+    "goal": [
+     0.333927,
+     -0.009163
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.054633,
+     -0.046421
+    ],
+    "pusher": [
+     -0.044489,
+     -0.059644
+    ]
+   },
+   "init_state_id": "train_pos_034",
+   "meta": {
+    "goal_dist": 0.2817675138562731,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100134
+  },
+  {
+   "init": {
+    "goal": [
+     -0.128442,
+     -0.139735
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.093549,
+     -0.000944
+    ],
+    "pusher": [
+     0.17834,
+     0.052069
+    ]
+   },
+   "init_state_id": "train_pos_035",
+   "meta": {
+    "goal_dist": 0.26180681170444997,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100135
+  },
+  {
+   "init": {
+    "goal": [
+     0.210956,
+     0.060547
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.070188,
+     0.010235
+    ],
+    "pusher": [
+     -0.168625,
+     -0.007381
+    ]
+   },
+   "init_state_id": "train_pos_036",
+   "meta": {
+    "goal_dist": 0.28561130520859523,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100136
+  },
+  {
+   "init": {
+    "goal": [
+     0.203576,
+     -0.245607
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.029044,
+     -0.019856
+    ],
+    "pusher": [
+     -0.03212,
+     0.059258
+    ]
+   },
+   "init_state_id": "train_pos_037",
+   "meta": {
+    "goal_dist": 0.2853502116367795,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100137
+  },
+  {
+   "init": {
+    "goal": [
+     0.111299,
+     0.147503
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.085014,
+     -0.083322
+    ],
+    "pusher": [
+     0.0737,
+     -0.18268
+    ]
+   },
+   "init_state_id": "train_pos_038",
+   "meta": {
+    "goal_dist": 0.23231677773988468,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100138
+  },
+  {
+   "init": {
+    "goal": [
+     -0.069937,
+     0.173797
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.092553,
+     0.002819
+    ],
+    "pusher": [
+     0.161441,
+     -0.069668
+    ]
+   },
+   "init_state_id": "train_pos_039",
+   "meta": {
+    "goal_dist": 0.2358738732891527,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100139
+  },
+  {
+   "init": {
+    "goal": [
+     0.345206,
+     0.03298
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.102437,
+     -0.062301
+    ],
+    "pusher": [
+     0.00935,
+     -0.098836
+    ]
+   },
+   "init_state_id": "train_pos_040",
+   "meta": {
+    "goal_dist": 0.26079762526510664,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100140
+  },
+  {
+   "init": {
+    "goal": [
+     0.119276,
+     -0.004518
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.145687,
+     -0.082504
+    ],
+    "pusher": [
+     -0.241618,
+     -0.110739
+    ]
+   },
+   "init_state_id": "train_pos_041",
+   "meta": {
+    "goal_dist": 0.2762012599139363,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100141
+  },
+  {
+   "init": {
+    "goal": [
+     0.146378,
+     0.053919
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.148839,
+     0.083475
+    ],
+    "pusher": [
+     -0.248341,
+     0.093438
+    ]
+   },
+   "init_state_id": "train_pos_042",
+   "meta": {
+    "goal_dist": 0.2966924505087478,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100142
+  },
+  {
+   "init": {
+    "goal": [
+     -0.182737,
+     0.191355
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.012953,
+     -0.052629
+    ],
+    "pusher": [
+     0.044166,
+     -0.134711
+    ]
+   },
+   "init_state_id": "train_pos_043",
+   "meta": {
+    "goal_dist": 0.29724610538567775,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100143
+  },
+  {
+   "init": {
+    "goal": [
+     -0.029337,
+     -0.27191
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.081288,
+     -0.071983
+    ],
+    "pusher": [
+     0.129702,
+     0.015515
+    ]
+   },
+   "init_state_id": "train_pos_044",
+   "meta": {
+    "goal_dist": 0.22849138426434418,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100144
+  },
+  {
+   "init": {
+    "goal": [
+     -0.301119,
+     -0.109958
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.084257,
+     0.058648
+    ],
+    "pusher": [
+     -0.005311,
+     0.120028
+    ]
+   },
+   "init_state_id": "train_pos_045",
+   "meta": {
+    "goal_dist": 0.2746941189375086,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100145
+  },
+  {
+   "init": {
+    "goal": [
+     -0.201291,
+     0.252717
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.030203,
+     0.103105
+    ],
+    "pusher": [
+     0.045074,
+     0.037277
+    ]
+   },
+   "init_state_id": "train_pos_046",
+   "meta": {
+    "goal_dist": 0.22727721980001397,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100146
+  },
+  {
+   "init": {
+    "goal": [
+     -0.044955,
+     0.308359
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.12931,
+     0.09507
+    ],
+    "pusher": [
+     -0.166087,
+     0.002078
+    ]
+   },
+   "init_state_id": "train_pos_047",
+   "meta": {
+    "goal_dist": 0.22936409564971075,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100147
+  },
+  {
+   "init": {
+    "goal": [
+     -0.255243,
+     0.154303
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.051274,
+     0.001688
+    ],
+    "pusher": [
+     0.028794,
+     -0.058221
+    ]
+   },
+   "init_state_id": "train_pos_048",
+   "meta": {
+    "goal_dist": 0.25474416549541234,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100148
+  },
+  {
+   "init": {
+    "goal": [
+     -0.181687,
+     0.144955
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.008347,
+     -0.011677
+    ],
+    "pusher": [
+     0.065849,
+     -0.078722
+    ]
+   },
+   "init_state_id": "train_pos_049",
+   "meta": {
+    "goal_dist": 0.2336247629109617,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100149
+  },
+  {
+   "init": {
+    "goal": [
+     0.270838,
+     -0.09408
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.095493,
+     0.100287
+    ],
+    "pusher": [
+     0.028509,
+     0.174538
+    ]
+   },
+   "init_state_id": "train_pos_050",
+   "meta": {
+    "goal_dist": 0.26177200999225175,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100150
+  },
+  {
+   "init": {
+    "goal": [
+     -0.18392,
+     0.192687
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.016648,
+     0.026379
+    ],
+    "pusher": [
+     0.093627,
+     -0.03745
+    ]
+   },
+   "init_state_id": "train_pos_051",
+   "meta": {
+    "goal_dist": 0.26054922892855037,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100151
+  },
+  {
+   "init": {
+    "goal": [
+     0.028297,
+     -0.352015
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.081751,
+     -0.088809
+    ],
+    "pusher": [
+     -0.120325,
+     0.003451
+    ]
+   },
+   "init_state_id": "train_pos_052",
+   "meta": {
+    "goal_dist": 0.2852857314610448,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100152
+  },
+  {
+   "init": {
+    "goal": [
+     -0.221938,
+     -0.096909
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.047394,
+     0.063451
+    ],
+    "pusher": [
+     0.026245,
+     0.131107
+    ]
+   },
+   "init_state_id": "train_pos_053",
+   "meta": {
+    "goal_dist": 0.23702496175405507,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100153
+  },
+  {
+   "init": {
+    "goal": [
+     -0.152522,
+     0.342968
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.001918,
+     0.138588
+    ],
+    "pusher": [
+     0.062206,
+     0.058805
+    ]
+   },
+   "init_state_id": "train_pos_054",
+   "meta": {
+    "goal_dist": 0.25616934184905926,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100154
+  },
+  {
+   "init": {
+    "goal": [
+     -0.270805,
+     -0.103364
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.029575,
+     0.072703
+    ],
+    "pusher": [
+     0.051199,
+     0.131658
+    ]
+   },
+   "init_state_id": "train_pos_055",
+   "meta": {
+    "goal_dist": 0.2986495123423936,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100155
+  },
+  {
+   "init": {
+    "goal": [
+     -0.204573,
+     -0.047826
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.061857,
+     0.129318
+    ],
+    "pusher": [
+     0.000881,
+     0.207189
+    ]
+   },
+   "init_state_id": "train_pos_056",
+   "meta": {
+    "goal_dist": 0.22748138472165008,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100156
+  },
+  {
+   "init": {
+    "goal": [
+     0.353917,
+     -0.19408
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.110774,
+     -0.051354
+    ],
+    "pusher": [
+     0.024534,
+     -0.000731
+    ]
+   },
+   "init_state_id": "train_pos_057",
+   "meta": {
+    "goal_dist": 0.2819387530824931,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100157
+  },
+  {
+   "init": {
+    "goal": [
+     0.059828,
+     0.315657
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.03385,
+     0.047449
+    ],
+    "pusher": [
+     0.02421,
+     -0.052085
+    ]
+   },
+   "init_state_id": "train_pos_058",
+   "meta": {
+    "goal_dist": 0.26946355250915965,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100158
+  },
+  {
+   "init": {
+    "goal": [
+     0.225094,
+     -0.067664
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.015759,
+     0.086327
+    ],
+    "pusher": [
+     -0.100011,
+     0.140193
+    ]
+   },
+   "init_state_id": "train_pos_059",
+   "meta": {
+    "goal_dist": 0.2858731052292725,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100159
+  },
+  {
+   "init": {
+    "goal": [
+     0.108794,
+     0.334268
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.038202,
+     0.124476
+    ],
+    "pusher": [
+     0.00631,
+     0.029698
+    ]
+   },
+   "init_state_id": "train_pos_060",
+   "meta": {
+    "goal_dist": 0.22135063209499287,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100160
+  },
+  {
+   "init": {
+    "goal": [
+     0.129507,
+     -0.202993
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.101083,
+     0.035624
+    ],
+    "pusher": [
+     0.089255,
+     0.134922
+    ]
+   },
+   "init_state_id": "train_pos_061",
+   "meta": {
+    "goal_dist": 0.24030374005585417,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100161
+  },
+  {
+   "init": {
+    "goal": [
+     -0.339321,
+     0.114452
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.127309,
+     -0.065051
+    ],
+    "pusher": [
+     -0.05099,
+     -0.129668
+    ]
+   },
+   "init_state_id": "train_pos_062",
+   "meta": {
+    "goal_dist": 0.2777964942787316,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100162
+  },
+  {
+   "init": {
+    "goal": [
+     -0.068069,
+     -0.226682
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.11852,
+     -0.009826
+    ],
+    "pusher": [
+     -0.14118,
+     0.087573
+    ]
+   },
+   "init_state_id": "train_pos_063",
+   "meta": {
+    "goal_dist": 0.22264787108155337,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100163
+  },
+  {
+   "init": {
+    "goal": [
+     0.191891,
+     -0.209508
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.132301,
+     0.017455
+    ],
+    "pusher": [
+     0.106906,
+     0.114177
+    ]
+   },
+   "init_state_id": "train_pos_064",
+   "meta": {
+    "goal_dist": 0.2346554696003881,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100164
+  },
+  {
+   "init": {
+    "goal": [
+     0.15723,
+     -0.21688
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.102389,
+     0.019882
+    ],
+    "pusher": [
+     0.079824,
+     0.117303
+    ]
+   },
+   "init_state_id": "train_pos_065",
+   "meta": {
+    "goal_dist": 0.2430304152825838,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100165
+  },
+  {
+   "init": {
+    "goal": [
+     -0.217224,
+     -0.346932
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.054422,
+     -0.143257
+    ],
+    "pusher": [
+     0.008016,
+     -0.065145
+    ]
+   },
+   "init_state_id": "train_pos_066",
+   "meta": {
+    "goal_dist": 0.2607450292547309,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100166
+  },
+  {
+   "init": {
+    "goal": [
+     0.174539,
+     -0.318366
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.004091,
+     -0.127669
+    ],
+    "pusher": [
+     -0.062551,
+     -0.053111
+    ]
+   },
+   "init_state_id": "train_pos_067",
+   "meta": {
+    "goal_dist": 0.2557690325948895,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100167
+  },
+  {
+   "init": {
+    "goal": [
+     0.024067,
+     -0.11064
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.132542,
+     0.12583
+    ],
+    "pusher": [
+     -0.187758,
+     0.209204
+    ]
+   },
+   "init_state_id": "train_pos_068",
+   "meta": {
+    "goal_dist": 0.2836272282334514,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100168
+  },
+  {
+   "init": {
+    "goal": [
+     0.330966,
+     0.06548
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.104933,
+     0.003542
+    ],
+    "pusher": [
+     0.008488,
+     -0.022886
+    ]
+   },
+   "init_state_id": "train_pos_069",
+   "meta": {
+    "goal_dist": 0.23436587693535463,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100169
+  },
+  {
+   "init": {
+    "goal": [
+     0.058325,
+     0.330422
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.090216,
+     0.109731
+    ],
+    "pusher": [
+     -0.146053,
+     0.026772
+    ]
+   },
+   "init_state_id": "train_pos_070",
+   "meta": {
+    "goal_dist": 0.26602377057255094,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100170
+  },
+  {
+   "init": {
+    "goal": [
+     -0.054148,
+     -0.17076
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.130646,
+     0.085451
+    ],
+    "pusher": [
+     -0.159255,
+     0.181271
+    ]
+   },
+   "init_state_id": "train_pos_071",
+   "meta": {
+    "goal_dist": 0.26738708530784877,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100171
+  },
+  {
+   "init": {
+    "goal": [
+     -0.04222,
+     0.233905
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.147685,
+     0.039752
+    ],
+    "pusher": [
+     -0.195418,
+     -0.048121
+    ]
+   },
+   "init_state_id": "train_pos_072",
+   "meta": {
+    "goal_dist": 0.2209484619683672,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100172
+  },
+  {
+   "init": {
+    "goal": [
+     -0.039605,
+     -0.202572
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.073575,
+     0.017399
+    ],
+    "pusher": [
+     0.119326,
+     0.106319
+    ]
+   },
+   "init_state_id": "train_pos_073",
+   "meta": {
+    "goal_dist": 0.24737977768726455,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100173
+  },
+  {
+   "init": {
+    "goal": [
+     -0.120157,
+     -0.27
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.087872,
+     -0.125135
+    ],
+    "pusher": [
+     0.169935,
+     -0.067989
+    ]
+   },
+   "init_state_id": "train_pos_074",
+   "meta": {
+    "goal_dist": 0.253499115919372,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100174
+  },
+  {
+   "init": {
+    "goal": [
+     -0.29102,
+     0.000936
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.025895,
+     0.069371
+    ],
+    "pusher": [
+     0.070931,
+     0.094363
+    ]
+   },
+   "init_state_id": "train_pos_075",
+   "meta": {
+    "goal_dist": 0.2738142598105791,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100175
+  },
+  {
+   "init": {
+    "goal": [
+     -0.218838,
+     0.31253
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.00403,
+     0.126348
+    ],
+    "pusher": [
+     0.071536,
+     0.060852
+    ]
+   },
+   "init_state_id": "train_pos_076",
+   "meta": {
+    "goal_dist": 0.28426407913074075,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100176
+  },
+  {
+   "init": {
+    "goal": [
+     -0.109362,
+     -0.252291
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.14588,
+     -0.149581
+    ],
+    "pusher": [
+     0.23865,
+     -0.11225
+    ]
+   },
+   "init_state_id": "train_pos_077",
+   "meta": {
+    "goal_dist": 0.27513170655875197,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100177
+  },
+  {
+   "init": {
+    "goal": [
+     0.08583,
+     0.231245
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.111154,
+     -0.04027
+    ],
+    "pusher": [
+     0.120441,
+     -0.139838
+    ]
+   },
+   "init_state_id": "train_pos_078",
+   "meta": {
+    "goal_dist": 0.2726936397019448,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100178
+  },
+  {
+   "init": {
+    "goal": [
+     -0.256183,
+     0.276545
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.071112,
+     0.143457
+    ],
+    "pusher": [
+     0.010075,
+     0.085074
+    ]
+   },
+   "init_state_id": "train_pos_079",
+   "meta": {
+    "goal_dist": 0.2279557130407322,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100179
+  },
+  {
+   "init": {
+    "goal": [
+     -0.169321,
+     0.314675
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.040008,
+     0.111284
+    ],
+    "pusher": [
+     0.013645,
+     0.026896
+    ]
+   },
+   "init_state_id": "train_pos_080",
+   "meta": {
+    "goal_dist": 0.24101822217554336,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100180
+  },
+  {
+   "init": {
+    "goal": [
+     0.240545,
+     0.169969
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.057068,
+     0.047007
+    ],
+    "pusher": [
+     -0.026003,
+     -0.008664
+    ]
+   },
+   "init_state_id": "train_pos_081",
+   "meta": {
+    "goal_dist": 0.2208697081634623,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100181
+  },
+  {
+   "init": {
+    "goal": [
+     0.281891,
+     0.303524
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.123485,
+     0.089798
+    ],
+    "pusher": [
+     0.06394,
+     0.009458
+    ]
+   },
+   "init_state_id": "train_pos_082",
+   "meta": {
+    "goal_dist": 0.26602911103527505,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100182
+  },
+  {
+   "init": {
+    "goal": [
+     -0.059002,
+     -0.289219
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.048987,
+     -0.080516
+    ],
+    "pusher": [
+     0.094943,
+     0.008298
+    ]
+   },
+   "init_state_id": "train_pos_083",
+   "meta": {
+    "goal_dist": 0.23498589381382326,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100183
+  },
+  {
+   "init": {
+    "goal": [
+     -0.19382,
+     0.291605
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.057127,
+     0.128825
+    ],
+    "pusher": [
+     0.141022,
+     0.074405
+    ]
+   },
+   "init_state_id": "train_pos_084",
+   "meta": {
+    "goal_dist": 0.2991182467370804,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100184
+  },
+  {
+   "init": {
+    "goal": [
+     -0.310413,
+     0.027557
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.100675,
+     0.144368
+    ],
+    "pusher": [
+     -0.013311,
+     0.193024
+    ]
+   },
+   "init_state_id": "train_pos_085",
+   "meta": {
+    "goal_dist": 0.24007177451377792,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100185
+  },
+  {
+   "init": {
+    "goal": [
+     -0.197913,
+     -0.1584
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.015017,
+     -0.033484
+    ],
+    "pusher": [
+     0.067561,
+     0.022915
+    ]
+   },
+   "init_state_id": "train_pos_086",
+   "meta": {
+    "goal_dist": 0.2214841179432591,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100186
+  },
+  {
+   "init": {
+    "goal": [
+     0.024266,
+     -0.292096
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.082375,
+     -0.083403
+    ],
+    "pusher": [
+     -0.127877,
+     0.005645
+    ]
+   },
+   "init_state_id": "train_pos_087",
+   "meta": {
+    "goal_dist": 0.23436124388082896,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100187
+  },
+  {
+   "init": {
+    "goal": [
+     0.202364,
+     0.001195
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.035079,
+     -0.114945
+    ],
+    "pusher": [
+     -0.124909,
+     -0.158883
+    ]
+   },
+   "init_state_id": "train_pos_088",
+   "meta": {
+    "goal_dist": 0.26432517222198,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100188
+  },
+  {
+   "init": {
+    "goal": [
+     0.305437,
+     -0.00841
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.053332,
+     0.140857
+    ],
+    "pusher": [
+     -0.032716,
+     0.191804
+    ]
+   },
+   "init_state_id": "train_pos_089",
+   "meta": {
+    "goal_dist": 0.29298020150964493,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100189
+  },
+  {
+   "init": {
+    "goal": [
+     0.226803,
+     -0.061365
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.011898,
+     -0.10954
+    ],
+    "pusher": [
+     -0.08568,
+     -0.131414
+    ]
+   },
+   "init_state_id": "train_pos_090",
+   "meta": {
+    "goal_dist": 0.2202386651319985,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100190
+  },
+  {
+   "init": {
+    "goal": [
+     -0.012999,
+     0.125611
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.080919,
+     -0.146641
+    ],
+    "pusher": [
+     0.11353,
+     -0.241174
+    ]
+   },
+   "init_state_id": "train_pos_091",
+   "meta": {
+    "goal_dist": 0.2879960010949329,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100191
+  },
+  {
+   "init": {
+    "goal": [
+     0.087416,
+     0.126173
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.126158,
+     0.026269
+    ],
+    "pusher": [
+     -0.216738,
+     -0.016102
+    ]
+   },
+   "init_state_id": "train_pos_092",
+   "meta": {
+    "goal_dist": 0.2357847219648058,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100192
+  },
+  {
+   "init": {
+    "goal": [
+     0.171335,
+     0.094261
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.092945,
+     0.130937
+    ],
+    "pusher": [
+     -0.191996,
+     0.144683
+    ]
+   },
+   "init_state_id": "train_pos_093",
+   "meta": {
+    "goal_dist": 0.2668129895453877,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100193
+  },
+  {
+   "init": {
+    "goal": [
+     -0.078575,
+     -0.01508
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.081599,
+     0.143815
+    ],
+    "pusher": [
+     0.152593,
+     0.214242
+    ]
+   },
+   "init_state_id": "train_pos_094",
+   "meta": {
+    "goal_dist": 0.22561767078036143,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100194
+  },
+  {
+   "init": {
+    "goal": [
+     0.028976,
+     -0.166876
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.001824,
+     0.076059
+    ],
+    "pusher": [
+     -0.014402,
+     0.175265
+    ]
+   },
+   "init_state_id": "train_pos_095",
+   "meta": {
+    "goal_dist": 0.24487951527698787,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100195
+  },
+  {
+   "init": {
+    "goal": [
+     -0.251637,
+     0.117799
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.149379,
+     -0.099026
+    ],
+    "pusher": [
+     -0.106723,
+     -0.189472
+    ]
+   },
+   "init_state_id": "train_pos_096",
+   "meta": {
+    "goal_dist": 0.2397279612011478,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100196
+  },
+  {
+   "init": {
+    "goal": [
+     -0.114342,
+     0.128827
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.076193,
+     -0.091418
+    ],
+    "pusher": [
+     -0.059126,
+     -0.18995
+    ]
+   },
+   "init_state_id": "train_pos_097",
+   "meta": {
+    "goal_dist": 0.22352444693259726,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100197
+  },
+  {
+   "init": {
+    "goal": [
+     0.239059,
+     0.224933
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.049515,
+     0.145351
+    ],
+    "pusher": [
+     -0.145916,
+     0.118766
+    ]
+   },
+   "init_state_id": "train_pos_098",
+   "meta": {
+    "goal_dist": 0.2993457179043201,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100198
+  },
+  {
+   "init": {
+    "goal": [
+     -0.260418,
+     0.191195
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.014136,
+     0.052845
+    ],
+    "pusher": [
+     0.073049,
+     0.003868
+    ]
+   },
+   "init_state_id": "train_pos_099",
+   "meta": {
+    "goal_dist": 0.2824805637132309,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100199
+  },
+  {
+   "init": {
+    "goal": [
+     0.073659,
+     0.141306
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.101392,
+     -0.085682
+    ],
+    "pusher": [
+     0.11352,
+     -0.184943
+    ]
+   },
+   "init_state_id": "train_pos_100",
+   "meta": {
+    "goal_dist": 0.22867523336523712,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100200
+  },
+  {
+   "init": {
+    "goal": [
+     -0.010724,
+     0.338392
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.122894,
+     0.082652
+    ],
+    "pusher": [
+     0.169202,
+     -0.005979
+    ]
+   },
+   "init_state_id": "train_pos_101",
+   "meta": {
+    "goal_dist": 0.2885422698903882,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100201
+  },
+  {
+   "init": {
+    "goal": [
+     -0.261632,
+     -0.231168
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.010458,
+     -0.111004
+    ],
+    "pusher": [
+     0.101935,
+     -0.070605
+    ]
+   },
+   "init_state_id": "train_pos_102",
+   "meta": {
+    "goal_dist": 0.2974428692733814,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100202
+  },
+  {
+   "init": {
+    "goal": [
+     -0.07808,
+     -0.122651
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.142664,
+     -0.022202
+    ],
+    "pusher": [
+     0.233683,
+     0.019216
+    ]
+   },
+   "init_state_id": "train_pos_103",
+   "meta": {
+    "goal_dist": 0.24252299824586715,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100203
+  },
+  {
+   "init": {
+    "goal": [
+     -0.130726,
+     0.208548
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.143227,
+     0.090322
+    ],
+    "pusher": [
+     0.235042,
+     0.050699
+    ]
+   },
+   "init_state_id": "train_pos_104",
+   "meta": {
+    "goal_dist": 0.2983745158441201,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100204
+  },
+  {
+   "init": {
+    "goal": [
+     0.148818,
+     0.117409
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.134318,
+     -0.10968
+    ],
+    "pusher": [
+     0.127946,
+     -0.209477
+    ]
+   },
+   "init_state_id": "train_pos_105",
+   "meta": {
+    "goal_dist": 0.22755117612771156,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100205
+  },
+  {
+   "init": {
+    "goal": [
+     -0.153545,
+     -0.050101
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.002069,
+     0.117495
+    ],
+    "pusher": [
+     0.064984,
+     0.191683
+    ]
+   },
+   "init_state_id": "train_pos_106",
+   "meta": {
+    "goal_dist": 0.22590538456318424,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100206
+  },
+  {
+   "init": {
+    "goal": [
+     -0.019266,
+     -0.26346
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.094797,
+     0.005333
+    ],
+    "pusher": [
+     -0.12185,
+     0.101605
+    ]
+   },
+   "init_state_id": "train_pos_107",
+   "meta": {
+    "goal_dist": 0.27920359699987496,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100207
+  },
+  {
+   "init": {
+    "goal": [
+     0.262402,
+     0.05146
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.067845,
+     -0.105401
+    ],
+    "pusher": [
+     -0.010004,
+     -0.168167
+    ]
+   },
+   "init_state_id": "train_pos_108",
+   "meta": {
+    "goal_dist": 0.24991544922398817,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100208
+  },
+  {
+   "init": {
+    "goal": [
+     -0.164403,
+     -0.094793
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.012656,
+     0.081519
+    ],
+    "pusher": [
+     0.083516,
+     0.15208
+    ]
+   },
+   "init_state_id": "train_pos_109",
+   "meta": {
+    "goal_dist": 0.2498718857851035,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100209
+  },
+  {
+   "init": {
+    "goal": [
+     0.170788,
+     -0.086746
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.055581,
+     -0.115741
+    ],
+    "pusher": [
+     -0.15477,
+     -0.128446
+    ]
+   },
+   "init_state_id": "train_pos_110",
+   "meta": {
+    "goal_dist": 0.22821816597397426,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100210
+  },
+  {
+   "init": {
+    "goal": [
+     -0.183965,
+     0.237531
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.11723,
+     0.007987
+    ],
+    "pusher": [
+     -0.089313,
+     -0.088038
+    ]
+   },
+   "init_state_id": "train_pos_111",
+   "meta": {
+    "goal_dist": 0.23904840416653458,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100211
+  },
+  {
+   "init": {
+    "goal": [
+     0.096982,
+     -0.064875
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.096986,
+     0.060281
+    ],
+    "pusher": [
+     -0.181012,
+     0.114499
+    ]
+   },
+   "init_state_id": "train_pos_112",
+   "meta": {
+    "goal_dist": 0.23084068169242294,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100212
+  },
+  {
+   "init": {
+    "goal": [
+     -0.174759,
+     -0.125684
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.100634,
+     -0.017698
+    ],
+    "pusher": [
+     0.193733,
+     0.018808
+    ]
+   },
+   "init_state_id": "train_pos_113",
+   "meta": {
+    "goal_dist": 0.29580806664807446,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100213
+  },
+  {
+   "init": {
+    "goal": [
+     0.081025,
+     0.257031
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.045125,
+     -0.001206
+    ],
+    "pusher": [
+     0.031355,
+     -0.100253
+    ]
+   },
+   "init_state_id": "train_pos_114",
+   "meta": {
+    "goal_dist": 0.26072035734596943,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100214
+  },
+  {
+   "init": {
+    "goal": [
+     -0.143,
+     -0.234934
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.116544,
+     -0.138071
+    ],
+    "pusher": [
+     0.210232,
+     -0.103106
+    ]
+   },
+   "init_state_id": "train_pos_115",
+   "meta": {
+    "goal_dist": 0.2770297319007217,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100215
+  },
+  {
+   "init": {
+    "goal": [
+     -0.32388,
+     0.002273
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.077652,
+     0.147102
+    ],
+    "pusher": [
+     0.008543,
+     0.197801
+    ]
+   },
+   "init_state_id": "train_pos_116",
+   "meta": {
+    "goal_dist": 0.28566351736849677,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100216
+  },
+  {
+   "init": {
+    "goal": [
+     -0.118886,
+     -0.309591
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.070982,
+     -0.095684
+    ],
+    "pusher": [
+     0.137365,
+     -0.020896
+    ]
+   },
+   "init_state_id": "train_pos_117",
+   "meta": {
+    "goal_dist": 0.28601743623951204,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100217
+  },
+  {
+   "init": {
+    "goal": [
+     -0.145711,
+     -0.189036
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.05289,
+     0.063755
+    ],
+    "pusher": [
+     -0.018422,
+     0.157627
+    ]
+   },
+   "init_state_id": "train_pos_118",
+   "meta": {
+    "goal_dist": 0.26929294164614814,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100218
+  },
+  {
+   "init": {
+    "goal": [
+     -0.149261,
+     -0.116127
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.025701,
+     0.075678
+    ],
+    "pusher": [
+     0.028454,
+     0.159745
+    ]
+   },
+   "init_state_id": "train_pos_119",
+   "meta": {
+    "goal_dist": 0.2281585467441714,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100219
+  },
+  {
+   "init": {
+    "goal": [
+     0.280111,
+     0.17874
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.070481,
+     -0.018207
+    ],
+    "pusher": [
+     -0.002401,
+     -0.086679
+    ]
+   },
+   "init_state_id": "train_pos_120",
+   "meta": {
+    "goal_dist": 0.2876332648187528,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100220
+  },
+  {
+   "init": {
+    "goal": [
+     -0.33259,
+     -0.207152
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.143989,
+     0.005264
+    ],
+    "pusher": [
+     -0.077594,
+     0.080042
+    ]
+   },
+   "init_state_id": "train_pos_121",
+   "meta": {
+    "goal_dist": 0.2840611832956313,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100221
+  },
+  {
+   "init": {
+    "goal": [
+     -0.035639,
+     -0.332864
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.083505,
+     -0.067302
+    ],
+    "pusher": [
+     -0.101243,
+     0.031112
+    ]
+   },
+   "init_state_id": "train_pos_122",
+   "meta": {
+    "goal_dist": 0.2698408597857091,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100222
+  },
+  {
+   "init": {
+    "goal": [
+     -0.188499,
+     -0.24057
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.084592,
+     -0.140176
+    ],
+    "pusher": [
+     0.178451,
+     -0.105672
+    ]
+   },
+   "init_state_id": "train_pos_123",
+   "meta": {
+    "goal_dist": 0.2909600713585637,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100223
+  },
+  {
+   "init": {
+    "goal": [
+     -0.356759,
+     0.178749
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.149472,
+     0.089568
+    ],
+    "pusher": [
+     -0.057613,
+     0.050048
+    ]
+   },
+   "init_state_id": "train_pos_124",
+   "meta": {
+    "goal_dist": 0.22565692784548097,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100224
+  },
+  {
+   "init": {
+    "goal": [
+     -0.229191,
+     0.01056
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.044344,
+     -0.109791
+    ],
+    "pusher": [
+     0.135876,
+     -0.150064
+    ]
+   },
+   "init_state_id": "train_pos_125",
+   "meta": {
+    "goal_dist": 0.2988406864162898,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100225
+  },
+  {
+   "init": {
+    "goal": [
+     0.215664,
+     0.093159
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.025445,
+     0.096058
+    ],
+    "pusher": [
+     -0.125438,
+     0.09726
+    ]
+   },
+   "init_state_id": "train_pos_126",
+   "meta": {
+    "goal_dist": 0.24112646556452363,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100226
+  },
+  {
+   "init": {
+    "goal": [
+     0.1852,
+     0.16175
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.068039,
+     0.110103
+    ],
+    "pusher": [
+     -0.166022,
+     0.090119
+    ]
+   },
+   "init_state_id": "train_pos_127",
+   "meta": {
+    "goal_dist": 0.25845231121913936,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100227
+  },
+  {
+   "init": {
+    "goal": [
+     -0.209776,
+     0.002925
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.033674,
+     -0.10248
+    ],
+    "pusher": [
+     0.125441,
+     -0.142213
+    ]
+   },
+   "init_state_id": "train_pos_128",
+   "meta": {
+    "goal_dist": 0.2652882413388246,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100228
+  },
+  {
+   "init": {
+    "goal": [
+     -0.225391,
+     0.041374
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.036746,
+     -0.019208
+    ],
+    "pusher": [
+     0.134178,
+     -0.041725
+    ]
+   },
+   "init_state_id": "train_pos_129",
+   "meta": {
+    "goal_dist": 0.26904728855343607,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100229
+  },
+  {
+   "init": {
+    "goal": [
+     0.051253,
+     -0.145243
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.107823,
+     0.089427
+    ],
+    "pusher": [
+     0.131257,
+     0.186642
+    ]
+   },
+   "init_state_id": "train_pos_130",
+   "meta": {
+    "goal_dist": 0.2413918292166062,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100230
+  },
+  {
+   "init": {
+    "goal": [
+     -0.082498,
+     -0.218995
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.140159,
+     0.04822
+    ],
+    "pusher": [
+     -0.161252,
+     0.14597
+    ]
+   },
+   "init_state_id": "train_pos_131",
+   "meta": {
+    "goal_dist": 0.2733649540991431,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100231
+  },
+  {
+   "init": {
+    "goal": [
+     -0.10661,
+     -0.205656
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.029733,
+     -0.013914
+    ],
+    "pusher": [
+     0.087683,
+     0.067584
+    ]
+   },
+   "init_state_id": "train_pos_132",
+   "meta": {
+    "goal_dist": 0.23527551841444472,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100232
+  },
+  {
+   "init": {
+    "goal": [
+     0.243641,
+     0.275295
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.031284,
+     0.123482
+    ],
+    "pusher": [
+     -0.050066,
+     0.065325
+    ]
+   },
+   "init_state_id": "train_pos_133",
+   "meta": {
+    "goal_dist": 0.2610417195152545,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100233
+  },
+  {
+   "init": {
+    "goal": [
+     0.231217,
+     -0.284566
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.113544,
+     -0.053686
+    ],
+    "pusher": [
+     0.068134,
+     0.035409
+    ]
+   },
+   "init_state_id": "train_pos_134",
+   "meta": {
+    "goal_dist": 0.25913764678696277,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100234
+  },
+  {
+   "init": {
+    "goal": [
+     -0.123687,
+     0.324407
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.036978,
+     0.111682
+    ],
+    "pusher": [
+     0.097247,
+     0.031885
+    ]
+   },
+   "init_state_id": "train_pos_135",
+   "meta": {
+    "goal_dist": 0.2665807407153052,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100235
+  },
+  {
+   "init": {
+    "goal": [
+     0.087288,
+     0.129307
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.034944,
+     -0.092715
+    ],
+    "pusher": [
+     0.011997,
+     -0.190046
+    ]
+   },
+   "init_state_id": "train_pos_136",
+   "meta": {
+    "goal_dist": 0.22810915024525444,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100236
+  },
+  {
+   "init": {
+    "goal": [
+     -0.131089,
+     0.302284
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.021099,
+     0.059968
+    ],
+    "pusher": [
+     0.074285,
+     -0.024716
+    ]
+   },
+   "init_state_id": "train_pos_137",
+   "meta": {
+    "goal_dist": 0.2861438337934267,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100237
+  },
+  {
+   "init": {
+    "goal": [
+     -0.070486,
+     -0.351434
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.00374,
+     -0.111129
+    ],
+    "pusher": [
+     0.023022,
+     -0.014776
+    ]
+   },
+   "init_state_id": "train_pos_138",
+   "meta": {
+    "goal_dist": 0.24940296773582254,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100238
+  },
+  {
+   "init": {
+    "goal": [
+     -0.127647,
+     -0.1001
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.066989,
+     0.132894
+    ],
+    "pusher": [
+     -0.041794,
+     0.229668
+    ]
+   },
+   "init_state_id": "train_pos_139",
+   "meta": {
+    "goal_dist": 0.24076038294015784,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100239
+  },
+  {
+   "init": {
+    "goal": [
+     -0.050801,
+     -0.151926
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.142298,
+     0.131604
+    ],
+    "pusher": [
+     -0.173009,
+     0.226772
+    ]
+   },
+   "init_state_id": "train_pos_140",
+   "meta": {
+    "goal_dist": 0.29792823464647383,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100240
+  },
+  {
+   "init": {
+    "goal": [
+     0.27023,
+     0.08251
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.000947,
+     0.03098
+    ],
+    "pusher": [
+     -0.097271,
+     0.012186
+    ]
+   },
+   "init_state_id": "train_pos_141",
+   "meta": {
+    "goal_dist": 0.2741688385303682,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100241
+  },
+  {
+   "init": {
+    "goal": [
+     0.229685,
+     0.203601
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.0371,
+     0.080407
+    ],
+    "pusher": [
+     -0.127888,
+     0.038484
+    ]
+   },
+   "init_state_id": "train_pos_142",
+   "meta": {
+    "goal_dist": 0.29385534630514465,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100242
+  },
+  {
+   "init": {
+    "goal": [
+     0.198269,
+     -0.073359
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.049387,
+     0.14718
+    ],
+    "pusher": [
+     -0.006565,
+     0.230062
+    ]
+   },
+   "init_state_id": "train_pos_143",
+   "meta": {
+    "goal_dist": 0.26608836302358535,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100243
+  },
+  {
+   "init": {
+    "goal": [
+     0.253636,
+     -0.283386
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.105888,
+     -0.120246
+    ],
+    "pusher": [
+     0.038761,
+     -0.046125
+    ]
+   },
+   "init_state_id": "train_pos_144",
+   "meta": {
+    "goal_dist": 0.2200998457040363,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100244
+  },
+  {
+   "init": {
+    "goal": [
+     -0.030839,
+     -0.203855
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.099394,
+     0.004845
+    ],
+    "pusher": [
+     0.152334,
+     0.089683
+    ]
+   },
+   "init_state_id": "train_pos_145",
+   "meta": {
+    "goal_dist": 0.24600127377640435,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100245
+  },
+  {
+   "init": {
+    "goal": [
+     -0.098151,
+     0.218681
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.108795,
+     -0.040583
+    ],
+    "pusher": [
+     -0.112897,
+     -0.140499
+    ]
+   },
+   "init_state_id": "train_pos_146",
+   "meta": {
+    "goal_dist": 0.25948259518312944,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100246
+  },
+  {
+   "init": {
+    "goal": [
+     0.040259,
+     0.187998
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.03046,
+     -0.079625
+    ],
+    "pusher": [
+     0.026801,
+     -0.179558
+    ]
+   },
+   "init_state_id": "train_pos_147",
+   "meta": {
+    "goal_dist": 0.2678019649178703,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100247
+  },
+  {
+   "init": {
+    "goal": [
+     -0.143347,
+     -0.334345
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.008951,
+     -0.100369
+    ],
+    "pusher": [
+     0.063504,
+     -0.01656
+    ]
+   },
+   "init_state_id": "train_pos_148",
+   "meta": {
+    "goal_dist": 0.27917583012065916,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100248
+  },
+  {
+   "init": {
+    "goal": [
+     -0.217266,
+     -0.193542
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.069758,
+     -0.129331
+    ],
+    "pusher": [
+     0.167346,
+     -0.107499
+    ]
+   },
+   "init_state_id": "train_pos_149",
+   "meta": {
+    "goal_dist": 0.2941193374629038,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100249
+  },
+  {
+   "init": {
+    "goal": [
+     0.22804,
+     0.253685
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.075464,
+     0.071131
+    ],
+    "pusher": [
+     0.011334,
+     -0.005599
+    ]
+   },
+   "init_state_id": "train_pos_150",
+   "meta": {
+    "goal_dist": 0.2379189422934565,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100250
+  },
+  {
+   "init": {
+    "goal": [
+     -0.164578,
+     -0.105526
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.084834,
+     -0.084662
+    ],
+    "pusher": [
+     0.184486,
+     -0.076326
+    ]
+   },
+   "init_state_id": "train_pos_151",
+   "meta": {
+    "goal_dist": 0.25028296796390903,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100251
+  },
+  {
+   "init": {
+    "goal": [
+     0.237884,
+     0.141155
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.135719,
+     -0.067215
+    ],
+    "pusher": [
+     0.091696,
+     -0.157004
+    ]
+   },
+   "init_state_id": "train_pos_152",
+   "meta": {
+    "goal_dist": 0.23206883066682402,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100252
+  },
+  {
+   "init": {
+    "goal": [
+     0.116368,
+     0.146463
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.014497,
+     -0.062156
+    ],
+    "pusher": [
+     -0.067636,
+     -0.146869
+    ]
+   },
+   "init_state_id": "train_pos_153",
+   "meta": {
+    "goal_dist": 0.24626733744521861,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100253
+  },
+  {
+   "init": {
+    "goal": [
+     0.192494,
+     0.04073
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.013456,
+     -0.052313
+    ],
+    "pusher": [
+     -0.104587,
+     -0.093484
+    ]
+   },
+   "init_state_id": "train_pos_154",
+   "meta": {
+    "goal_dist": 0.22599170324133142,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100254
+  },
+  {
+   "init": {
+    "goal": [
+     0.196352,
+     -0.289997
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.03732,
+     -0.076879
+    ],
+    "pusher": [
+     -0.022486,
+     0.003267
+    ]
+   },
+   "init_state_id": "train_pos_155",
+   "meta": {
+    "goal_dist": 0.2659144229037134,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100255
+  },
+  {
+   "init": {
+    "goal": [
+     0.003609,
+     -0.205363
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.017169,
+     0.016385
+    ],
+    "pusher": [
+     0.023273,
+     0.116198
+    ]
+   },
+   "init_state_id": "train_pos_156",
+   "meta": {
+    "goal_dist": 0.22216224464999373,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100256
+  },
+  {
+   "init": {
+    "goal": [
+     0.028062,
+     -0.334567
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.124953,
+     -0.098659
+    ],
+    "pusher": [
+     -0.179371,
+     -0.014762
+    ]
+   },
+   "init_state_id": "train_pos_157",
+   "meta": {
+    "goal_dist": 0.28118770382643254,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100257
+  },
+  {
+   "init": {
+    "goal": [
+     -0.19758,
+     -0.261752
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.105842,
+     -0.027215
+    ],
+    "pusher": [
+     -0.069415,
+     0.065915
+    ]
+   },
+   "init_state_id": "train_pos_158",
+   "meta": {
+    "goal_dist": 0.2518405376440785,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100258
+  },
+  {
+   "init": {
+    "goal": [
+     -0.331567,
+     0.247353
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.126348,
+     0.12107
+    ],
+    "pusher": [
+     -0.041181,
+     0.068661
+    ]
+   },
+   "init_state_id": "train_pos_159",
+   "meta": {
+    "goal_dist": 0.2409617445356939,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100259
+  },
+  {
+   "init": {
+    "goal": [
+     -0.181807,
+     0.089488
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.108344,
+     0.048381
+    ],
+    "pusher": [
+     0.207355,
+     0.034354
+    ]
+   },
+   "init_state_id": "train_pos_160",
+   "meta": {
+    "goal_dist": 0.29304849576505654,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100260
+  },
+  {
+   "init": {
+    "goal": [
+     0.338949,
+     -0.138049
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.114382,
+     -0.056233
+    ],
+    "pusher": [
+     0.020424,
+     -0.022002
+    ]
+   },
+   "init_state_id": "train_pos_161",
+   "meta": {
+    "goal_dist": 0.2390061955208961,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100261
+  },
+  {
+   "init": {
+    "goal": [
+     0.135503,
+     0.004943
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.141841,
+     0.011916
+    ],
+    "pusher": [
+     -0.241809,
+     0.014429
+    ]
+   },
+   "init_state_id": "train_pos_162",
+   "meta": {
+    "goal_dist": 0.27743154260211833,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100262
+  },
+  {
+   "init": {
+    "goal": [
+     -0.042062,
+     -0.245358
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.047321,
+     -0.034663
+    ],
+    "pusher": [
+     0.086376,
+     0.057396
+    ]
+   },
+   "init_state_id": "train_pos_163",
+   "meta": {
+    "goal_dist": 0.22887103946165407,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100263
+  },
+  {
+   "init": {
+    "goal": [
+     0.230184,
+     -0.193612
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.003309,
+     -0.134989
+    ],
+    "pusher": [
+     -0.093511,
+     -0.109971
+    ]
+   },
+   "init_state_id": "train_pos_164",
+   "meta": {
+    "goal_dist": 0.23432612046850876,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100264
+  },
+  {
+   "init": {
+    "goal": [
+     0.135447,
+     -0.189575
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.111423,
+     -0.090244
+    ],
+    "pusher": [
+     -0.204194,
+     -0.052915
+    ]
+   },
+   "init_state_id": "train_pos_165",
+   "meta": {
+    "goal_dist": 0.26610434788928305,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100265
+  },
+  {
+   "init": {
+    "goal": [
+     -0.009243,
+     -0.226773
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.146195,
+     -0.038068
+    ],
+    "pusher": [
+     -0.204932,
+     0.042864
+    ]
+   },
+   "init_state_id": "train_pos_166",
+   "meta": {
+    "goal_dist": 0.2331643873944836,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100266
+  },
+  {
+   "init": {
+    "goal": [
+     0.228974,
+     -0.155227
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.064333,
+     0.04487
+    ],
+    "pusher": [
+     0.000795,
+     0.122091
+    ]
+   },
+   "init_state_id": "train_pos_167",
+   "meta": {
+    "goal_dist": 0.25912466046534177,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100267
+  },
+  {
+   "init": {
+    "goal": [
+     0.023551,
+     0.218101
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.01522,
+     -0.062061
+    ],
+    "pusher": [
+     -0.028928,
+     -0.161117
+    ]
+   },
+   "init_state_id": "train_pos_168",
+   "meta": {
+    "goal_dist": 0.28283193435562415,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100268
+  },
+  {
+   "init": {
+    "goal": [
+     -0.235745,
+     -0.194394
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.10332,
+     0.032828
+    ],
+    "pusher": [
+     -0.052967,
+     0.119226
+    ]
+   },
+   "init_state_id": "train_pos_169",
+   "meta": {
+    "goal_dist": 0.2629950136224272,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100269
+  },
+  {
+   "init": {
+    "goal": [
+     -0.19439,
+     -0.113
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.071946,
+     -0.082359
+    ],
+    "pusher": [
+     0.171291,
+     -0.070929
+    ]
+   },
+   "init_state_id": "train_pos_170",
+   "meta": {
+    "goal_dist": 0.26809318598425536,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100270
+  },
+  {
+   "init": {
+    "goal": [
+     0.004137,
+     0.323995
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.13919,
+     0.117613
+    ],
+    "pusher": [
+     -0.196231,
+     0.035477
+    ]
+   },
+   "init_state_id": "train_pos_171",
+   "meta": {
+    "goal_dist": 0.25126960022990974,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100271
+  },
+  {
+   "init": {
+    "goal": [
+     -0.284931,
+     -0.003131
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.065839,
+     0.123378
+    ],
+    "pusher": [
+     0.020761,
+     0.173383
+    ]
+   },
+   "init_state_id": "train_pos_172",
+   "meta": {
+    "goal_dist": 0.2529939410829141,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100272
+  },
+  {
+   "init": {
+    "goal": [
+     -0.154707,
+     -0.16987
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.030824,
+     0.072982
+    ],
+    "pusher": [
+     0.014617,
+     0.162062
+    ]
+   },
+   "init_state_id": "train_pos_173",
+   "meta": {
+    "goal_dist": 0.2726243517124275,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100273
+  },
+  {
+   "init": {
+    "goal": [
+     0.186282,
+     -0.033779
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.036164,
+     0.144159
+    ],
+    "pusher": [
+     -0.028319,
+     0.220592
+    ]
+   },
+   "init_state_id": "train_pos_174",
+   "meta": {
+    "goal_dist": 0.23280316688849784,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100274
+  },
+  {
+   "init": {
+    "goal": [
+     0.228034,
+     -0.190953
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.059364,
+     -0.118648
+    ],
+    "pusher": [
+     -0.156341,
+     -0.094249
+    ]
+   },
+   "init_state_id": "train_pos_175",
+   "meta": {
+    "goal_dist": 0.2963538802247871,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100275
+  },
+  {
+   "init": {
+    "goal": [
+     0.054327,
+     -0.299666
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.082701,
+     -0.064826
+    ],
+    "pusher": [
+     -0.133098,
+     0.021546
+    ]
+   },
+   "init_state_id": "train_pos_176",
+   "meta": {
+    "goal_dist": 0.27189452422667804,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100276
+  },
+  {
+   "init": {
+    "goal": [
+     0.221804,
+     -0.089867
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.063669,
+     0.134887
+    ],
+    "pusher": [
+     0.006125,
+     0.216672
+    ]
+   },
+   "init_state_id": "train_pos_177",
+   "meta": {
+    "goal_dist": 0.2748114801811812,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100277
+  },
+  {
+   "init": {
+    "goal": [
+     0.009371,
+     0.161167
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.059672,
+     -0.076945
+    ],
+    "pusher": [
+     -0.087521,
+     -0.172989
+    ]
+   },
+   "init_state_id": "train_pos_178",
+   "meta": {
+    "goal_dist": 0.24791964681867837,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100278
+  },
+  {
+   "init": {
+    "goal": [
+     0.27072,
+     0.061819
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.01215,
+     0.141827
+    ],
+    "pusher": [
+     -0.108375,
+     0.169044
+    ]
+   },
+   "init_state_id": "train_pos_179",
+   "meta": {
+    "goal_dist": 0.29396693860073697,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100279
+  },
+  {
+   "init": {
+    "goal": [
+     0.315599,
+     0.252959
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.113478,
+     0.090228
+    ],
+    "pusher": [
+     0.035586,
+     0.027515
+    ]
+   },
+   "init_state_id": "train_pos_180",
+   "meta": {
+    "goal_dist": 0.259488510630076,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100280
+  },
+  {
+   "init": {
+    "goal": [
+     -0.149105,
+     0.166006
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.143483,
+     -0.097693
+    ],
+    "pusher": [
+     -0.141352,
+     -0.197671
+    ]
+   },
+   "init_state_id": "train_pos_181",
+   "meta": {
+    "goal_dist": 0.26375948483585837,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100281
+  },
+  {
+   "init": {
+    "goal": [
+     0.248655,
+     -0.257572
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.071735,
+     -0.101107
+    ],
+    "pusher": [
+     -0.003173,
+     -0.034859
+    ]
+   },
+   "init_state_id": "train_pos_182",
+   "meta": {
+    "goal_dist": 0.2361820829093173,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100282
+  },
+  {
+   "init": {
+    "goal": [
+     -0.094945,
+     -0.286129
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.096669,
+     -0.091998
+    ],
+    "pusher": [
+     0.166916,
+     -0.020827
+    ]
+   },
+   "init_state_id": "train_pos_183",
+   "meta": {
+    "goal_dist": 0.2727684591583774,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100283
+  },
+  {
+   "init": {
+    "goal": [
+     0.274293,
+     0.209663
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.048594,
+     0.09318
+    ],
+    "pusher": [
+     -0.040269,
+     0.047318
+    ]
+   },
+   "init_state_id": "train_pos_184",
+   "meta": {
+    "goal_dist": 0.2539847905116164,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100284
+  },
+  {
+   "init": {
+    "goal": [
+     -0.205799,
+     0.229839
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.014343,
+     0.051735
+    ],
+    "pusher": [
+     0.058874,
+     -0.016377
+    ]
+   },
+   "init_state_id": "train_pos_185",
+   "meta": {
+    "goal_dist": 0.2614887978616751,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100285
+  },
+  {
+   "init": {
+    "goal": [
+     -0.071169,
+     -0.217123
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.06201,
+     0.01807
+    ],
+    "pusher": [
+     -0.058118,
+     0.117994
+    ]
+   },
+   "init_state_id": "train_pos_186",
+   "meta": {
+    "goal_dist": 0.23537105691867927,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100286
+  },
+  {
+   "init": {
+    "goal": [
+     -0.282782,
+     0.15094
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.068293,
+     0.015894
+    ],
+    "pusher": [
+     0.016331,
+     -0.037386
+    ]
+   },
+   "init_state_id": "train_pos_187",
+   "meta": {
+    "goal_dist": 0.25346185904048396,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100287
+  },
+  {
+   "init": {
+    "goal": [
+     -0.32383,
+     -0.032412
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.100084,
+     0.099885
+    ],
+    "pusher": [
+     -0.014006,
+     0.150782
+    ]
+   },
+   "init_state_id": "train_pos_188",
+   "meta": {
+    "goal_dist": 0.2599322496804666,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100288
+  },
+  {
+   "init": {
+    "goal": [
+     -0.104598,
+     -0.336669
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.065985,
+     -0.149336
+    ],
+    "pusher": [
+     0.133313,
+     -0.075397
+    ]
+   },
+   "init_state_id": "train_pos_189",
+   "meta": {
+    "goal_dist": 0.2533618943240512,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100289
+  },
+  {
+   "init": {
+    "goal": [
+     -0.003947,
+     0.099001
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.02363,
+     -0.141964
+    ],
+    "pusher": [
+     -0.031772,
+     -0.241633
+    ]
+   },
+   "init_state_id": "train_pos_190",
+   "meta": {
+    "goal_dist": 0.24176781252429477,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100290
+  },
+  {
+   "init": {
+    "goal": [
+     0.043128,
+     0.114898
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.018784,
+     -0.104999
+    ],
+    "pusher": [
+     -0.045885,
+     -0.201257
+    ]
+   },
+   "init_state_id": "train_pos_191",
+   "meta": {
+    "goal_dist": 0.2284464060948174,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100291
+  },
+  {
+   "init": {
+    "goal": [
+     0.144982,
+     0.010972
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.133962,
+     0.082885
+    ],
+    "pusher": [
+     -0.230795,
+     0.10785
+    ]
+   },
+   "init_state_id": "train_pos_192",
+   "meta": {
+    "goal_dist": 0.28806485500375795,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100292
+  },
+  {
+   "init": {
+    "goal": [
+     -0.091593,
+     -0.074349
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.109125,
+     0.027028
+    ],
+    "pusher": [
+     0.198387,
+     0.072111
+    ]
+   },
+   "init_state_id": "train_pos_193",
+   "meta": {
+    "goal_dist": 0.2248671858891489,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100293
+  },
+  {
+   "init": {
+    "goal": [
+     -0.00608,
+     0.310498
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.147814,
+     0.12565
+    ],
+    "pusher": [
+     -0.208662,
+     0.046293
+    ]
+   },
+   "init_state_id": "train_pos_194",
+   "meta": {
+    "goal_dist": 0.2329313623291786,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100294
+  },
+  {
+   "init": {
+    "goal": [
+     0.063093,
+     -0.146951
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.004436,
+     0.108524
+    ],
+    "pusher": [
+     -0.017942,
+     0.205988
+    ]
+   },
+   "init_state_id": "train_pos_195",
+   "meta": {
+    "goal_dist": 0.2621220602611589,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100295
+  },
+  {
+   "init": {
+    "goal": [
+     -0.300139,
+     -0.05683
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.01915,
+     -0.06712
+    ],
+    "pusher": [
+     0.080783,
+     -0.07078
+    ]
+   },
+   "init_state_id": "train_pos_196",
+   "meta": {
+    "goal_dist": 0.2811775927417444,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100296
+  },
+  {
+   "init": {
+    "goal": [
+     0.245981,
+     -0.322022
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.062197,
+     -0.148999
+    ],
+    "pusher": [
+     -0.010613,
+     -0.080452
+    ]
+   },
+   "init_state_id": "train_pos_197",
+   "meta": {
+    "goal_dist": 0.252416033998893,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100297
+  },
+  {
+   "init": {
+    "goal": [
+     -0.006572,
+     -0.251203
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.092443,
+     -0.04846
+    ],
+    "pusher": [
+     -0.131443,
+     0.043621
+    ]
+   },
+   "init_state_id": "train_pos_198",
+   "meta": {
+    "goal_dist": 0.22017775597754233,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100298
+  },
+  {
+   "init": {
+    "goal": [
+     0.195603,
+     0.109856
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.033869,
+     -0.060925
+    ],
+    "pusher": [
+     -0.11409,
+     -0.120629
+    ]
+   },
+   "init_state_id": "train_pos_199",
+   "meta": {
+    "goal_dist": 0.28604773530729743,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 100299
+  }
+ ],
+ "train_neg": [
+  {
+   "init": {
+    "goal": [
+     0.051802,
+     0.099011
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.105555,
+     0.113227
+    ],
+    "pusher": [
+     0.202231,
+     0.138796
+    ]
+   },
+   "init_state_id": "train_neg_000",
+   "meta": {
+    "goal_dist": 0.05560110439908329,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100600
+  },
+  {
+   "init": {
+    "goal": [
+     -0.022525,
+     -0.05265
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.083852,
+     -0.059668
+    ],
+    "pusher": [
+     -0.183204,
+     -0.071036
+    ]
+   },
+   "init_state_id": "train_neg_001",
+   "meta": {
+    "goal_dist": 0.06172680634929271,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100601
+  },
+  {
+   "init": {
+    "goal": [
+     0.02449,
+     -0.176953
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.024518,
+     -0.137841
+    ],
+    "pusher": [
+     -0.102679,
+     -0.075465
+    ]
+   },
+   "init_state_id": "train_neg_002",
+   "meta": {
+    "goal_dist": 0.06270162026589975,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100602
+  },
+  {
+   "init": {
+    "goal": [
+     0.074105,
+     -0.024916
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.036454,
+     0.015189
+    ],
+    "pusher": [
+     -0.031992,
+     0.088094
+    ]
+   },
+   "init_state_id": "train_neg_003",
+   "meta": {
+    "goal_dist": 0.05500968364972175,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100603
+  },
+  {
+   "init": {
+    "goal": [
+     0.133037,
+     -0.069906
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.076966,
+     -0.124113
+    ],
+    "pusher": [
+     0.00507,
+     -0.193618
+    ]
+   },
+   "init_state_id": "train_neg_004",
+   "meta": {
+    "goal_dist": 0.07798984259201733,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100604
+  },
+  {
+   "init": {
+    "goal": [
+     0.21541,
+     -0.153548
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.139285,
+     -0.140312
+    ],
+    "pusher": [
+     0.040763,
+     -0.123182
+    ]
+   },
+   "init_state_id": "train_neg_005",
+   "meta": {
+    "goal_dist": 0.077267374159643,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100605
+  },
+  {
+   "init": {
+    "goal": [
+     -0.086569,
+     -0.127812
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.127008,
+     -0.072673
+    ],
+    "pusher": [
+     -0.186148,
+     0.007965
+    ]
+   },
+   "init_state_id": "train_neg_006",
+   "meta": {
+    "goal_dist": 0.0683789986608808,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100606
+  },
+  {
+   "init": {
+    "goal": [
+     0.114865,
+     -0.137961
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.039547,
+     -0.122139
+    ],
+    "pusher": [
+     -0.058317,
+     -0.101581
+    ]
+   },
+   "init_state_id": "train_neg_007",
+   "meta": {
+    "goal_dist": 0.07696134979940089,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100607
+  },
+  {
+   "init": {
+    "goal": [
+     0.035222,
+     -0.018976
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.033899,
+     0.006528
+    ],
+    "pusher": [
+     -0.127716,
+     0.041145
+    ]
+   },
+   "init_state_id": "train_neg_008",
+   "meta": {
+    "goal_dist": 0.07367615181991262,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100608
+  },
+  {
+   "init": {
+    "goal": [
+     0.075939,
+     -0.040733
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.121781,
+     -0.008037
+    ],
+    "pusher": [
+     0.203194,
+     0.050031
+    ]
+   },
+   "init_state_id": "train_neg_009",
+   "meta": {
+    "goal_dist": 0.056307218805451476,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100609
+  },
+  {
+   "init": {
+    "goal": [
+     -0.148488,
+     0.139607
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.121573,
+     0.082739
+    ],
+    "pusher": [
+     -0.078794,
+     -0.007648
+    ]
+   },
+   "init_state_id": "train_neg_010",
+   "meta": {
+    "goal_dist": 0.06291492975413315,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100610
+  },
+  {
+   "init": {
+    "goal": [
+     -0.112636,
+     -0.053872
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.128076,
+     0.016622
+    ],
+    "pusher": [
+     -0.149472,
+     0.114307
+    ]
+   },
+   "init_state_id": "train_neg_011",
+   "meta": {
+    "goal_dist": 0.07216513475502793,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100611
+  },
+  {
+   "init": {
+    "goal": [
+     0.123655,
+     -0.06379
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.095838,
+     -0.009095
+    ],
+    "pusher": [
+     0.050505,
+     0.08004
+    ]
+   },
+   "init_state_id": "train_neg_012",
+   "meta": {
+    "goal_dist": 0.06136227731691867,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100612
+  },
+  {
+   "init": {
+    "goal": [
+     0.020127,
+     -0.078988
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.033009,
+     -0.127825
+    ],
+    "pusher": [
+     -0.106636,
+     -0.195494
+    ]
+   },
+   "init_state_id": "train_neg_013",
+   "meta": {
+    "goal_dist": 0.0721696362283526,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100613
+  },
+  {
+   "init": {
+    "goal": [
+     0.026079,
+     0.033768
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.08244,
+     0.022715
+    ],
+    "pusher": [
+     0.18057,
+     0.003469
+    ]
+   },
+   "init_state_id": "train_neg_014",
+   "meta": {
+    "goal_dist": 0.05743390126333938,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100614
+  },
+  {
+   "init": {
+    "goal": [
+     0.123839,
+     -0.146023
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.145111,
+     -0.095975
+    ],
+    "pusher": [
+     0.184228,
+     -0.003943
+    ]
+   },
+   "init_state_id": "train_neg_015",
+   "meta": {
+    "goal_dist": 0.05438087259972285,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100615
+  },
+  {
+   "init": {
+    "goal": [
+     0.095957,
+     0.009231
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.096963,
+     0.066468
+    ],
+    "pusher": [
+     0.098721,
+     0.166452
+    ]
+   },
+   "init_state_id": "train_neg_016",
+   "meta": {
+    "goal_dist": 0.05724514978135694,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100616
+  },
+  {
+   "init": {
+    "goal": [
+     -0.068776,
+     0.00111
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.041901,
+     0.05839
+    ],
+    "pusher": [
+     0.000575,
+     0.148921
+    ]
+   },
+   "init_state_id": "train_neg_017",
+   "meta": {
+    "goal_dist": 0.06327167585368326,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100617
+  },
+  {
+   "init": {
+    "goal": [
+     0.018274,
+     -0.053781
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.021242,
+     -0.113323
+    ],
+    "pusher": [
+     -0.076539,
+     -0.196643
+    ]
+   },
+   "init_state_id": "train_neg_018",
+   "meta": {
+    "goal_dist": 0.07146115256597223,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100618
+  },
+  {
+   "init": {
+    "goal": [
+     0.115985,
+     0.166462
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.079864,
+     0.120404
+    ],
+    "pusher": [
+     0.018153,
+     0.041716
+    ]
+   },
+   "init_state_id": "train_neg_019",
+   "meta": {
+    "goal_dist": 0.05853181413996025,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100619
+  },
+  {
+   "init": {
+    "goal": [
+     0.134318,
+     -0.052939
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.060464,
+     -0.0367
+    ],
+    "pusher": [
+     -0.037203,
+     -0.015224
+    ]
+   },
+   "init_state_id": "train_neg_020",
+   "meta": {
+    "goal_dist": 0.07561814093791336,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100620
+  },
+  {
+   "init": {
+    "goal": [
+     -0.031168,
+     0.086057
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.012652,
+     0.147247
+    ],
+    "pusher": [
+     0.070876,
+     0.228549
+    ]
+   },
+   "init_state_id": "train_neg_021",
+   "meta": {
+    "goal_dist": 0.07526207739088853,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100621
+  },
+  {
+   "init": {
+    "goal": [
+     -0.149143,
+     -0.014404
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.116803,
+     0.045354
+    ],
+    "pusher": [
+     -0.069207,
+     0.133301
+    ]
+   },
+   "init_state_id": "train_neg_022",
+   "meta": {
+    "goal_dist": 0.06794796184004567,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100622
+  },
+  {
+   "init": {
+    "goal": [
+     -0.157927,
+     -0.054357
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.127969,
+     -0.002539
+    ],
+    "pusher": [
+     -0.077916,
+     0.084033
+    ]
+   },
+   "init_state_id": "train_neg_023",
+   "meta": {
+    "goal_dist": 0.05985478067364089,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100623
+  },
+  {
+   "init": {
+    "goal": [
+     -0.15432,
+     -0.040955
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.100642,
+     -0.030736
+    ],
+    "pusher": [
+     -0.002406,
+     -0.012035
+    ]
+   },
+   "init_state_id": "train_neg_024",
+   "meta": {
+    "goal_dist": 0.05464199217648251,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100624
+  },
+  {
+   "init": {
+    "goal": [
+     -0.006536,
+     -0.031371
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.022757,
+     0.026483
+    ],
+    "pusher": [
+     0.067929,
+     0.115699
+    ]
+   },
+   "init_state_id": "train_neg_025",
+   "meta": {
+    "goal_dist": 0.06484734542613439,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100625
+  },
+  {
+   "init": {
+    "goal": [
+     0.000258,
+     -0.090793
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.070619,
+     -0.107812
+    ],
+    "pusher": [
+     0.167815,
+     -0.131324
+    ]
+   },
+   "init_state_id": "train_neg_026",
+   "meta": {
+    "goal_dist": 0.07238979230670985,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100626
+  },
+  {
+   "init": {
+    "goal": [
+     -0.197104,
+     -0.130991
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.144468,
+     -0.110241
+    ],
+    "pusher": [
+     -0.051436,
+     -0.073567
+    ]
+   },
+   "init_state_id": "train_neg_027",
+   "meta": {
+    "goal_dist": 0.056578457035147536,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100627
+  },
+  {
+   "init": {
+    "goal": [
+     -0.073391,
+     0.074924
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.028026,
+     0.017981
+    ],
+    "pusher": [
+     0.034286,
+     -0.060232
+    ]
+   },
+   "init_state_id": "train_neg_028",
+   "meta": {
+    "goal_dist": 0.07280400685134171,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100628
+  },
+  {
+   "init": {
+    "goal": [
+     -0.132207,
+     0.047758
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.145329,
+     -0.008236
+    ],
+    "pusher": [
+     -0.168146,
+     -0.105598
+    ]
+   },
+   "init_state_id": "train_neg_029",
+   "meta": {
+    "goal_dist": 0.05751136230745106,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100629
+  },
+  {
+   "init": {
+    "goal": [
+     0.015206,
+     -0.045945
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.045658,
+     -0.068179
+    ],
+    "pusher": [
+     -0.139587,
+     -0.102491
+    ]
+   },
+   "init_state_id": "train_neg_030",
+   "meta": {
+    "goal_dist": 0.06479788234723467,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100630
+  },
+  {
+   "init": {
+    "goal": [
+     0.032089,
+     0.160484
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.032129,
+     0.13912
+    ],
+    "pusher": [
+     -0.127016,
+     0.107553
+    ]
+   },
+   "init_state_id": "train_neg_031",
+   "meta": {
+    "goal_dist": 0.06767856420662993,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100631
+  },
+  {
+   "init": {
+    "goal": [
+     0.141887,
+     0.057776
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.125764,
+     0.117132
+    ],
+    "pusher": [
+     0.09955,
+     0.213635
+    ]
+   },
+   "init_state_id": "train_neg_032",
+   "meta": {
+    "goal_dist": 0.061506375659283366,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100632
+  },
+  {
+   "init": {
+    "goal": [
+     0.103785,
+     -0.077981
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.080682,
+     -0.019554
+    ],
+    "pusher": [
+     0.043911,
+     0.07344
+    ]
+   },
+   "init_state_id": "train_neg_033",
+   "meta": {
+    "goal_dist": 0.0628281200004235,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100633
+  },
+  {
+   "init": {
+    "goal": [
+     0.083377,
+     -0.010107
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.147386,
+     -0.002794
+    ],
+    "pusher": [
+     0.246739,
+     0.008558
+    ]
+   },
+   "init_state_id": "train_neg_034",
+   "meta": {
+    "goal_dist": 0.06442486924318296,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100634
+  },
+  {
+   "init": {
+    "goal": [
+     -0.099085,
+     -0.003069
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.110077,
+     0.068477
+    ],
+    "pusher": [
+     -0.125262,
+     0.167318
+    ]
+   },
+   "init_state_id": "train_neg_035",
+   "meta": {
+    "goal_dist": 0.07238525135787287,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100635
+  },
+  {
+   "init": {
+    "goal": [
+     0.179361,
+     0.099487
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.131171,
+     0.134707
+    ],
+    "pusher": [
+     0.050436,
+     0.193714
+    ]
+   },
+   "init_state_id": "train_neg_036",
+   "meta": {
+    "goal_dist": 0.059688250303056,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100636
+  },
+  {
+   "init": {
+    "goal": [
+     -0.120883,
+     -0.091293
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.062681,
+     -0.069354
+    ],
+    "pusher": [
+     0.030892,
+     -0.034081
+    ]
+   },
+   "init_state_id": "train_neg_037",
+   "meta": {
+    "goal_dist": 0.06220053025929562,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100637
+  },
+  {
+   "init": {
+    "goal": [
+     0.071685,
+     0.002135
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.144307,
+     -0.01941
+    ],
+    "pusher": [
+     0.240177,
+     -0.047852
+    ]
+   },
+   "init_state_id": "train_neg_038",
+   "meta": {
+    "goal_dist": 0.07575056519638435,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100638
+  },
+  {
+   "init": {
+    "goal": [
+     -0.011181,
+     0.135292
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.032231,
+     0.068417
+    ],
+    "pusher": [
+     0.08668,
+     -0.01546
+    ]
+   },
+   "init_state_id": "train_neg_039",
+   "meta": {
+    "goal_dist": 0.07973055623635061,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100639
+  },
+  {
+   "init": {
+    "goal": [
+     0.203601,
+     0.026463
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.138442,
+     -0.013837
+    ],
+    "pusher": [
+     0.053394,
+     -0.066438
+    ]
+   },
+   "init_state_id": "train_neg_040",
+   "meta": {
+    "goal_dist": 0.07661535230026342,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100640
+  },
+  {
+   "init": {
+    "goal": [
+     0.072662,
+     -0.158452
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.130322,
+     -0.129162
+    ],
+    "pusher": [
+     0.219479,
+     -0.083873
+    ]
+   },
+   "init_state_id": "train_neg_041",
+   "meta": {
+    "goal_dist": 0.06467324988436475,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100641
+  },
+  {
+   "init": {
+    "goal": [
+     -0.033164,
+     -0.091061
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.089125,
+     -0.039957
+    ],
+    "pusher": [
+     -0.162968,
+     0.027477
+    ]
+   },
+   "init_state_id": "train_neg_042",
+   "meta": {
+    "goal_dist": 0.0757853197054934,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100642
+  },
+  {
+   "init": {
+    "goal": [
+     -0.135034,
+     0.111714
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.10159,
+     0.066052
+    ],
+    "pusher": [
+     -0.042502,
+     -0.014624
+    ]
+   },
+   "init_state_id": "train_neg_043",
+   "meta": {
+    "goal_dist": 0.05659951836069344,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100643
+  },
+  {
+   "init": {
+    "goal": [
+     -0.084309,
+     -0.126991
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.009745,
+     -0.138973
+    ],
+    "pusher": [
+     0.088988,
+     -0.154839
+    ]
+   },
+   "init_state_id": "train_neg_044",
+   "meta": {
+    "goal_dist": 0.07552091982229604,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100644
+  },
+  {
+   "init": {
+    "goal": [
+     -0.103382,
+     0.050376
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.050311,
+     0.065304
+    ],
+    "pusher": [
+     0.045953,
+     0.092381
+    ]
+   },
+   "init_state_id": "train_neg_045",
+   "meta": {
+    "goal_dist": 0.05513024256310562,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100645
+  },
+  {
+   "init": {
+    "goal": [
+     0.065612,
+     -0.05453
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.016654,
+     -0.105735
+    ],
+    "pusher": [
+     -0.052453,
+     -0.178013
+    ]
+   },
+   "init_state_id": "train_neg_046",
+   "meta": {
+    "goal_dist": 0.0708437323991856,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100646
+  },
+  {
+   "init": {
+    "goal": [
+     -0.046551,
+     0.157257
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.007461,
+     0.099924
+    ],
+    "pusher": [
+     0.048872,
+     0.0173
+    ]
+   },
+   "init_state_id": "train_neg_047",
+   "meta": {
+    "goal_dist": 0.06939193469486199,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100647
+  },
+  {
+   "init": {
+    "goal": [
+     0.099073,
+     -0.161575
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.053589,
+     -0.136649
+    ],
+    "pusher": [
+     -0.034106,
+     -0.088591
+    ]
+   },
+   "init_state_id": "train_neg_048",
+   "meta": {
+    "goal_dist": 0.051866119359752556,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100648
+  },
+  {
+   "init": {
+    "goal": [
+     0.095796,
+     0.187809
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.070254,
+     0.125438
+    ],
+    "pusher": [
+     0.032358,
+     0.032897
+    ]
+   },
+   "init_state_id": "train_neg_049",
+   "meta": {
+    "goal_dist": 0.06739828317898387,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100649
+  },
+  {
+   "init": {
+    "goal": [
+     -0.048305,
+     0.131585
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.102052,
+     0.081901
+    ],
+    "pusher": [
+     -0.175482,
+     0.014019
+    ]
+   },
+   "init_state_id": "train_neg_050",
+   "meta": {
+    "goal_dist": 0.07319273203248418,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100650
+  },
+  {
+   "init": {
+    "goal": [
+     0.011663,
+     -0.026721
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.034241,
+     -0.070542
+    ],
+    "pusher": [
+     -0.106573,
+     -0.139593
+    ]
+   },
+   "init_state_id": "train_neg_051",
+   "meta": {
+    "goal_dist": 0.06346178866176767,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100651
+  },
+  {
+   "init": {
+    "goal": [
+     -0.068544,
+     -0.000723
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.123577,
+     -0.04413
+    ],
+    "pusher": [
+     -0.202093,
+     -0.106059
+    ]
+   },
+   "init_state_id": "train_neg_052",
+   "meta": {
+    "goal_dist": 0.07009010167826472,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100652
+  },
+  {
+   "init": {
+    "goal": [
+     0.053673,
+     -0.065352
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.01367,
+     -0.087679
+    ],
+    "pusher": [
+     -0.10859,
+     -0.119147
+    ]
+   },
+   "init_state_id": "train_neg_053",
+   "meta": {
+    "goal_dist": 0.07094772655978256,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100653
+  },
+  {
+   "init": {
+    "goal": [
+     0.0348,
+     0.028109
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.030016,
+     0.002941
+    ],
+    "pusher": [
+     -0.123234,
+     -0.033257
+    ]
+   },
+   "init_state_id": "train_neg_054",
+   "meta": {
+    "goal_dist": 0.06953073812930839,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100654
+  },
+  {
+   "init": {
+    "goal": [
+     -0.007582,
+     0.038562
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.053681,
+     0.08641
+    ],
+    "pusher": [
+     -0.123064,
+     0.158424
+    ]
+   },
+   "init_state_id": "train_neg_055",
+   "meta": {
+    "goal_dist": 0.06644219150134756,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100655
+  },
+  {
+   "init": {
+    "goal": [
+     -0.177215,
+     0.056608
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.131002,
+     0.033992
+    ],
+    "pusher": [
+     -0.041181,
+     -0.009964
+    ]
+   },
+   "init_state_id": "train_neg_056",
+   "meta": {
+    "goal_dist": 0.051449698565125664,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100656
+  },
+  {
+   "init": {
+    "goal": [
+     0.061069,
+     -0.099498
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.111621,
+     -0.093652
+    ],
+    "pusher": [
+     0.210959,
+     -0.082162
+    ]
+   },
+   "init_state_id": "train_neg_057",
+   "meta": {
+    "goal_dist": 0.05088861577316933,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100657
+  },
+  {
+   "init": {
+    "goal": [
+     0.035184,
+     0.18091
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.058131,
+     0.124456
+    ],
+    "pusher": [
+     0.095785,
+     0.031817
+    ]
+   },
+   "init_state_id": "train_neg_058",
+   "meta": {
+    "goal_dist": 0.06093884655724752,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100658
+  },
+  {
+   "init": {
+    "goal": [
+     0.096364,
+     -0.146306
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.114819,
+     -0.092597
+    ],
+    "pusher": [
+     0.147315,
+     0.001976
+    ]
+   },
+   "init_state_id": "train_neg_059",
+   "meta": {
+    "goal_dist": 0.05679130877563217,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100659
+  },
+  {
+   "init": {
+    "goal": [
+     -0.043268,
+     -0.070297
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.077881,
+     -0.109465
+    ],
+    "pusher": [
+     -0.1441,
+     -0.184399
+    ]
+   },
+   "init_state_id": "train_neg_060",
+   "meta": {
+    "goal_dist": 0.05227096828388354,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100660
+  },
+  {
+   "init": {
+    "goal": [
+     0.194083,
+     -0.020326
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.139164,
+     -0.017086
+    ],
+    "pusher": [
+     0.039337,
+     -0.011197
+    ]
+   },
+   "init_state_id": "train_neg_061",
+   "meta": {
+    "goal_dist": 0.05501492099691571,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100661
+  },
+  {
+   "init": {
+    "goal": [
+     -0.028113,
+     0.032262
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.01204,
+     -0.004474
+    ],
+    "pusher": [
+     0.08582,
+     -0.071976
+    ]
+   },
+   "init_state_id": "train_neg_062",
+   "meta": {
+    "goal_dist": 0.05442305121814661,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100662
+  },
+  {
+   "init": {
+    "goal": [
+     0.054865,
+     -0.01694
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.009405,
+     0.013603
+    ],
+    "pusher": [
+     -0.099724,
+     0.056526
+    ]
+   },
+   "init_state_id": "train_neg_063",
+   "meta": {
+    "goal_dist": 0.0711582310295408,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100663
+  },
+  {
+   "init": {
+    "goal": [
+     -0.004686,
+     0.200102
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.033932,
+     0.136374
+    ],
+    "pusher": [
+     0.085758,
+     0.050852
+    ]
+   },
+   "init_state_id": "train_neg_064",
+   "meta": {
+    "goal_dist": 0.07451581745429318,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100664
+  },
+  {
+   "init": {
+    "goal": [
+     0.012681,
+     -0.143756
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.081518,
+     -0.111695
+    ],
+    "pusher": [
+     0.172168,
+     -0.069474
+    ]
+   },
+   "init_state_id": "train_neg_065",
+   "meta": {
+    "goal_dist": 0.07593733067748115,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100665
+  },
+  {
+   "init": {
+    "goal": [
+     0.06253,
+     0.011372
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.00984,
+     0.04612
+    ],
+    "pusher": [
+     -0.073642,
+     0.101173
+    ]
+   },
+   "init_state_id": "train_neg_066",
+   "meta": {
+    "goal_dist": 0.06311629753690329,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100666
+  },
+  {
+   "init": {
+    "goal": [
+     -0.071504,
+     0.020877
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.092968,
+     0.071985
+    ],
+    "pusher": [
+     -0.131688,
+     0.164185
+    ]
+   },
+   "init_state_id": "train_neg_067",
+   "meta": {
+    "goal_dist": 0.055431850424140595,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100667
+  },
+  {
+   "init": {
+    "goal": [
+     -0.039125,
+     -0.157023
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.079822,
+     -0.12117
+    ],
+    "pusher": [
+     -0.154857,
+     -0.055066
+    ]
+   },
+   "init_state_id": "train_neg_068",
+   "meta": {
+    "goal_dist": 0.05423710314759821,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100668
+  },
+  {
+   "init": {
+    "goal": [
+     -0.215826,
+     -0.129227
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.145197,
+     -0.101956
+    ],
+    "pusher": [
+     -0.05191,
+     -0.065935
+    ]
+   },
+   "init_state_id": "train_neg_069",
+   "meta": {
+    "goal_dist": 0.07571117236564238,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100669
+  },
+  {
+   "init": {
+    "goal": [
+     0.087472,
+     0.095694
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.055044,
+     0.034132
+    ],
+    "pusher": [
+     0.008439,
+     -0.054344
+    ]
+   },
+   "init_state_id": "train_neg_070",
+   "meta": {
+    "goal_dist": 0.06958019955731341,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100670
+  },
+  {
+   "init": {
+    "goal": [
+     0.042512,
+     0.051624
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.017035,
+     0.006353
+    ],
+    "pusher": [
+     -0.096641,
+     -0.054168
+    ]
+   },
+   "init_state_id": "train_neg_071",
+   "meta": {
+    "goal_dist": 0.07480102150039208,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100671
+  },
+  {
+   "init": {
+    "goal": [
+     -0.000488,
+     -0.128535
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.042261,
+     -0.092017
+    ],
+    "pusher": [
+     0.118296,
+     -0.027066
+    ]
+   },
+   "init_state_id": "train_neg_072",
+   "meta": {
+    "goal_dist": 0.05622359278588164,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100672
+  },
+  {
+   "init": {
+    "goal": [
+     0.038588,
+     0.020321
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.049767,
+     -0.030525
+    ],
+    "pusher": [
+     0.071238,
+     -0.128193
+    ]
+   },
+   "init_state_id": "train_neg_073",
+   "meta": {
+    "goal_dist": 0.05206101629946891,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100673
+  },
+  {
+   "init": {
+    "goal": [
+     0.078621,
+     -0.196183
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.089307,
+     -0.129963
+    ],
+    "pusher": [
+     0.105236,
+     -0.031239
+    ]
+   },
+   "init_state_id": "train_neg_074",
+   "meta": {
+    "goal_dist": 0.0670772927817355,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100674
+  },
+  {
+   "init": {
+    "goal": [
+     0.036708,
+     0.108443
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.000607,
+     0.047637
+    ],
+    "pusher": [
+     -0.050443,
+     -0.03835
+    ]
+   },
+   "init_state_id": "train_neg_075",
+   "meta": {
+    "goal_dist": 0.07071496223542073,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100675
+  },
+  {
+   "init": {
+    "goal": [
+     -0.070004,
+     0.075388
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.009727,
+     0.044514
+    ],
+    "pusher": [
+     0.079277,
+     -0.001074
+    ]
+   },
+   "init_state_id": "train_neg_076",
+   "meta": {
+    "goal_dist": 0.0677246469992189,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100676
+  },
+  {
+   "init": {
+    "goal": [
+     0.041455,
+     -0.030004
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.003469,
+     -0.091918
+    ],
+    "pusher": [
+     -0.062197,
+     -0.172856
+    ]
+   },
+   "init_state_id": "train_neg_077",
+   "meta": {
+    "goal_dist": 0.07649505803914716,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100677
+  },
+  {
+   "init": {
+    "goal": [
+     0.09954,
+     -0.058444
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.0364,
+     -0.08955
+    ],
+    "pusher": [
+     -0.053305,
+     -0.133742
+    ]
+   },
+   "init_state_id": "train_neg_078",
+   "meta": {
+    "goal_dist": 0.07038616155097452,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100678
+  },
+  {
+   "init": {
+    "goal": [
+     0.128739,
+     -0.048173
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.063669,
+     -0.064324
+    ],
+    "pusher": [
+     -0.033386,
+     -0.088413
+    ]
+   },
+   "init_state_id": "train_neg_079",
+   "meta": {
+    "goal_dist": 0.06704423864801443,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100679
+  },
+  {
+   "init": {
+    "goal": [
+     -0.022815,
+     -0.002131
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.043725,
+     -0.011783
+    ],
+    "pusher": [
+     0.142689,
+     -0.026138
+    ]
+   },
+   "init_state_id": "train_neg_080",
+   "meta": {
+    "goal_dist": 0.0672358840610565,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100680
+  },
+  {
+   "init": {
+    "goal": [
+     -0.083926,
+     -0.017874
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.139866,
+     0.011267
+    ],
+    "pusher": [
+     -0.228553,
+     0.057467
+    ]
+   },
+   "init_state_id": "train_neg_081",
+   "meta": {
+    "goal_dist": 0.06307488416282518,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100681
+  },
+  {
+   "init": {
+    "goal": [
+     0.06009,
+     -0.001651
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.047665,
+     0.055721
+    ],
+    "pusher": [
+     0.0265,
+     0.153456
+    ]
+   },
+   "init_state_id": "train_neg_082",
+   "meta": {
+    "goal_dist": 0.05870250116388195,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100682
+  },
+  {
+   "init": {
+    "goal": [
+     0.085919,
+     -0.1287
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.021359,
+     -0.132956
+    ],
+    "pusher": [
+     -0.078424,
+     -0.139533
+    ]
+   },
+   "init_state_id": "train_neg_083",
+   "meta": {
+    "goal_dist": 0.06469971486756113,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100683
+  },
+  {
+   "init": {
+    "goal": [
+     -0.04595,
+     0.088006
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.017001,
+     0.137461
+    ],
+    "pusher": [
+     0.033516,
+     0.223763
+    ]
+   },
+   "init_state_id": "train_neg_084",
+   "meta": {
+    "goal_dist": 0.05730554338634406,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100684
+  },
+  {
+   "init": {
+    "goal": [
+     -0.017329,
+     -0.061964
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.032251,
+     -0.003434
+    ],
+    "pusher": [
+     0.096887,
+     0.072869
+    ]
+   },
+   "init_state_id": "train_neg_085",
+   "meta": {
+    "goal_dist": 0.07670643009260059,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100685
+  },
+  {
+   "init": {
+    "goal": [
+     -0.043993,
+     -0.074379
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.002961,
+     -0.128776
+    ],
+    "pusher": [
+     0.057259,
+     -0.20861
+    ]
+   },
+   "init_state_id": "train_neg_086",
+   "meta": {
+    "goal_dist": 0.06813682671182793,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100686
+  },
+  {
+   "init": {
+    "goal": [
+     0.035863,
+     0.052752
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.056086,
+     -0.016101
+    ],
+    "pusher": [
+     0.084267,
+     -0.112048
+    ]
+   },
+   "init_state_id": "train_neg_087",
+   "meta": {
+    "goal_dist": 0.07176118133832113,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100687
+  },
+  {
+   "init": {
+    "goal": [
+     -0.069209,
+     0.125613
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.083198,
+     0.075603
+    ],
+    "pusher": [
+     -0.110137,
+     -0.0207
+    ]
+   },
+   "init_state_id": "train_neg_088",
+   "meta": {
+    "goal_dist": 0.05193017076590824,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100688
+  },
+  {
+   "init": {
+    "goal": [
+     -0.024027,
+     0.053576
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.032389,
+     0.106455
+    ],
+    "pusher": [
+     0.10535,
+     0.174841
+    ]
+   },
+   "init_state_id": "train_neg_089",
+   "meta": {
+    "goal_dist": 0.07732353109392431,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100689
+  },
+  {
+   "init": {
+    "goal": [
+     -0.056439,
+     0.049317
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.095836,
+     -0.016171
+    ],
+    "pusher": [
+     -0.147386,
+     -0.101859
+    ]
+   },
+   "init_state_id": "train_neg_090",
+   "meta": {
+    "goal_dist": 0.07642456936555617,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100690
+  },
+  {
+   "init": {
+    "goal": [
+     0.131663,
+     0.015986
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.140538,
+     -0.052445
+    ],
+    "pusher": [
+     0.1534,
+     -0.151615
+    ]
+   },
+   "init_state_id": "train_neg_091",
+   "meta": {
+    "goal_dist": 0.06900425389786398,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100691
+  },
+  {
+   "init": {
+    "goal": [
+     -0.085938,
+     0.062877
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.052344,
+     -0.006615
+    ],
+    "pusher": [
+     -0.00882,
+     -0.096646
+    ]
+   },
+   "init_state_id": "train_neg_092",
+   "meta": {
+    "goal_dist": 0.07718617280344628,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100692
+  },
+  {
+   "init": {
+    "goal": [
+     -0.083275,
+     -0.121573
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.056759,
+     -0.065308
+    ],
+    "pusher": [
+     -0.014129,
+     0.02515
+    ]
+   },
+   "init_state_id": "train_neg_093",
+   "meta": {
+    "goal_dist": 0.06220078604301738,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100693
+  },
+  {
+   "init": {
+    "goal": [
+     -0.049569,
+     -0.012347
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.024872,
+     0.059646
+    ],
+    "pusher": [
+     0.007577,
+     0.154235
+    ]
+   },
+   "init_state_id": "train_neg_094",
+   "meta": {
+    "goal_dist": 0.07611171538147439,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100694
+  },
+  {
+   "init": {
+    "goal": [
+     0.077019,
+     0.027977
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.011826,
+     0.00743
+    ],
+    "pusher": [
+     -0.08355,
+     -0.022629
+    ]
+   },
+   "init_state_id": "train_neg_095",
+   "meta": {
+    "goal_dist": 0.06835493790223983,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100695
+  },
+  {
+   "init": {
+    "goal": [
+     -0.026956,
+     0.147007
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.08303,
+     0.091348
+    ],
+    "pusher": [
+     -0.154003,
+     0.0209
+    ]
+   },
+   "init_state_id": "train_neg_096",
+   "meta": {
+    "goal_dist": 0.07900742955610915,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100696
+  },
+  {
+   "init": {
+    "goal": [
+     0.073946,
+     -0.053727
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.147283,
+     -0.038688
+    ],
+    "pusher": [
+     0.245245,
+     -0.018599
+    ]
+   },
+   "init_state_id": "train_neg_097",
+   "meta": {
+    "goal_dist": 0.07486358253312142,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100697
+  },
+  {
+   "init": {
+    "goal": [
+     -0.048578,
+     0.059714
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.021955,
+     0.094237
+    ],
+    "pusher": [
+     0.111773,
+     0.1382
+    ]
+   },
+   "init_state_id": "train_neg_098",
+   "meta": {
+    "goal_dist": 0.07852904588706364,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100698
+  },
+  {
+   "init": {
+    "goal": [
+     0.139292,
+     -0.054581
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.131803,
+     -0.003463
+    ],
+    "pusher": [
+     0.117309,
+     0.095481
+    ]
+   },
+   "init_state_id": "train_neg_099",
+   "meta": {
+    "goal_dist": 0.05166352787819933,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 100699
+  }
+ ],
+ "val": [
+  {
+   "init": {
+    "goal": [
+     0.174079,
+     0.117977
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.134361,
+     -0.10328
+    ],
+    "pusher": [
+     0.116693,
+     -0.201706
+    ]
+   },
+   "init_state_id": "val_pos_000",
+   "meta": {
+    "goal_dist": 0.22479372841471215,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200100
+  },
+  {
+   "init": {
+    "goal": [
+     -0.140071,
+     -0.025869
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.082111,
+     0.127715
+    ],
+    "pusher": [
+     0.164371,
+     0.184577
+    ]
+   },
+   "init_state_id": "val_pos_001",
+   "meta": {
+    "goal_dist": 0.2700975828764908,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200101
+  },
+  {
+   "init": {
+    "goal": [
+     -0.198618,
+     -0.121109
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.024152,
+     -0.078849
+    ],
+    "pusher": [
+     0.122399,
+     -0.060211
+    ]
+   },
+   "init_state_id": "val_pos_002",
+   "meta": {
+    "goal_dist": 0.2267425605949764,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200102
+  },
+  {
+   "init": {
+    "goal": [
+     0.054007,
+     -0.151157
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.003804,
+     0.12894
+    ],
+    "pusher": [
+     -0.013839,
+     0.227372
+    ]
+   },
+   "init_state_id": "val_pos_003",
+   "meta": {
+    "goal_dist": 0.28456088566549526,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200103
+  },
+  {
+   "init": {
+    "goal": [
+     -0.071052,
+     -0.318483
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.036163,
+     -0.04555
+    ],
+    "pusher": [
+     -0.023483,
+     0.053643
+    ]
+   },
+   "init_state_id": "val_pos_004",
+   "meta": {
+    "goal_dist": 0.2751535379272051,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200104
+  },
+  {
+   "init": {
+    "goal": [
+     -0.292378,
+     -0.041948
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.002079,
+     -0.073335
+    ],
+    "pusher": [
+     0.097342,
+     -0.084085
+    ]
+   },
+   "init_state_id": "val_pos_005",
+   "meta": {
+    "goal_dist": 0.29199086913554695,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200105
+  },
+  {
+   "init": {
+    "goal": [
+     0.030906,
+     -0.309896
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.141976,
+     -0.118559
+    ],
+    "pusher": [
+     0.19218,
+     -0.032074
+    ]
+   },
+   "init_state_id": "val_pos_006",
+   "meta": {
+    "goal_dist": 0.22123929462194836,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200106
+  },
+  {
+   "init": {
+    "goal": [
+     -0.155552,
+     0.007451
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.126357,
+     0.050677
+    ],
+    "pusher": [
+     0.225202,
+     0.065833
+    ]
+   },
+   "init_state_id": "val_pos_007",
+   "meta": {
+    "goal_dist": 0.28520338132257617,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200107
+  },
+  {
+   "init": {
+    "goal": [
+     0.000428,
+     -0.13396
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.046314,
+     0.11393
+    ],
+    "pusher": [
+     0.064516,
+     0.212259
+    ]
+   },
+   "init_state_id": "val_pos_008",
+   "meta": {
+    "goal_dist": 0.25210132677376945,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200108
+  },
+  {
+   "init": {
+    "goal": [
+     0.052293,
+     0.187826
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.05581,
+     -0.054391
+    ],
+    "pusher": [
+     -0.096565,
+     -0.145709
+    ]
+   },
+   "init_state_id": "val_pos_009",
+   "meta": {
+    "goal_dist": 0.26524592456034407,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200109
+  },
+  {
+   "init": {
+    "goal": [
+     -0.252695,
+     0.010841
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.071224,
+     -0.130713
+    ],
+    "pusher": [
+     0.007625,
+     -0.192217
+    ]
+   },
+   "init_state_id": "val_pos_010",
+   "meta": {
+    "goal_dist": 0.23014996384208325,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200110
+  },
+  {
+   "init": {
+    "goal": [
+     0.066336,
+     0.17554
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.111834,
+     -0.063271
+    ],
+    "pusher": [
+     0.13055,
+     -0.161504
+    ]
+   },
+   "init_state_id": "val_pos_011",
+   "meta": {
+    "goal_dist": 0.2431064901605162,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200111
+  },
+  {
+   "init": {
+    "goal": [
+     0.154507,
+     0.105477
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.099564,
+     0.144646
+    ],
+    "pusher": [
+     -0.198397,
+     0.159882
+    ]
+   },
+   "init_state_id": "val_pos_012",
+   "meta": {
+    "goal_dist": 0.2570730722100947,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200112
+  },
+  {
+   "init": {
+    "goal": [
+     -0.327695,
+     -0.033823
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.096099,
+     0.05673
+    ],
+    "pusher": [
+     -0.002965,
+     0.093145
+    ]
+   },
+   "init_state_id": "val_pos_013",
+   "meta": {
+    "goal_dist": 0.24866901707617073,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200113
+  },
+  {
+   "init": {
+    "goal": [
+     -0.225906,
+     0.218605
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.021539,
+     0.04344
+    ],
+    "pusher": [
+     0.054388,
+     -0.021637
+    ]
+   },
+   "init_state_id": "val_pos_014",
+   "meta": {
+    "goal_dist": 0.26916275370902887,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200114
+  },
+  {
+   "init": {
+    "goal": [
+     -0.110569,
+     0.170855
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.002753,
+     -0.034836
+    ],
+    "pusher": [
+     0.051008,
+     -0.122423
+    ]
+   },
+   "init_state_id": "val_pos_015",
+   "meta": {
+    "goal_dist": 0.23484204469039618,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200115
+  },
+  {
+   "init": {
+    "goal": [
+     0.112692,
+     0.149554
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.018017,
+     -0.096996
+    ],
+    "pusher": [
+     -0.01783,
+     -0.19035
+    ]
+   },
+   "init_state_id": "val_pos_016",
+   "meta": {
+    "goal_dist": 0.26410230987697497,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200116
+  },
+  {
+   "init": {
+    "goal": [
+     0.06972,
+     0.129336
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.091819,
+     -0.142523
+    ],
+    "pusher": [
+     0.099922,
+     -0.242194
+    ]
+   },
+   "init_state_id": "val_pos_017",
+   "meta": {
+    "goal_dist": 0.2727561603000271,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200117
+  },
+  {
+   "init": {
+    "goal": [
+     0.098478,
+     -0.283899
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.089955,
+     -0.078072
+    ],
+    "pusher": [
+     -0.157481,
+     -0.004313
+    ]
+   },
+   "init_state_id": "val_pos_018",
+   "meta": {
+    "goal_dist": 0.2790560142471092,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200118
+  },
+  {
+   "init": {
+    "goal": [
+     0.330677,
+     -0.177261
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.096158,
+     -0.004442
+    ],
+    "pusher": [
+     0.015655,
+     0.054881
+    ]
+   },
+   "init_state_id": "val_pos_019",
+   "meta": {
+    "goal_dist": 0.29131639736295145,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200119
+  },
+  {
+   "init": {
+    "goal": [
+     0.087955,
+     -0.148812
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.015767,
+     0.074278
+    ],
+    "pusher": [
+     -0.057926,
+     0.164957
+    ]
+   },
+   "init_state_id": "val_pos_020",
+   "meta": {
+    "goal_dist": 0.2460234575046687,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200120
+  },
+  {
+   "init": {
+    "goal": [
+     0.08383,
+     -0.134615
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.022646,
+     0.083523
+    ],
+    "pusher": [
+     -0.066511,
+     0.173389
+    ]
+   },
+   "init_state_id": "val_pos_021",
+   "meta": {
+    "goal_dist": 0.24273800330502376,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200121
+  },
+  {
+   "init": {
+    "goal": [
+     0.243934,
+     0.028791
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.045124,
+     -0.043424
+    ],
+    "pusher": [
+     -0.142143,
+     -0.067662
+    ]
+   },
+   "init_state_id": "val_pos_022",
+   "meta": {
+    "goal_dist": 0.2979427371801225,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200122
+  },
+  {
+   "init": {
+    "goal": [
+     -0.179169,
+     0.141356
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.102318,
+     -0.126415
+    ],
+    "pusher": [
+     -0.074731,
+     -0.222534
+    ]
+   },
+   "init_state_id": "val_pos_023",
+   "meta": {
+    "goal_dist": 0.27858045003062504,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200123
+  },
+  {
+   "init": {
+    "goal": [
+     -0.112982,
+     -0.135674
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.076266,
+     0.088385
+    ],
+    "pusher": [
+     -0.060095,
+     0.187069
+    ]
+   },
+   "init_state_id": "val_pos_024",
+   "meta": {
+    "goal_dist": 0.2270473173225784,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200124
+  },
+  {
+   "init": {
+    "goal": [
+     -0.155046,
+     0.320618
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.016892,
+     0.085897
+    ],
+    "pusher": [
+     0.033832,
+     -0.000283
+    ]
+   },
+   "init_state_id": "val_pos_025",
+   "meta": {
+    "goal_dist": 0.2723602054707844,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200125
+  },
+  {
+   "init": {
+    "goal": [
+     -0.319034,
+     -0.05732
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.117094,
+     0.140362
+    ],
+    "pusher": [
+     -0.045633,
+     0.210315
+    ]
+   },
+   "init_state_id": "val_pos_026",
+   "meta": {
+    "goal_dist": 0.2825912940504547,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200126
+  },
+  {
+   "init": {
+    "goal": [
+     0.13442,
+     0.010343
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.095509,
+     -0.102955
+    ],
+    "pusher": [
+     -0.18521,
+     -0.147155
+    ]
+   },
+   "init_state_id": "val_pos_027",
+   "meta": {
+    "goal_dist": 0.2563267131372927,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200127
+  },
+  {
+   "init": {
+    "goal": [
+     -0.126825,
+     0.044546
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.071668,
+     -0.084748
+    ],
+    "pusher": [
+     0.15546,
+     -0.139328
+    ]
+   },
+   "init_state_id": "val_pos_028",
+   "meta": {
+    "goal_dist": 0.23688928670506573,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200128
+  },
+  {
+   "init": {
+    "goal": [
+     0.082546,
+     -0.252568
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.05843,
+     -0.005727
+    ],
+    "pusher": [
+     -0.108024,
+     0.081109
+    ]
+   },
+   "init_state_id": "val_pos_029",
+   "meta": {
+    "goal_dist": 0.28426159793285066,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200129
+  },
+  {
+   "init": {
+    "goal": [
+     0.254381,
+     0.152407
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.027255,
+     0.110353
+    ],
+    "pusher": [
+     -0.126158,
+     0.095585
+    ]
+   },
+   "init_state_id": "val_pos_030",
+   "meta": {
+    "goal_dist": 0.28475807929143265,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200130
+  },
+  {
+   "init": {
+    "goal": [
+     -0.131651,
+     -0.108786
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.090728,
+     -0.144237
+    ],
+    "pusher": [
+     0.189481,
+     -0.159979
+    ]
+   },
+   "init_state_id": "val_pos_031",
+   "meta": {
+    "goal_dist": 0.22518687026065484,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200131
+  },
+  {
+   "init": {
+    "goal": [
+     0.170154,
+     -0.054789
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.050474,
+     -0.127926
+    ],
+    "pusher": [
+     -0.145395,
+     -0.159392
+    ]
+   },
+   "init_state_id": "val_pos_032",
+   "meta": {
+    "goal_dist": 0.23243478608667167,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200132
+  },
+  {
+   "init": {
+    "goal": [
+     -0.322058,
+     0.362234
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.144417,
+     0.121172
+    ],
+    "pusher": [
+     -0.085093,
+     0.040669
+    ]
+   },
+   "init_state_id": "val_pos_033",
+   "meta": {
+    "goal_dist": 0.2994450841880313,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200133
+  },
+  {
+   "init": {
+    "goal": [
+     0.058505,
+     -0.085695
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.141733,
+     0.125051
+    ],
+    "pusher": [
+     0.178464,
+     0.218061
+    ]
+   },
+   "init_state_id": "val_pos_034",
+   "meta": {
+    "goal_dist": 0.22658506900035685,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200134
+  },
+  {
+   "init": {
+    "goal": [
+     0.191857,
+     0.134849
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.041107,
+     -0.062215
+    ],
+    "pusher": [
+     -0.019651,
+     -0.14164
+    ]
+   },
+   "init_state_id": "val_pos_035",
+   "meta": {
+    "goal_dist": 0.248112296155157,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200135
+  },
+  {
+   "init": {
+    "goal": [
+     -0.242461,
+     -0.022935
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.004571,
+     -0.113301
+    ],
+    "pusher": [
+     0.098485,
+     -0.147656
+    ]
+   },
+   "init_state_id": "val_pos_036",
+   "meta": {
+    "goal_dist": 0.2630419125175611,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200136
+  },
+  {
+   "init": {
+    "goal": [
+     -0.077859,
+     0.333506
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.069063,
+     0.038101
+    ],
+    "pusher": [
+     -0.066087,
+     -0.061855
+    ]
+   },
+   "init_state_id": "val_pos_037",
+   "meta": {
+    "goal_dist": 0.29553594969050684,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200137
+  },
+  {
+   "init": {
+    "goal": [
+     0.227037,
+     -0.047112
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.031926,
+     0.031431
+    ],
+    "pusher": [
+     -0.127622,
+     0.060455
+    ]
+   },
+   "init_state_id": "val_pos_038",
+   "meta": {
+    "goal_dist": 0.270611957069963,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200138
+  },
+  {
+   "init": {
+    "goal": [
+     -0.023452,
+     0.299836
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.105876,
+     0.04787
+    ],
+    "pusher": [
+     -0.136967,
+     -0.047174
+    ]
+   },
+   "init_state_id": "val_pos_039",
+   "meta": {
+    "goal_dist": 0.2651057138479238,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 200139
+  }
+ ],
+ "val_neg": [
+  {
+   "init": {
+    "goal": [
+     0.019056,
+     -0.14326
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.046249,
+     -0.137357
+    ],
+    "pusher": [
+     -0.145843,
+     -0.128355
+    ]
+   },
+   "init_state_id": "val_neg_000",
+   "meta": {
+    "goal_dist": 0.06557103201978128,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200600
+  },
+  {
+   "init": {
+    "goal": [
+     -0.181008,
+     -0.02263
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.13201,
+     0.014098
+    ],
+    "pusher": [
+     -0.051994,
+     0.074076
+    ]
+   },
+   "init_state_id": "val_neg_001",
+   "meta": {
+    "goal_dist": 0.06123592337191913,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200601
+  },
+  {
+   "init": {
+    "goal": [
+     0.107601,
+     0.036038
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.063509,
+     -0.001588
+    ],
+    "pusher": [
+     -0.01256,
+     -0.0665
+    ]
+   },
+   "init_state_id": "val_neg_002",
+   "meta": {
+    "goal_dist": 0.057964130420605844,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200602
+  },
+  {
+   "init": {
+    "goal": [
+     -0.038918,
+     -0.158716
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.079696,
+     -0.104916
+    ],
+    "pusher": [
+     -0.1401,
+     -0.02522
+    ]
+   },
+   "init_state_id": "val_neg_003",
+   "meta": {
+    "goal_dist": 0.06750761855222064,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200603
+  },
+  {
+   "init": {
+    "goal": [
+     0.088768,
+     -0.014411
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.022988,
+     -0.029386
+    ],
+    "pusher": [
+     -0.074518,
+     -0.051583
+    ]
+   },
+   "init_state_id": "val_neg_004",
+   "meta": {
+    "goal_dist": 0.0674632695471292,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200604
+  },
+  {
+   "init": {
+    "goal": [
+     0.012713,
+     -0.17149
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.027173,
+     -0.111848
+    ],
+    "pusher": [
+     0.050735,
+     -0.014664
+    ]
+   },
+   "init_state_id": "val_neg_005",
+   "meta": {
+    "goal_dist": 0.061369246251558277,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200605
+  },
+  {
+   "init": {
+    "goal": [
+     -0.054355,
+     -0.179693
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.001431,
+     -0.13521
+    ],
+    "pusher": [
+     0.079618,
+     -0.072866
+    ]
+   },
+   "init_state_id": "val_neg_006",
+   "meta": {
+    "goal_dist": 0.07134978248680661,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200606
+  },
+  {
+   "init": {
+    "goal": [
+     0.101186,
+     0.048064
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.091733,
+     0.109208
+    ],
+    "pusher": [
+     0.076454,
+     0.208034
+    ]
+   },
+   "init_state_id": "val_neg_007",
+   "meta": {
+    "goal_dist": 0.06187045685159895,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200607
+  },
+  {
+   "init": {
+    "goal": [
+     -0.00296,
+     -0.103237
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.019174,
+     -0.039255
+    ],
+    "pusher": [
+     -0.043739,
+     0.057681
+    ]
+   },
+   "init_state_id": "val_neg_008",
+   "meta": {
+    "goal_dist": 0.06600410540545132,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200608
+  },
+  {
+   "init": {
+    "goal": [
+     -0.081353,
+     -0.056582
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.106746,
+     0.01698
+    ],
+    "pusher": [
+     -0.139375,
+     0.111507
+    ]
+   },
+   "init_state_id": "val_neg_009",
+   "meta": {
+    "goal_dist": 0.07782211342576484,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200609
+  },
+  {
+   "init": {
+    "goal": [
+     0.014533,
+     -0.082363
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.044957,
+     -0.071851
+    ],
+    "pusher": [
+     -0.143432,
+     -0.054451
+    ]
+   },
+   "init_state_id": "val_neg_010",
+   "meta": {
+    "goal_dist": 0.06041200849984313,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200610
+  },
+  {
+   "init": {
+    "goal": [
+     -0.109674,
+     0.16249
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.108585,
+     0.107412
+    ],
+    "pusher": [
+     -0.106609,
+     0.007432
+    ]
+   },
+   "init_state_id": "val_neg_011",
+   "meta": {
+    "goal_dist": 0.05508859169537474,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200611
+  },
+  {
+   "init": {
+    "goal": [
+     0.165694,
+     -0.076222
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.148796,
+     -0.127367
+    ],
+    "pusher": [
+     0.117424,
+     -0.222318
+    ]
+   },
+   "init_state_id": "val_neg_012",
+   "meta": {
+    "goal_dist": 0.05386366362556952,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200612
+  },
+  {
+   "init": {
+    "goal": [
+     0.056825,
+     -0.087587
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.015262,
+     -0.113267
+    ],
+    "pusher": [
+     -0.109463,
+     -0.146825
+    ]
+   },
+   "init_state_id": "val_neg_013",
+   "meta": {
+    "goal_dist": 0.07652429876953087,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200613
+  },
+  {
+   "init": {
+    "goal": [
+     0.052023,
+     0.161093
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.0735,
+     0.088227
+    ],
+    "pusher": [
+     0.101772,
+     -0.007693
+    ]
+   },
+   "init_state_id": "val_neg_014",
+   "meta": {
+    "goal_dist": 0.07596468129262016,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200614
+  },
+  {
+   "init": {
+    "goal": [
+     -0.050808,
+     -0.060026
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.022811,
+     -0.041396
+    ],
+    "pusher": [
+     0.119754,
+     -0.016863
+    ]
+   },
+   "init_state_id": "val_neg_015",
+   "meta": {
+    "goal_dist": 0.07593907012965279,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200615
+  },
+  {
+   "init": {
+    "goal": [
+     0.051086,
+     0.031839
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.03072,
+     -0.017263
+    ],
+    "pusher": [
+     -0.007592,
+     -0.109633
+    ]
+   },
+   "init_state_id": "val_neg_016",
+   "meta": {
+    "goal_dist": 0.05315782098186117,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200616
+  },
+  {
+   "init": {
+    "goal": [
+     0.149993,
+     0.056011
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.099368,
+     0.051869
+    ],
+    "pusher": [
+     -0.000299,
+     0.043713
+    ]
+   },
+   "init_state_id": "val_neg_017",
+   "meta": {
+    "goal_dist": 0.050794380060186994,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200617
+  },
+  {
+   "init": {
+    "goal": [
+     -0.131439,
+     0.078542
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.136872,
+     0.00412
+    ],
+    "pusher": [
+     -0.144153,
+     -0.095614
+    ]
+   },
+   "init_state_id": "val_neg_018",
+   "meta": {
+    "goal_dist": 0.07461956162888014,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200618
+  },
+  {
+   "init": {
+    "goal": [
+     0.001841,
+     0.117633
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.004467,
+     0.040762
+    ],
+    "pusher": [
+     0.007882,
+     -0.05918
+    ]
+   },
+   "init_state_id": "val_neg_019",
+   "meta": {
+    "goal_dist": 0.07691551746149666,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 200619
+  }
+ ],
+ "version": "a10-sets-v2"
+}

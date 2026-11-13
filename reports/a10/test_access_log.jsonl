@@ -1,0 +1,143 @@
+{"time": "2026-11-12T18:04:38+08:00", "split": "e0", "who": "A10 e0", "caller": "evaluation/e0.py:32", "sha256": "1820654841db925be9f5a3a662526c121a0f6a33f98431a3f869edbfa6366ded"}
+{"time": "2026-11-12T18:04:45+08:00", "split": "e0", "who": "A10 e0", "caller": "evaluation/e0.py:32", "sha256": "1820654841db925be9f5a3a662526c121a0f6a33f98431a3f869edbfa6366ded"}
+{"time": "2026-11-12T18:05:50+08:00", "split": "e0", "who": "A10 e0", "caller": "evaluation/e0.py:36", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:06:33+08:00", "split": "e0", "who": "A10 e0 confusion", "caller": "<stdin>:4", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:07:05+08:00", "split": "e1", "who": "A5", "caller": "reports/a5/env_loader.py:101", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:07:19+08:00", "split": "e1", "who": "A5", "caller": "reports/a5/env_loader.py:101", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:08:35+08:00", "split": "e0", "who": "A10 contact-leak audit", "caller": "<stdin>:11", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:09:41+08:00", "split": "e1", "who": "A5", "caller": "reports/a5/env_loader.py:101", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:10:20+08:00", "split": "val", "who": "A10 ref_e2_smoke", "caller": "tests/evaluation/ref_e2_smoke.py:39", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:10:21+08:00", "split": "__audit__", "who": "A10 analyze runs/a10/ref_e2_val_decisions.jsonl", "caller": "evaluation/analyze.py:23", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:10:58+08:00", "split": "val", "who": "A10 G2 runtime", "caller": "tests/evaluation/runtime_leak_g2.py:14", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:11:20+08:00", "split": "val", "who": "A10 G2 runtime", "caller": "tests/evaluation/runtime_leak_g2.py:14", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:12:04+08:00", "split": "e1", "who": "A10 e1", "caller": "evaluation/e1.py:27", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:12:54+08:00", "split": "train", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:12:54+08:00", "split": "train_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:01+08:00", "split": "val", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:01+08:00", "split": "val_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:09+08:00", "split": "e0_neg", "who": "A8", "caller": "src/probing/experiments.py:40", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:16+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:25+08:00", "split": "val", "who": "a7", "caller": "<stdin>:2", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:25+08:00", "split": "val_neg", "who": "a7", "caller": "<stdin>:3", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:26+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:40", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:26+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:40", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:26+08:00", "split": "test_neg", "who": "A8", "caller": "src/probing/experiments.py:40", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:13:26+08:00", "split": "test", "who": "A8", "caller": "src/probing/experiments.py:40", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:02+08:00", "split": "conditions", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:96", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:02+08:00", "split": "train", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:97", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:02+08:00", "split": "train_neg", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:97", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:02+08:00", "split": "val", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:98", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:02+08:00", "split": "val_neg", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:98", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:08+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:08+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:08+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:08+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:09+08:00", "split": "val", "who": "a7", "caller": "src/scoring/run_frozen_study.py:341", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:09+08:00", "split": "val_neg", "who": "a7", "caller": "src/scoring/run_frozen_study.py:342", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:10+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:10+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:10+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:10+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:13+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:13+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:17+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:17+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:37", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:41+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:41+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:41+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:14:41+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:17+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:15:18+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:15:27+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:27+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:27+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:27+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:37+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:15:37+08:00", "split": "test_sealed", "who": "A6", "caller": "tests/evaluation/test_eval.py:120", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": false, "sha_ok": true}
+{"note": "the preceding who=A6 denied entry was written by tests/evaluation/test_sealed_loader_controller_only_and_logged (A10 test artefact, not a real A6 access)", "time": "2026-11-12T18:15:37+08:00"}
+{"time": "2026-11-12T18:15:46+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:15:52+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:15:53+08:00", "split": "conditions", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:76", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:53+08:00", "split": "train", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:76", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:53+08:00", "split": "train_neg", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:76", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:53+08:00", "split": "val", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:76", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:15:53+08:00", "split": "val_neg", "who": "A9", "caller": "src/direct_baselines/frozen_eval.py:76", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:05+08:00", "split": "train", "who": "a7", "caller": "src/scoring/run_frozen_study.py:49", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:05+08:00", "split": "train_neg", "who": "a7", "caller": "src/scoring/run_frozen_study.py:49", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:05+08:00", "split": "val", "who": "a7", "caller": "src/scoring/run_frozen_study.py:49", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:05+08:00", "split": "val_neg", "who": "a7", "caller": "src/scoring/run_frozen_study.py:49", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:09+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:09+08:00", "split": "e0", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:09+08:00", "split": "e0_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:09+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:12+08:00", "split": "e1", "who": "A10 e1_reconcile", "caller": "tests/evaluation/e1_reconcile_repro.py:13", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:48+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:48+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:16:59+08:00", "split": "e1", "who": "A10 e1", "caller": "evaluation/e1.py:29", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:37+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:17:40+08:00", "split": "train", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:40+08:00", "split": "train_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:40+08:00", "split": "train", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:40+08:00", "split": "train_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:46+08:00", "split": "val", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:46+08:00", "split": "val_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:46+08:00", "split": "val", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:17:46+08:00", "split": "val_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:18:03+08:00", "split": "train", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:18:03+08:00", "split": "train_neg", "who": "A6", "caller": "src/dynamics/model.py:108", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:18:42+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:18:42+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:18:59+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:18:59+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:09+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:09+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:19+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:19+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:19+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:19+08:00", "split": "val_neg", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:54+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:54+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:54+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:19:54+08:00", "split": "val", "who": "A8", "caller": "src/probing/experiments.py:42", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:20:50+08:00", "split": "val", "who": "A6-selfcheck", "caller": "src/adaptation/selfcheck.py:13", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:21:00+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:21:00+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:21:00+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:21:00+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:21:00+08:00", "split": "val", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:21:00+08:00", "split": "val_neg", "who": "A6", "caller": "src/adaptation/exp_e2.py:38", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:23:19+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:23:20+08:00", "split": "__audit__", "who": "A10 analyze runs/a10/ref_e2_val_decisions.jsonl", "caller": "evaluation/analyze.py:23", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:23:22+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:23:26+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:25:09+08:00", "split": "val", "who": "A9", "caller": "<stdin>:11", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:25:09+08:00", "split": "conditions", "who": "A9", "caller": "<stdin>:15", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:25:25+08:00", "split": "val", "who": "A9", "caller": "<stdin>:28", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:25:25+08:00", "split": "conditions", "who": "A9", "caller": "<stdin>:31", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:28:16+08:00", "split": "__audit__", "who": "controller run_e2e3 val", "caller": "runner/run_e2e3.py:28", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:28:27+08:00", "split": "__audit__", "who": "controller run_e2e3 val", "caller": "runner/run_e2e3.py:28", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:29:27+08:00", "split": "__audit__", "who": "controller analyze_ctrl runs/controller/val/decisions.jsonl", "caller": "runner/analyze_ctrl.py:23", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:40:29+08:00", "split": "__audit__", "who": "controller analyze_ctrl runs/controller/val/decisions.jsonl", "caller": "runner/analyze_ctrl.py:31", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:40:48+08:00", "split": "__audit__", "who": "controller analyze_ctrl runs/controller/val/decisions.jsonl", "caller": "runner/analyze_ctrl.py:31", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:41:17+08:00", "split": "__audit__", "who": "controller run_e2e3 val", "caller": "runner/run_e2e3.py:28", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:44:39+08:00", "split": "__all__", "who": "controller", "caller": "runner/run_e2e3.py:32", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:45:53+08:00", "split": "__all__", "who": "controller", "caller": "runner/run_e2e3.py:32", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:49:41+08:00", "split": "__audit__", "who": "A10 analyze runs/controller/sealed/decisions.jsonl", "caller": "evaluation/analyze.py:23", "sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4"}
+{"time": "2026-11-12T18:49:45+08:00", "split": "__all__", "who": "controller analyze_ctrl", "caller": "runner/analyze_ctrl.py:33", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:53:40+08:00", "split": "__all__", "who": "controller analyze_ctrl", "caller": "runner/analyze_ctrl.py:33", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-12T18:54:23+08:00", "split": "__all__", "who": "controller", "caller": "runner/run_e2e3.py:32", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-13T16:31:45+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-13T16:31:53+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-13T16:31:55+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}
+{"time": "2026-11-13T16:32:01+08:00", "split": "__all__", "who": "A10-hygiene", "caller": "evaluation/audit.py:160", "sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd", "sealed": true, "allowed": true, "sha_ok": true}

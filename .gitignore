@@ -28,3 +28,11 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+# wmprobe run outputs (imported from /workspace/wmprobe@996d7ba): raw runs stay local;
+# only the frozen model weights hashed by configs/frozen_manifest.json are tracked.
+/runs/**
+!/runs/**/
+!/runs/a6/models/ens_push_env_v3_s0.pkl
+!/runs/a6/models/ens_push_env_v3_s0_meta.json
+!/runs/a9/frozen_strike54/models/obs_only.npz
+!/runs/a9/frozen_strike54/models/history_direct.npz

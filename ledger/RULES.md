@@ -1,0 +1,12 @@
+# Rules for every sub-agent (A1–A10)
+- Repo root: /workspace/wmprobe. Activate: `. .venv/bin/activate`. Python 3.12 + numpy/scipy/pytest. No GPU. RAM is tight (~3GB free shared by 10 agents): keep processes small, no torch-gpu, no big downloads (>500MB) without controller ok. If you truly need a pip package, install with `uv pip install` into .venv only if <100MB and list it in your report (controller owns deps; prefer numpy/scipy only).
+- Write ONLY in your exclusive dirs. NEVER edit shared/, tests/test_fixture.py, runner/, configs/, ledger/, or other agents' dirs. Read anything.
+- Interface: shared/interface.py (FROZEN v1). Code against it. Need a change? Write reports/<you>/interface_requests.md and keep working with a local shim; controller decides.
+- Fixture env for wiring: shared/fixture_env.py (FixturePushEnv, FIXTURE_INIT, FIXTURE_HIDDEN). A4's src/env/push_env.py becomes the experiment env when ready (same protocol). Write code so the env is injectable.
+- Never read env.hidden / evaluator internals in policy-side code (proposer, predictor, adapter, scorer, prober, direct baseline). Hidden params only via env and evaluation/.
+- Label every number: [toy-run] / [static-review] / [paper-reported] / [real-model-run]. All numbers from actual logs saved under reports/<you>/ or runs/<you>/ (you may create runs/<you>/).
+- Every stochastic thing takes explicit seed. Record seeds.
+- Don't git commit; controller commits.
+- Timeline (UTC+8): now ~18:05. First deliverable (working module + reports/<you>/STATUS.md with known/gaps/overlaps) by 19:05. Final by 20:10. Hard stop 20:20. Check `date` regularly.
+- Final report reports/<you>/REPORT.md must have: 1) concrete problems hit + corresponding classical problem; 2) why this method, alternatives; 3) files/functions or paper sections actually read; 4) implementation, reproducible commands, config, seeds, raw logs paths; 5) baselines & results + compute/engineering cost; 6) one counterexample / failure / unproven condition; 7) recommendation: PASS / LIMITED REWORK / STOP (one).
+- Your final message back to controller: ≤25 lines summary + paths. Be honest; simple baselines winning is fine.

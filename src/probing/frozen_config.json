@@ -1,0 +1,58 @@
+{
+ "owner": "A8",
+ "frozen_at": "2026-11-12 18:22 UTC+8 (FINAL; val-confirmed runs F_*/F3_*)",
+ "protocol": "PROTOCOL A-3: <=5-step probe (A4 scenarios.probe_set, h=5), ONE task decision, settle |obj_vel|<1e-3, 60-step cap",
+ "candidates": "A4 scenarios.strike_grid K=54 H=6 (StrikeGridProposer), deterministic; candidate_counts recorded",
+ "methods": [
+  "no_probe",
+  "fixed_probe",
+  "fixed_probe_noadapt",
+  "random_probe",
+  "infogain_probe",
+  "task_voi_probe",
+  "goaldist_probe",
+  "disagree_probe(a6 stack only)"
+ ],
+ "stacks": {
+  "a8": "BeliefPredictor/BeliefAdapter (25-pt geometric mu grid [0.05,1], sigma_pos 0.003 m, sigma_vel 0.02 m/s, top_m 12) + StubScorer",
+  "a6": "A6 load_or_train(seed=0) ensemble padded 20 zero steps + RLSAdapter defaults; NoAdapter for *_noadapt"
+ },
+ "hyperparameters": {
+  "scorer_tie_w": {
+   "value": 0.001,
+   "provenance": "chosen after inspecting dev-exposed test failures (A-8); confirmed on A4 e0 dev; val run F_*"
+  },
+  "task_voi_lam": {
+   "value": 0.01,
+   "unit": "P(success) per probe control step",
+   "provenance": "a-priori (5 steps ~ 5% success), set after A4-e0 dev v0 run"
+  },
+  "task_voi_value": {
+   "value": "success",
+   "hinge_w": 0.1,
+   "provenance": "A4 e0 dev (v0 hinge-value VOI never probed: 0.361 vs 1.000)"
+  },
+  "infogain_min_gain": {
+   "value": 0.1,
+   "unit": "nats",
+   "provenance": "a priori"
+  },
+  "goaldist_d0": {
+   "value": 0.15,
+   "unit": "m",
+   "provenance": "a priori (between A4 neg 0.05-0.08 and pos 0.22-0.30 geometry)"
+  },
+  "disagree_thr": {
+   "value": 0.005,
+   "unit": "m RMS ensemble std",
+   "provenance": "a priori (1/6 goal radius)"
+  },
+  "random_probe_seed": "episode seed; rng = default_rng([seed, len(history)])",
+  "proposer_query_seed": "SeedSequence([episode_seed, decision_index])",
+  "task_voi_probe_tie_tol": {
+   "value": 1e-06,
+   "provenance": "val (no effect on val)"
+  }
+ },
+ "sealed_test_command_for_controller": "A8_ALLOW_TEST=controller python -m src.probing.experiments --one_shot --tie_w 1e-3 --probe_budget 5 --budget 60 --lam 0.01 --stack {a8|a6} --set a10_test{,_neg} --tag SEALED_<stack>_<set>"
+}

@@ -1,0 +1,1943 @@
+{
+ "conditions": {
+  "test": {
+   "mu_hi": {
+    "mu": 0.6
+   },
+   "mu_lo": {
+    "mu": 0.1
+   },
+   "mu_mid": {
+    "mu": 0.3
+   }
+  }
+ },
+ "e2_budget": "PROTOCOL A-3",
+ "goal_radius_from": "A4 scenarios (0.03)",
+ "seed_base": 700000,
+ "test_sealed": [
+  {
+   "init": {
+    "goal": [
+     0.19065,
+     -0.084123
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.015413,
+     0.052599
+    ],
+    "pusher": [
+     -0.09874,
+     0.107885
+    ]
+   },
+   "init_state_id": "test_sealed_pos_000",
+   "meta": {
+    "goal_dist": 0.247295766738457,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700100
+  },
+  {
+   "init": {
+    "goal": [
+     -0.248745,
+     -0.189766
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.058832,
+     -0.005703
+    ],
+    "pusher": [
+     0.012976,
+     0.063894
+    ]
+   },
+   "init_state_id": "test_sealed_pos_001",
+   "meta": {
+    "goal_dist": 0.2644733656667304,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700101
+  },
+  {
+   "init": {
+    "goal": [
+     0.066272,
+     0.309054
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.085753,
+     0.119462
+    ],
+    "pusher": [
+     -0.148311,
+     0.041445
+    ]
+   },
+   "init_state_id": "test_sealed_pos_002",
+   "meta": {
+    "goal_dist": 0.24301644486724194,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700102
+  },
+  {
+   "init": {
+    "goal": [
+     -0.203531,
+     -0.25112
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.032809,
+     -0.069099
+    ],
+    "pusher": [
+     0.035602,
+     0.003839
+    ]
+   },
+   "init_state_id": "test_sealed_pos_003",
+   "meta": {
+    "goal_dist": 0.24955454047498932,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700103
+  },
+  {
+   "init": {
+    "goal": [
+     -0.098878,
+     -0.152561
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.031913,
+     0.055535
+    ],
+    "pusher": [
+     0.085126,
+     0.1402
+    ]
+   },
+   "init_state_id": "test_sealed_pos_004",
+   "meta": {
+    "goal_dist": 0.24578441980549515,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700104
+  },
+  {
+   "init": {
+    "goal": [
+     0.352017,
+     -0.0636
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.116668,
+     0.102412
+    ],
+    "pusher": [
+     0.034952,
+     0.160053
+    ]
+   },
+   "init_state_id": "test_sealed_pos_005",
+   "meta": {
+    "goal_dist": 0.28800876874773473,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700105
+  },
+  {
+   "init": {
+    "goal": [
+     0.164207,
+     0.082032
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.117002,
+     0.039698
+    ],
+    "pusher": [
+     -0.215888,
+     0.024811
+    ]
+   },
+   "init_state_id": "test_sealed_pos_006",
+   "meta": {
+    "goal_dist": 0.28437729054620325,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700106
+  },
+  {
+   "init": {
+    "goal": [
+     -0.216459,
+     -0.306446
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.013921,
+     -0.096918
+    ],
+    "pusher": [
+     0.05558,
+     -0.025019
+    ]
+   },
+   "init_state_id": "test_sealed_pos_007",
+   "meta": {
+    "goal_dist": 0.2914161205735178,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700107
+  },
+  {
+   "init": {
+    "goal": [
+     -0.215011,
+     -0.294469
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.115019,
+     -0.026208
+    ],
+    "pusher": [
+     -0.080093,
+     0.067494
+    ]
+   },
+   "init_state_id": "test_sealed_pos_008",
+   "meta": {
+    "goal_dist": 0.28629060732491185,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700108
+  },
+  {
+   "init": {
+    "goal": [
+     0.034209,
+     0.200889
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.01055,
+     -0.048954
+    ],
+    "pusher": [
+     -0.028184,
+     -0.147387
+    ]
+   },
+   "init_state_id": "test_sealed_pos_009",
+   "meta": {
+    "goal_dist": 0.25382069077399994,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700109
+  },
+  {
+   "init": {
+    "goal": [
+     0.139529,
+     -0.217862
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.084616,
+     0.037029
+    ],
+    "pusher": [
+     0.063556,
+     0.134787
+    ]
+   },
+   "init_state_id": "test_sealed_pos_010",
+   "meta": {
+    "goal_dist": 0.26073959838675287,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700110
+  },
+  {
+   "init": {
+    "goal": [
+     0.322519,
+     0.142284
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.137281,
+     -0.042894
+    ],
+    "pusher": [
+     0.066559,
+     -0.113594
+    ]
+   },
+   "init_state_id": "test_sealed_pos_011",
+   "meta": {
+    "goal_dist": 0.2619240143472925,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700111
+  },
+  {
+   "init": {
+    "goal": [
+     0.247572,
+     0.052416
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.03065,
+     -0.052616
+    ],
+    "pusher": [
+     -0.124206,
+     -0.087934
+    ]
+   },
+   "init_state_id": "test_sealed_pos_012",
+   "meta": {
+    "goal_dist": 0.29738751095879934,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700112
+  },
+  {
+   "init": {
+    "goal": [
+     0.064015,
+     0.17587
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.139346,
+     -0.085975
+    ],
+    "pusher": [
+     0.166994,
+     -0.182077
+    ]
+   },
+   "init_state_id": "test_sealed_pos_013",
+   "meta": {
+    "goal_dist": 0.27246527413081684,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700113
+  },
+  {
+   "init": {
+    "goal": [
+     -0.156324,
+     0.226232
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.124079,
+     0.12645
+    ],
+    "pusher": [
+     0.218292,
+     0.092925
+    ]
+   },
+   "init_state_id": "test_sealed_pos_014",
+   "meta": {
+    "goal_dist": 0.29762785171505607,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700114
+  },
+  {
+   "init": {
+    "goal": [
+     0.19642,
+     -0.205387
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.062571,
+     -0.028582
+    ],
+    "pusher": [
+     0.002213,
+     0.051148
+    ]
+   },
+   "init_state_id": "test_sealed_pos_015",
+   "meta": {
+    "goal_dist": 0.22175576273189987,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700115
+  },
+  {
+   "init": {
+    "goal": [
+     -0.189729,
+     -0.016751
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.044263,
+     -0.087054
+    ],
+    "pusher": [
+     0.140034,
+     -0.115828
+    ]
+   },
+   "init_state_id": "test_sealed_pos_016",
+   "meta": {
+    "goal_dist": 0.24432496029324868,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700116
+  },
+  {
+   "init": {
+    "goal": [
+     0.17304,
+     0.002726
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.05377,
+     0.047953
+    ],
+    "pusher": [
+     -0.151839,
+     0.067508
+    ]
+   },
+   "init_state_id": "test_sealed_pos_017",
+   "meta": {
+    "goal_dist": 0.23127478238180166,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700117
+  },
+  {
+   "init": {
+    "goal": [
+     -0.263634,
+     -0.125347
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.075321,
+     0.05
+    ],
+    "pusher": [
+     -0.002135,
+     0.118146
+    ]
+   },
+   "init_state_id": "test_sealed_pos_018",
+   "meta": {
+    "goal_dist": 0.25730986148410584,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700118
+  },
+  {
+   "init": {
+    "goal": [
+     0.210803,
+     0.240445
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.081868,
+     -0.002533
+    ],
+    "pusher": [
+     0.034994,
+     -0.090867
+    ]
+   },
+   "init_state_id": "test_sealed_pos_019",
+   "meta": {
+    "goal_dist": 0.2750685648813754,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700119
+  },
+  {
+   "init": {
+    "goal": [
+     0.092142,
+     -0.105022
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.134924,
+     -0.023998
+    ],
+    "pusher": [
+     -0.229107,
+     0.009609
+    ]
+   },
+   "init_state_id": "test_sealed_pos_020",
+   "meta": {
+    "goal_dist": 0.24108894539152495,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700120
+  },
+  {
+   "init": {
+    "goal": [
+     -0.236257,
+     -0.236104
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.078855,
+     -0.017364
+    ],
+    "pusher": [
+     -0.020447,
+     0.063806
+    ]
+   },
+   "init_state_id": "test_sealed_pos_021",
+   "meta": {
+    "goal_dist": 0.2694859707028442,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700121
+  },
+  {
+   "init": {
+    "goal": [
+     0.145537,
+     0.130091
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.058419,
+     -0.055177
+    ],
+    "pusher": [
+     -0.132439,
+     -0.122415
+    ]
+   },
+   "init_state_id": "test_sealed_pos_022",
+   "meta": {
+    "goal_dist": 0.2755395970652664,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700122
+  },
+  {
+   "init": {
+    "goal": [
+     0.102036,
+     -0.259171
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.06937,
+     -0.064519
+    ],
+    "pusher": [
+     -0.135457,
+     0.010531
+    ]
+   },
+   "init_state_id": "test_sealed_pos_023",
+   "meta": {
+    "goal_dist": 0.25936336182325553,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700123
+  },
+  {
+   "init": {
+    "goal": [
+     0.057467,
+     -0.237384
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.125636,
+     -0.033278
+    ],
+    "pusher": [
+     -0.192413,
+     0.041158
+    ]
+   },
+   "init_state_id": "test_sealed_pos_024",
+   "meta": {
+    "goal_dist": 0.27420064657288407,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700124
+  },
+  {
+   "init": {
+    "goal": [
+     0.216929,
+     -0.157251
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.042387,
+     0.067283
+    ],
+    "pusher": [
+     -0.018986,
+     0.146235
+    ]
+   },
+   "init_state_id": "test_sealed_pos_025",
+   "meta": {
+    "goal_dist": 0.28439486934463326,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700125
+  },
+  {
+   "init": {
+    "goal": [
+     0.312647,
+     0.152598
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.036858,
+     0.143059
+    ],
+    "pusher": [
+     -0.063082,
+     0.139602
+    ]
+   },
+   "init_state_id": "test_sealed_pos_026",
+   "meta": {
+    "goal_dist": 0.2759536082687577,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700126
+  },
+  {
+   "init": {
+    "goal": [
+     0.192653,
+     -0.288349
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.080355,
+     -0.053782
+    ],
+    "pusher": [
+     0.037174,
+     0.036415
+    ]
+   },
+   "init_state_id": "test_sealed_pos_027",
+   "meta": {
+    "goal_dist": 0.26006299672926797,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700127
+  },
+  {
+   "init": {
+    "goal": [
+     -0.242805,
+     0.061251
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.019538,
+     -0.079949
+    ],
+    "pusher": [
+     0.064978,
+     -0.133399
+    ]
+   },
+   "init_state_id": "test_sealed_pos_028",
+   "meta": {
+    "goal_dist": 0.26416936930819684,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700128
+  },
+  {
+   "init": {
+    "goal": [
+     -0.326557,
+     -0.086152
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.09908,
+     -0.074385
+    ],
+    "pusher": [
+     0.000787,
+     -0.06922
+    ]
+   },
+   "init_state_id": "test_sealed_pos_029",
+   "meta": {
+    "goal_dist": 0.22778150788289497,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700129
+  },
+  {
+   "init": {
+    "goal": [
+     0.206724,
+     -0.262622
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.048234,
+     -0.10188
+    ],
+    "pusher": [
+     -0.021975,
+     -0.030672
+    ]
+   },
+   "init_state_id": "test_sealed_pos_030",
+   "meta": {
+    "goal_dist": 0.22573634086652247,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700130
+  },
+  {
+   "init": {
+    "goal": [
+     0.267307,
+     0.163858
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.146221,
+     -0.041684
+    ],
+    "pusher": [
+     0.095463,
+     -0.127845
+    ]
+   },
+   "init_state_id": "test_sealed_pos_031",
+   "meta": {
+    "goal_dist": 0.23855735541658324,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700131
+  },
+  {
+   "init": {
+    "goal": [
+     0.197388,
+     -0.081148
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.082198,
+     -0.12719
+    ],
+    "pusher": [
+     -0.180869,
+     -0.143439
+    ]
+   },
+   "init_state_id": "test_sealed_pos_032",
+   "meta": {
+    "goal_dist": 0.283352033213002,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700132
+  },
+  {
+   "init": {
+    "goal": [
+     0.047282,
+     0.261735
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.072689,
+     0.029493
+    ],
+    "pusher": [
+     -0.118585,
+     -0.059353
+    ]
+   },
+   "init_state_id": "test_sealed_pos_033",
+   "meta": {
+    "goal_dist": 0.26139901151932005,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700133
+  },
+  {
+   "init": {
+    "goal": [
+     0.17342,
+     0.242395
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.067335,
+     0.08164
+    ],
+    "pusher": [
+     -0.1505,
+     0.026111
+    ]
+   },
+   "init_state_id": "test_sealed_pos_034",
+   "meta": {
+    "goal_dist": 0.28949130615344554,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700134
+  },
+  {
+   "init": {
+    "goal": [
+     0.29163,
+     0.011406
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.073889,
+     -0.027013
+    ],
+    "pusher": [
+     -0.02459,
+     -0.044389
+    ]
+   },
+   "init_state_id": "test_sealed_pos_035",
+   "meta": {
+    "goal_dist": 0.22110449970759236,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700135
+  },
+  {
+   "init": {
+    "goal": [
+     0.071873,
+     0.227218
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.071442,
+     -0.068706
+    ],
+    "pusher": [
+     0.071296,
+     -0.168706
+    ]
+   },
+   "init_state_id": "test_sealed_pos_036",
+   "meta": {
+    "goal_dist": 0.2959248763836822,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700136
+  },
+  {
+   "init": {
+    "goal": [
+     0.231393,
+     -0.170894
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.095889,
+     0.046779
+    ],
+    "pusher": [
+     0.043041,
+     0.131673
+    ]
+   },
+   "init_state_id": "test_sealed_pos_037",
+   "meta": {
+    "goal_dist": 0.25640280931106224,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700137
+  },
+  {
+   "init": {
+    "goal": [
+     0.220968,
+     0.101821
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.071674,
+     -0.088135
+    ],
+    "pusher": [
+     0.009881,
+     -0.166758
+    ]
+   },
+   "init_state_id": "test_sealed_pos_038",
+   "meta": {
+    "goal_dist": 0.24160202685212584,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700138
+  },
+  {
+   "init": {
+    "goal": [
+     0.169552,
+     0.134682
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.031749,
+     -0.087736
+    ],
+    "pusher": [
+     -0.098852,
+     -0.161879
+    ]
+   },
+   "init_state_id": "test_sealed_pos_039",
+   "meta": {
+    "goal_dist": 0.29998696679472847,
+    "negative_control": false,
+    "set": "pos"
+   },
+   "seed": 700139
+  }
+ ],
+ "test_sealed_neg": [
+  {
+   "init": {
+    "goal": [
+     0.005558,
+     0.079853
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.005048,
+     0.141508
+    ],
+    "pusher": [
+     -0.021999,
+     0.240061
+    ]
+   },
+   "init_state_id": "test_sealed_neg_000",
+   "meta": {
+    "goal_dist": 0.06256118945396794,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700600
+  },
+  {
+   "init": {
+    "goal": [
+     -0.017293,
+     -0.024085
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.044578,
+     -0.032964
+    ],
+    "pusher": [
+     0.143564,
+     -0.047169
+    ]
+   },
+   "init_state_id": "test_sealed_neg_001",
+   "meta": {
+    "goal_dist": 0.06250499931731009,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700601
+  },
+  {
+   "init": {
+    "goal": [
+     -0.1249,
+     -0.032166
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.076062,
+     0.0169
+    ],
+    "pusher": [
+     -0.005516,
+     0.087776
+    ]
+   },
+   "init_state_id": "test_sealed_neg_002",
+   "meta": {
+    "goal_dist": 0.06922891500562746,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700602
+  },
+  {
+   "init": {
+    "goal": [
+     -0.069573,
+     0.014199
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.058189,
+     0.080837
+    ],
+    "pusher": [
+     -0.041348,
+     0.179409
+    ]
+   },
+   "init_state_id": "test_sealed_neg_003",
+   "meta": {
+    "goal_dist": 0.06760400925651283,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700603
+  },
+  {
+   "init": {
+    "goal": [
+     -0.092363,
+     -0.185238
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.058385,
+     -0.142923
+    ],
+    "pusher": [
+     0.004227,
+     -0.06495
+    ]
+   },
+   "init_state_id": "test_sealed_neg_004",
+   "meta": {
+    "goal_dist": 0.0542684135427329,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700604
+  },
+  {
+   "init": {
+    "goal": [
+     -0.026915,
+     -0.116083
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.084304,
+     -0.091796
+    ],
+    "pusher": [
+     -0.176397,
+     -0.052821
+    ]
+   },
+   "init_state_id": "test_sealed_neg_005",
+   "meta": {
+    "goal_dist": 0.06231663700767255,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700605
+  },
+  {
+   "init": {
+    "goal": [
+     -0.020576,
+     -0.100877
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.056272,
+     -0.11949
+    ],
+    "pusher": [
+     0.153462,
+     -0.143029
+    ]
+   },
+   "init_state_id": "test_sealed_neg_006",
+   "meta": {
+    "goal_dist": 0.07906966760394338,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700606
+  },
+  {
+   "init": {
+    "goal": [
+     -0.07985,
+     0.031666
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.02848,
+     0.020676
+    ],
+    "pusher": [
+     0.069308,
+     -0.000244
+    ]
+   },
+   "init_state_id": "test_sealed_neg_007",
+   "meta": {
+    "goal_dist": 0.05253286383375314,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700607
+  },
+  {
+   "init": {
+    "goal": [
+     0.034075,
+     0.096998
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.009725,
+     0.049147
+    ],
+    "pusher": [
+     -0.035628,
+     -0.039978
+    ]
+   },
+   "init_state_id": "test_sealed_neg_008",
+   "meta": {
+    "goal_dist": 0.0536905331877661,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700608
+  },
+  {
+   "init": {
+    "goal": [
+     0.106009,
+     -0.061495
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.141393,
+     -0.104905
+    ],
+    "pusher": [
+     0.204575,
+     -0.182416
+    ]
+   },
+   "init_state_id": "test_sealed_neg_009",
+   "meta": {
+    "goal_dist": 0.0560039887432805,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700609
+  },
+  {
+   "init": {
+    "goal": [
+     0.098106,
+     -0.05918
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.041239,
+     -0.073222
+    ],
+    "pusher": [
+     -0.055845,
+     -0.097194
+    ]
+   },
+   "init_state_id": "test_sealed_neg_010",
+   "meta": {
+    "goal_dist": 0.058574854777345926,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700610
+  },
+  {
+   "init": {
+    "goal": [
+     0.046054,
+     0.06794
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.031509,
+     0.087232
+    ],
+    "pusher": [
+     -0.128552,
+     0.111369
+    ]
+   },
+   "init_state_id": "test_sealed_neg_011",
+   "meta": {
+    "goal_dist": 0.07992561194772987,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700611
+  },
+  {
+   "init": {
+    "goal": [
+     0.14241,
+     -0.156076
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.106893,
+     -0.117657
+    ],
+    "pusher": [
+     0.039008,
+     -0.044229
+    ]
+   },
+   "init_state_id": "test_sealed_neg_012",
+   "meta": {
+    "goal_dist": 0.052320714380438636,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700612
+  },
+  {
+   "init": {
+    "goal": [
+     -0.123535,
+     -0.139214
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.097427,
+     -0.089806
+    ],
+    "pusher": [
+     -0.050707,
+     -0.001391
+    ]
+   },
+   "init_state_id": "test_sealed_neg_013",
+   "meta": {
+    "goal_dist": 0.055882331906533515,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700613
+  },
+  {
+   "init": {
+    "goal": [
+     0.208171,
+     -0.096738
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.134794,
+     -0.098327
+    ],
+    "pusher": [
+     0.034817,
+     -0.100492
+    ]
+   },
+   "init_state_id": "test_sealed_neg_014",
+   "meta": {
+    "goal_dist": 0.07339371151531367,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700614
+  },
+  {
+   "init": {
+    "goal": [
+     0.120539,
+     -0.097235
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.147483,
+     -0.046792
+    ],
+    "pusher": [
+     0.194597,
+     0.041414
+    ]
+   },
+   "init_state_id": "test_sealed_neg_015",
+   "meta": {
+    "goal_dist": 0.057187497789699934,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700615
+  },
+  {
+   "init": {
+    "goal": [
+     -0.129965,
+     0.041513
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.136469,
+     0.110647
+    ],
+    "pusher": [
+     -0.145835,
+     0.210207
+    ]
+   },
+   "init_state_id": "test_sealed_neg_016",
+   "meta": {
+    "goal_dist": 0.06943903118471204,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700616
+  },
+  {
+   "init": {
+    "goal": [
+     0.116623,
+     -0.161374
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.113246,
+     -0.109854
+    ],
+    "pusher": [
+     0.106705,
+     -0.010069
+    ]
+   },
+   "init_state_id": "test_sealed_neg_017",
+   "meta": {
+    "goal_dist": 0.0516305773652895,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700617
+  },
+  {
+   "init": {
+    "goal": [
+     -0.077116,
+     -0.062189
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.131442,
+     -0.109462
+    ],
+    "pusher": [
+     -0.20688,
+     -0.175106
+    ]
+   },
+   "init_state_id": "test_sealed_neg_018",
+   "meta": {
+    "goal_dist": 0.07201439292570438,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700618
+  },
+  {
+   "init": {
+    "goal": [
+     -0.005865,
+     -0.219015
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.011312,
+     -0.141669
+    ],
+    "pusher": [
+     0.032991,
+     -0.044048
+    ]
+   },
+   "init_state_id": "test_sealed_neg_019",
+   "meta": {
+    "goal_dist": 0.07922963639739246,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700619
+  },
+  {
+   "init": {
+    "goal": [
+     -0.067827,
+     0.142472
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.078763,
+     0.078206
+    ],
+    "pusher": [
+     -0.095538,
+     -0.020377
+    ]
+   },
+   "init_state_id": "test_sealed_neg_020",
+   "meta": {
+    "goal_dist": 0.06518919535908815,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700620
+  },
+  {
+   "init": {
+    "goal": [
+     0.019147,
+     0.000854
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.053825,
+     0.028653
+    ],
+    "pusher": [
+     -0.147274,
+     0.064252
+    ]
+   },
+   "init_state_id": "test_sealed_neg_021",
+   "meta": {
+    "goal_dist": 0.07808782663038377,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700621
+  },
+  {
+   "init": {
+    "goal": [
+     -0.027081,
+     0.108365
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.040903,
+     0.03299
+    ],
+    "pusher": [
+     -0.058939,
+     -0.06537
+    ]
+   },
+   "init_state_id": "test_sealed_neg_022",
+   "meta": {
+    "goal_dist": 0.07663191400491395,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700622
+  },
+  {
+   "init": {
+    "goal": [
+     0.082719,
+     0.117776
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.082604,
+     0.040996
+    ],
+    "pusher": [
+     0.082455,
+     -0.059004
+    ]
+   },
+   "init_state_id": "test_sealed_neg_023",
+   "meta": {
+    "goal_dist": 0.07678062019464553,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700623
+  },
+  {
+   "init": {
+    "goal": [
+     -0.146485,
+     -0.144852
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.105699,
+     -0.115109
+    ],
+    "pusher": [
+     -0.024901,
+     -0.056188
+    ]
+   },
+   "init_state_id": "test_sealed_neg_024",
+   "meta": {
+    "goal_dist": 0.050479010601494206,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700624
+  },
+  {
+   "init": {
+    "goal": [
+     -0.18223,
+     -0.009441
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.141582,
+     -0.038683
+    ],
+    "pusher": [
+     -0.060406,
+     -0.097082
+    ]
+   },
+   "init_state_id": "test_sealed_neg_025",
+   "meta": {
+    "goal_dist": 0.05007314475932812,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700625
+  },
+  {
+   "init": {
+    "goal": [
+     0.109973,
+     -0.077753
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.074838,
+     -0.122817
+    ],
+    "pusher": [
+     0.013351,
+     -0.20168
+    ]
+   },
+   "init_state_id": "test_sealed_neg_026",
+   "meta": {
+    "goal_dist": 0.05714257266989001,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700626
+  },
+  {
+   "init": {
+    "goal": [
+     -0.095771,
+     0.008073
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.083513,
+     -0.057007
+    ],
+    "pusher": [
+     -0.065003,
+     -0.155279
+    ]
+   },
+   "init_state_id": "test_sealed_neg_027",
+   "meta": {
+    "goal_dist": 0.06622391799060069,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700627
+  },
+  {
+   "init": {
+    "goal": [
+     -0.097047,
+     -0.001866
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.120543,
+     -0.074074
+    ],
+    "pusher": [
+     -0.151486,
+     -0.169166
+    ]
+   },
+   "init_state_id": "test_sealed_neg_028",
+   "meta": {
+    "goal_dist": 0.07593429846127409,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700628
+  },
+  {
+   "init": {
+    "goal": [
+     0.024751,
+     0.024157
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.032651,
+     -0.023258
+    ],
+    "pusher": [
+     -0.10975,
+     -0.086944
+    ]
+   },
+   "init_state_id": "test_sealed_neg_029",
+   "meta": {
+    "goal_dist": 0.07445298351027525,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700629
+  },
+  {
+   "init": {
+    "goal": [
+     -0.189586,
+     -0.058711
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.12764,
+     -0.099867
+    ],
+    "pusher": [
+     -0.044348,
+     -0.155205
+    ]
+   },
+   "init_state_id": "test_sealed_neg_030",
+   "meta": {
+    "goal_dist": 0.07437100625852291,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700630
+  },
+  {
+   "init": {
+    "goal": [
+     0.061392,
+     0.062611
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.123568,
+     0.080662
+    ],
+    "pusher": [
+     0.219603,
+     0.108543
+    ]
+   },
+   "init_state_id": "test_sealed_neg_031",
+   "meta": {
+    "goal_dist": 0.06474382917601477,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700631
+  },
+  {
+   "init": {
+    "goal": [
+     0.125473,
+     -0.08336
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.07207,
+     -0.14274
+    ],
+    "pusher": [
+     0.005199,
+     -0.217093
+    ]
+   },
+   "init_state_id": "test_sealed_neg_032",
+   "meta": {
+    "goal_dist": 0.07986156674436556,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700632
+  },
+  {
+   "init": {
+    "goal": [
+     -0.060375,
+     0.162161
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.002588,
+     0.118092
+    ],
+    "pusher": [
+     0.084514,
+     0.06075
+    ]
+   },
+   "init_state_id": "test_sealed_neg_033",
+   "meta": {
+    "goal_dist": 0.07685374338867135,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700633
+  },
+  {
+   "init": {
+    "goal": [
+     0.080302,
+     -0.026314
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.061885,
+     -0.099558
+    ],
+    "pusher": [
+     0.037499,
+     -0.196539
+    ]
+   },
+   "init_state_id": "test_sealed_neg_034",
+   "meta": {
+    "goal_dist": 0.0755239794484775,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700634
+  },
+  {
+   "init": {
+    "goal": [
+     -0.150283,
+     -0.030955
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.092803,
+     0.01109
+    ],
+    "pusher": [
+     -0.012092,
+     0.07013
+    ]
+   },
+   "init_state_id": "test_sealed_neg_035",
+   "meta": {
+    "goal_dist": 0.07121604146564092,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700635
+  },
+  {
+   "init": {
+    "goal": [
+     0.006214,
+     -0.07343
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.062157,
+     -0.104957
+    ],
+    "pusher": [
+     -0.152967,
+     -0.146832
+    ]
+   },
+   "init_state_id": "test_sealed_neg_036",
+   "meta": {
+    "goal_dist": 0.07528935239961593,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700636
+  },
+  {
+   "init": {
+    "goal": [
+     0.186438,
+     -0.106319
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     0.128295,
+     -0.051672
+    ],
+    "pusher": [
+     0.055428,
+     0.016814
+    ]
+   },
+   "init_state_id": "test_sealed_neg_037",
+   "meta": {
+    "goal_dist": 0.07979345961765343,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700637
+  },
+  {
+   "init": {
+    "goal": [
+     -0.168356,
+     0.058605
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.148782,
+     0.110354
+    ],
+    "pusher": [
+     -0.113403,
+     0.203887
+    ]
+   },
+   "init_state_id": "test_sealed_neg_038",
+   "meta": {
+    "goal_dist": 0.05532788740124012,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700638
+  },
+  {
+   "init": {
+    "goal": [
+     -0.075925,
+     0.047773
+    ],
+    "goal_radius": 0.03,
+    "obj": [
+     -0.047621,
+     0.09755
+    ],
+    "pusher": [
+     0.001807,
+     0.18448
+    ]
+   },
+   "init_state_id": "test_sealed_neg_039",
+   "meta": {
+    "goal_dist": 0.057260594914621814,
+    "negative_control": true,
+    "set": "neg"
+   },
+   "seed": 700639
+  }
+ ],
+ "version": "a10-sealed-v1"
+}

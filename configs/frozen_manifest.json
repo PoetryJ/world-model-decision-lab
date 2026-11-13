@@ -1,0 +1,68 @@
+{
+ "written": "2026-11-12T18:41:17+08:00",
+ "sha256": {
+  "A6": {
+   "runs/a6/models/ens_push_env_v3_s0.pkl": "eb221f9c804e1a8e383a700d5fb620e1038127a4a798c9c87263d0026187dbc0",
+   "src/dynamics/model.py": "d044f0dfad8bd74513d523a7950cdfe5af693c9b11f4ffb46b27a1ccf90d025b",
+   "src/adaptation/rls.py": "0500c3f84a22df5b0ae0e7da592cd7910d81645b229207c6950cb94bff74e6e6",
+   "reports/a6/FROZEN.md": "0a6cb8bac5bc2c885e5ca200d41523f0e9b40d637214ed85c59ed7eb39941429"
+  },
+  "A7": {
+   "reports/a7/frozen_scorer_config.json": "281f07faf27da901aab4ec733064bbd4e189ee37ed88367d22d251f33e046a3a",
+   "src/scoring/__init__.py": "ae6347b4c906d0ed424d4d0ed5f0d2c5534972f1bfd2ed89f5bda3c25c613215",
+   "src/scoring/config.py": "755154074ae400c3504ab6d3e8b44130da2a76b104f3bc69fae580f1508d3c64",
+   "src/scoring/scorers.py": "2b5ffec67c2bd0079a17f607e927be4fd961e421587232d50f26f0d4511c32cd",
+   "src/scoring/gate.py": "02668095a9f443764d73dc123fd20f94b530a10b68d75f245a1af5b9519594b4"
+  },
+  "A8": {
+   "src/probing/frozen_config.json": "e0ce2bf139e580f496fd2b7ef0712ad66955861657518e4d1884fb3471bbf319",
+   "src/probing/loop.py": "6d6fc543fcae068d94494bbc84b06e17a2d2964599d99c0af8b102537044a13d",
+   "src/probing/probers.py": "b45eda7f4347a38851f57e3e111908235d19216d6a786df2be7f89594089ec34",
+   "src/probing/belief.py": "545f6cbc647f1d08233a0680f504a57ecc365248c1bfd86d772fbc42fb45095f",
+   "src/probing/physics_model.py": "80e8db6b7addb8f6489c140a060d360a118351396b488afe2e1066caaa1b50b9",
+   "src/probing/stubs.py": "bd19db2433fa7c5d42773687ae58fe09860d08abbdef7a3fca97cfe4daa48a47",
+   "src/probing/experiments.py": "65ec60b91c161d3cabddcf18ada4eb01a9d2bfc883788976f3e20dd467f53eea",
+   "src/probing/probe_library.py": "9a795ab4a5d166c8e79b421a6dc6510abad22aafb8baff7ec4564a209745aa7c"
+  },
+  "A9": {
+   "runs/a9/frozen_strike54/models/obs_only.npz": "1a1f5473f574a30d57390c3c297df8b6dd78b6cfcad802bd367b262350cd22f3",
+   "runs/a9/frozen_strike54/models/history_direct.npz": "31c457e5987973c8b832c932f25fc1633c179020a74f1a84eceb6d96c6e5d814",
+   "src/direct_baselines/api.py": "a89565e26308b80a99fe2b2bd22dea5a996f15802b46e7e3f2a541352e674c25",
+   "src/direct_baselines/selectors.py": "cc919add193c30563962443f35902a0ae302faf6af15334925b0b4ece3af9a73",
+   "src/direct_baselines/features.py": "35ff02fe2d4f29a39cd6f57e99cdee86bf61a092be12a580c6b965d49d8291d1",
+   "src/direct_baselines/models.py": "aa7f7e7ea7f5d277db4246c1b1ea82fae5264bfabe24000c46895029a4d88c9e",
+   "src/direct_baselines/candidates.py": "b6dd757c4a05c8fc55acd7524234608165e974e32feee5494c3903beafeae1b1",
+   "src/direct_baselines/physics_heuristic.py": "a68a972ab4e15031990b0c2d4d39c8bf7d33f6845972e5ddacc04f1d34c49f80",
+   "reports/a9/config_frozen.json": "efea60ae33eb617254b8d1cf4d546e982f1a55dfe148b916f99759998c72151e",
+   "reports/a9/API.md": "2b3f6b2ae0dc382b429a2e90a039a84b5fd641253cea1112f589586240bc2c3d"
+  },
+  "A4_env": {
+   "src/env/push_env.py": "b603fbb55707c8a221f309a6ac437c574d4201f0468bb069d11c8fb50c4ab92a",
+   "src/env/scenarios.py": "2464a729b5ad8bae6e505d0031b071e33e59609961062e575bdf9aa5f04efd25"
+  },
+  "shared": {
+   "shared/interface.py": "e0974b816ecd4df94e5021ac3483252cfba2f12cd0234f00c21ca8e109d96c04"
+  },
+  "A10_eval": {
+   "evaluation/frozen_sets.json": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4",
+   "evaluation/audit.py": "1090b749c13c355e43ca26662422d1862ffb2af1b67065e1dddf2c8ac21640cb",
+   "evaluation/analyze.py": "ef92c3bfe2703b4af33d18e1107c5f327358de541c635e4675761f45e03d66b1",
+   "evaluation/metrics.py": "0557215dd52646a1cb72636dabb4d700c3b5ffca8106b7cbada42ac42a750e39",
+   "evaluation/online_regret.py": "a739cfe490eba7b8dd19f0217d50ebca680d3f18a8805ad99118dabcd2c09dab",
+   "evaluation/offline_rank.py": "ff95f082d5a594c81297ff1349ad2aa44743c7be0e34be1e5a07b940fbb6a2dd",
+   "evaluation/PROTOCOL.md": "c333b782285124a5c295aced1f7e4a48c466c6fc6e900951cc1305b52c038ed6"
+  },
+  "runner": {
+   "runner/run_e2e3.py": "76fe3a523835d75ffe26fb12ebb694a33f70052dcb55193985775d27233520a8",
+   "runner/methods.py": "9cc38003a593d8566660c7ba1ff142205e9e8638f4fb86b22c66f5b4bdc5cc97",
+   "runner/manifest.py": "b85268aea92f688ea06e9c965b96b8f3ae4e5dd687556cd5ddf3a3eeb0282f2b",
+   "runner/analyze_ctrl.py": "89a280baa064ab32d3b58982e75d714a63d9652dbea5260ff32dcb934851d663"
+  }
+ },
+ "sealed_split_expected_sha256": "b6e9c90364fe3c9a109d51dc54c4283a2898a22ad4b2b41f1211195f3d9a66bd (verified by evaluation.audit.load_sealed)",
+ "owner_declared_content_hashes": {
+  "reports/a7/frozen_scorer_config.json": "a4aea5da78fca714fee2ed76b1084eb674df02f16c6a31a5fd695c82dadb0466",
+  "reports/a9/config_frozen.json": "19a28a25928e24c0246cec93de1ad31d035b49e4bf836d67230f1237428605ac"
+ },
+ "note": "Module artifacts (A4/A6/A7/A8/A9/A10/shared) strict; runner/ hashes refreshable only via --refresh-runner-hashes before the sealed run."
+}

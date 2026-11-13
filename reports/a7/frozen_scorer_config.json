@@ -1,0 +1,329 @@
+{
+  "version": "a7-scorer-v1",
+  "frozen_sets_sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4",
+  "fit_split": "train+train_neg",
+  "report_split": "val+val_neg",
+  "conditions": {
+    "mu_lo": {
+      "mu": 0.1
+    },
+    "mu_mid": {
+      "mu": 0.3
+    },
+    "mu_hi": {
+      "mu": 0.6
+    }
+  },
+  "main_pair": [
+    "mu_lo",
+    "mu_hi"
+  ],
+  "mu_mid_note": "held out of A6 train mus {0.2,0.4,0.5}; report separately as interpolation",
+  "default_predictor": "a6",
+  "default_score_name": "robust_success_then_distance",
+  "a6_model": {
+    "path": "/workspace/wmprobe/runs/a6/models/ens_push_env_v3_s0.pkl",
+    "meta_cfg": {
+      "train_mus": [
+        0.2,
+        0.4,
+        0.5
+      ],
+      "val_mus": [
+        0.15,
+        0.5
+      ],
+      "test_mus": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "n_train_eps": 1600,
+      "n_val_eps": 200,
+      "M": 5,
+      "hidden": 64,
+      "epochs": 40,
+      "env": "push_env",
+      "version": "v3"
+    },
+    "n_members": 5,
+    "n_params": 24340
+  },
+  "settle_pad": 20,
+  "lcb_beta": 1.0,
+  "lcb_beta_provenance": "official Cosmos aggregate_value_predictions beta=1.0 @ 18a2acc",
+  "lcb_safe_single": true,
+  "lcb_safe_single_note": "official LCB with S=1 is NaN; safe fallback=mean. A6 has S=5 so official LCB is used in practice.",
+  "value_scale_m": 0.5,
+  "value_scale_provenance": "A7 shaped-value map (table half-width 0.5 m), NOT official Cosmos value head",
+  "gamma": 0.95,
+  "majority_thresh_official": 0.05,
+  "majority_thresh_provenance": "official Cosmos 0.05; scale-sensitive, not the default ranker",
+  "gate": {
+    "feature": "value_std",
+    "threshold": Infinity,
+    "logistic_ab": [
+      -0.9964688582764365,
+      0.1814522316062112
+    ],
+    "fitted_on": "train",
+    "probe_cost": 0.4,
+    "n_fit": 900,
+    "train_eval": {
+      "n": 900,
+      "feature": "value_std",
+      "threshold": Infinity,
+      "fitted_on": "train",
+      "probe_cost": 0.4,
+      "abstain_rate": 0.0,
+      "commit_rate": 1.0,
+      "commit_error_rate": 0.2688888888888889,
+      "ungated_error_rate": 0.2688888888888889,
+      "recall_catch_wrong": 0.0,
+      "false_abstain_rate": 0.0,
+      "n_caught_wrong": 0,
+      "n_missed_wrong": 242,
+      "n_false_abstain": 0,
+      "n_wrong": 242,
+      "expected_cost": 0.2688888888888889
+    },
+    "note": "Threshold and logistic fitted on train only. Ensemble variance is a FEATURE, not a calibrated confidence."
+  },
+  "gate_all_features_train": {
+    "value_std": {
+      "feature": "value_std",
+      "threshold": Infinity,
+      "logistic_ab": [
+        -0.9964688582764365,
+        0.1814522316062112
+      ],
+      "fitted_on": "train",
+      "probe_cost": 0.4,
+      "n_fit": 900,
+      "train_eval": {
+        "n": 900,
+        "feature": "value_std",
+        "threshold": Infinity,
+        "fitted_on": "train",
+        "probe_cost": 0.4,
+        "abstain_rate": 0.0,
+        "commit_rate": 1.0,
+        "commit_error_rate": 0.2688888888888889,
+        "ungated_error_rate": 0.2688888888888889,
+        "recall_catch_wrong": 0.0,
+        "false_abstain_rate": 0.0,
+        "n_caught_wrong": 0,
+        "n_missed_wrong": 242,
+        "n_false_abstain": 0,
+        "n_wrong": 242,
+        "expected_cost": 0.2688888888888889
+      }
+    },
+    "endpoint_rms": {
+      "feature": "endpoint_rms",
+      "threshold": Infinity,
+      "logistic_ab": [
+        -0.9957033848600169,
+        0.10376826384613311
+      ],
+      "fitted_on": "train",
+      "probe_cost": 0.4,
+      "n_fit": 900,
+      "train_eval": {
+        "n": 900,
+        "feature": "endpoint_rms",
+        "threshold": Infinity,
+        "fitted_on": "train",
+        "probe_cost": 0.4,
+        "abstain_rate": 0.0,
+        "commit_rate": 1.0,
+        "commit_error_rate": 0.2688888888888889,
+        "ungated_error_rate": 0.2688888888888889,
+        "recall_catch_wrong": 0.0,
+        "false_abstain_rate": 0.0,
+        "n_caught_wrong": 0,
+        "n_missed_wrong": 242,
+        "n_false_abstain": 0,
+        "n_wrong": 242,
+        "expected_cost": 0.2688888888888889
+      }
+    },
+    "inv_agreement": {
+      "feature": "inv_agreement",
+      "threshold": Infinity,
+      "logistic_ab": [
+        -0.6742893567227808,
+        -1.4380411458042541
+      ],
+      "fitted_on": "train",
+      "probe_cost": 0.4,
+      "n_fit": 900,
+      "train_eval": {
+        "n": 900,
+        "feature": "inv_agreement",
+        "threshold": Infinity,
+        "fitted_on": "train",
+        "probe_cost": 0.4,
+        "abstain_rate": 0.0,
+        "commit_rate": 1.0,
+        "commit_error_rate": 0.2688888888888889,
+        "ungated_error_rate": 0.2688888888888889,
+        "recall_catch_wrong": 0.0,
+        "false_abstain_rate": 0.0,
+        "n_caught_wrong": 0,
+        "n_missed_wrong": 242,
+        "n_false_abstain": 0,
+        "n_wrong": 242,
+        "expected_cost": 0.2688888888888889
+      }
+    },
+    "neg_margin_over_unc": {
+      "feature": "neg_margin_over_unc",
+      "threshold": Infinity,
+      "logistic_ab": [
+        -1.0276815326349822,
+        -0.00028166093538304623
+      ],
+      "fitted_on": "train",
+      "probe_cost": 0.4,
+      "n_fit": 900,
+      "train_eval": {
+        "n": 900,
+        "feature": "neg_margin_over_unc",
+        "threshold": Infinity,
+        "fitted_on": "train",
+        "probe_cost": 0.4,
+        "abstain_rate": 0.0,
+        "commit_rate": 1.0,
+        "commit_error_rate": 0.2688888888888889,
+        "ungated_error_rate": 0.2688888888888889,
+        "recall_catch_wrong": 0.0,
+        "false_abstain_rate": 0.0,
+        "n_caught_wrong": 0,
+        "n_missed_wrong": 242,
+        "n_false_abstain": 0,
+        "n_wrong": 242,
+        "expected_cost": 0.2688888888888889
+      }
+    },
+    "neg_margin": {
+      "feature": "neg_margin",
+      "threshold": Infinity,
+      "logistic_ab": [
+        -1.0326843428414152,
+        -0.03398892361598892
+      ],
+      "fitted_on": "train",
+      "probe_cost": 0.4,
+      "n_fit": 900,
+      "train_eval": {
+        "n": 900,
+        "feature": "neg_margin",
+        "threshold": Infinity,
+        "fitted_on": "train",
+        "probe_cost": 0.4,
+        "abstain_rate": 0.0,
+        "commit_rate": 1.0,
+        "commit_error_rate": 0.2688888888888889,
+        "ungated_error_rate": 0.2688888888888889,
+        "recall_catch_wrong": 0.0,
+        "false_abstain_rate": 0.0,
+        "n_caught_wrong": 0,
+        "n_missed_wrong": 242,
+        "n_false_abstain": 0,
+        "n_wrong": 242,
+        "expected_cost": 0.2688888888888889
+      }
+    }
+  },
+  "default_selection_from_train": {
+    "predictor": "a6",
+    "score_name": "robust_success_then_distance",
+    "train_success": 0.7311111111111112,
+    "train_n": 900,
+    "ranked": [
+      {
+        "predictor": "a6",
+        "score_name": "robust_success_then_distance",
+        "train_success": 0.7311111111111112,
+        "n": 900
+      },
+      {
+        "predictor": "a6",
+        "score_name": "goal_distance",
+        "train_success": 0.7311111111111112,
+        "n": 900
+      },
+      {
+        "predictor": "a6",
+        "score_name": "average_value",
+        "train_success": 0.7311111111111112,
+        "n": 900
+      },
+      {
+        "predictor": "a6",
+        "score_name": "lcb",
+        "train_success": 0.7277777777777777,
+        "n": 900
+      },
+      {
+        "predictor": "a6",
+        "score_name": "worst_case_distance",
+        "train_success": 0.7244444444444444,
+        "n": 900
+      },
+      {
+        "predictor": "hyp_lohi",
+        "score_name": "lcb",
+        "train_success": 0.6877777777777778,
+        "n": 900
+      },
+      {
+        "predictor": "hyp_lohi",
+        "score_name": "worst_case_distance",
+        "train_success": 0.6811111111111111,
+        "n": 900
+      },
+      {
+        "predictor": "hyp_lohi",
+        "score_name": "robust_success_then_distance",
+        "train_success": 0.6466666666666666,
+        "n": 900
+      },
+      {
+        "predictor": "hyp_lohi",
+        "score_name": "goal_distance",
+        "train_success": 0.6466666666666666,
+        "n": 900
+      },
+      {
+        "predictor": "hyp_lohi",
+        "score_name": "average_value",
+        "train_success": 0.6466666666666666,
+        "n": 900
+      }
+    ]
+  },
+  "import": {
+    "make_scorer": "from src.scoring import make_scorer, make_gate, score_detailed, choose_index, pad_for_settle, load_scorer_config",
+    "a6": "from src.dynamics.model import load_or_train; pred=load_or_train(seed=0, retrain=False)",
+    "score": "P=pred.predict(obs, pad_for_settle(cands), ctx); scores=make_scorer().score(P, {'goal': obs['goal'], 'goal_radius': obs['goal_radius']})"
+  },
+  "label": "toy-run, frozen protocol, thresholds from train only",
+  "train_slice_notes": {
+    "source": "A10 train+train_neg only (not val, not test)",
+    "a6_pos_mu_lo_success": 0.0,
+    "a6_pos_mu_mid_success": 1.0,
+    "a6_pos_mu_hi_success": 1.0,
+    "hyp_lohi_pos_mu_lo_success": 0.865,
+    "hyp_lohi_pos_mu_hi_success": 0.095,
+    "hyp_lohi_neg_all_success": 1.0,
+    "a6_neg_all_success": 0.86,
+    "warning": "Pooled train success selects A6 because mid/hi far-goal episodes dominate. A6 had 0/200 success on train pos mu_lo (unseen low friction). hyp_lohi (prior {0.1,0.6}) had 1.0 success on all train_neg and is the method that picks a G5b-robust candidate when one exists. It is weaker on far-goal mu_hi. Default is NOT switched on this note."
+  },
+  "alternative_importable": {
+    "hyp_lohi_stub": "from src.scoring import PushEnvStubPredictor, pad_for_settle; pred=PushEnvStubPredictor(mu_list=(0.10,0.60), assumed_mu=0.20, settle_max=20)",
+    "when": "near-goal / negative-control, or when a robust action is expected to exist under {lo,hi}"
+  },
+  "config_sha256": "a4aea5da78fca714fee2ed76b1084eb674df02f16c6a31a5fd695c82dadb0466"
+}

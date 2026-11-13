@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_FOR_SEALED_TEST",
+  "candidate_source": "a4_strike_grid_K54_H6",
+  "proposer": "A4 src.env.scenarios.strike_grid (K=54, H=6) via DirectProposer(source='strikegrid')",
+  "episode": "PROTOCOL A-3: optional ONE probe <=5 steps, exactly ONE task segment H<=12, settle zeros until |obj_vel|<1e-3, cap 60 steps, no corrective pushes",
+  "settle_steps": 20,
+  "tie_tol_m": 0.001,
+  "tie_rule": "argmax lowest index; label ties |d|<=0.001 m excluded from pairwise (score ties=0.5)",
+  "train_hidden": [
+    "mu_hi",
+    "mu_lo",
+    "tr_mu_0.15",
+    "tr_mu_0.2",
+    "tr_mu_0.4",
+    "tr_mu_0.5"
+  ],
+  "note_conditions": "train_val mus 0.1/0.15/0.2/0.4/0.5/0.6; mu_mid=0.3 held out. Test mus (for controller) 0.1/0.3/0.6; main pair lo vs hi=0.6.",
+  "n_train_inits": 300,
+  "n_val_inits": 60,
+  "n_train_rows": 369792,
+  "n_val_rows": 74034,
+  "fit": {
+    "obs_only": {
+      "train_seconds": 26.086984821999977,
+      "n_train_rows": 369792,
+      "n_val_rows": 74034,
+      "n_params": 37,
+      "n_features": 36,
+      "lam": 0.0001,
+      "path": "/workspace/wmprobe/runs/a9/frozen_strike54/models/obs_only.npz"
+    },
+    "history_direct": {
+      "train_seconds": 51.201237323999976,
+      "n_train_rows": 369792,
+      "n_val_rows": 74034,
+      "n_params": 65,
+      "n_features": 64,
+      "lam": 10.0,
+      "path": "/workspace/wmprobe/runs/a9/frozen_strike54/models/history_direct.npz"
+    }
+  },
+  "frozen_sha256": "0c2873b508f7d19e190b1e142be9a7c2dd44975db0daf3845ea7bb648733d5d4",
+  "include_phys_features_in_ridge": false,
+  "models": {
+    "obs_only": "/workspace/wmprobe/runs/a9/frozen_strike54/models/obs_only.npz",
+    "history_direct": "/workspace/wmprobe/runs/a9/frozen_strike54/models/history_direct.npz"
+  },
+  "api": "from src.direct_baselines.api import load_frozen_a9, decide",
+  "protocol": "A10 FROZEN v2 + A-3 + A-7 + A-8 (A9 does not load test)",
+  "config_sha256": "19a28a25928e24c0246cec93de1ad31d035b49e4bf836d67230f1237428605ac"
+}
