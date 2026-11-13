@@ -5,7 +5,7 @@ import numpy as np
 
 import sys
 from pathlib import Path as _P
-_ROOT = _P('/workspace/wmprobe')
+_ROOT = _P(__file__).resolve().parents[2]  # repo root (was hardcoded /workspace/wmprobe)
 if str(_ROOT) not in sys.path: sys.path.insert(0, str(_ROOT))
 if str(_ROOT/'src') not in sys.path: sys.path.insert(0, str(_ROOT/'src'))
 if str(_ROOT/'reports/a5') not in sys.path: sys.path.insert(0, str(_ROOT/'reports/a5'))

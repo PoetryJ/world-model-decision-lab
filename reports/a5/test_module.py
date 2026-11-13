@@ -6,7 +6,7 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path("/workspace/wmprobe")
+ROOT = Path(__file__).resolve().parents[2]  # repo root (was hardcoded /workspace/wmprobe)
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(ROOT / "reports/a5"))

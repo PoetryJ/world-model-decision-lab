@@ -72,3 +72,32 @@
 - 最终报告：reports/integration/FINAL_REPORT.md，复制自 /workspace/wmprobe@996d7ba 中的 reports/controller/FINAL_REPORT.md。
 - 确定性密封测试复跑 5040/5040 一致；pytest 71 项全部通过（运行时需加 --ignore=adapters）。
 - 模块代码仍留在原目录 /workspace/wmprobe，未搬迁；等负责人决定后再选择性导入。
+
+## 11. 模块代码选择性导入（2026-11-13，负责人批准）
+来源：`/workspace/wmprobe` @ `996d7ba`（用 `git archive 996d7ba <路径>` 导出，**不取工作区**；工作区里 `reports/a10/test_access_log.jsonl`、`reports/a4/e0_raw.json` 的未提交改动未导入）。不合并历史。
+路径与原仓库保持**完全相同的相对布局**，因此 `python -m runner.run_e2e3`、`from shared.interface import …`、`from src.… import …` 以及 `configs/frozen_manifest.json` 中按路径记录的 41 个哈希均可直接使用（已核对 41/41 一致；密封集 sha256 `b6e9c903…66bd` 一致）。
+因此 `shared/` 没有搬到 `src/contracts/`，`runner/` 没有搬到 `scripts/`（搬迁会破坏 import 和 manifest 路径）；§4 的目录映射仅作为归属说明。
+
+导入内容（共 112 个文件，另修改 `.gitignore`）：
+- 源代码：`shared/`（冻结接口 v1.1 + fixture）、`src/{env,candidates,planning,dynamics,adaptation,scoring,probing,direct_baselines}/`、`runner/`、`probes/source/`、`evaluation/`（含 `PROTOCOL.md`）。
+- 测试：`tests/`、`src/env/test_env.py`、`src/probing/test_probing.py`、`src/scoring/test_scoring.py`、`probes/source/test_a2_probes.py`、`reports/a5/test_module.py`。
+- 冻结配置/清单：`configs/frozen_manifest.json`、`src/probing/frozen_config.json`，以及 manifest 校验所需的 `reports/a6/FROZEN.md`、`reports/a7/frozen_scorer_config.json`、`reports/a9/config_frozen.json`、`reports/a9/API.md`。
+- 复现必需的小数据：`evaluation/frozen_sets.json`（178KB）、`evaluation/sealed/test_sealed.json`（30KB）；冻结权重 `runs/a6/models/ens_push_env_v3_s0.pkl`(+meta，198KB)、`runs/a9/frozen_strike54/models/{obs_only,history_direct}.npz`（13KB）。
+- 可复用代码：`reports/a5/{closed_loop,diagnose,env_loader,oracle,run_all}.py`、`reports/controller/indep_check.py`。
+- 台账/审计记录：`ledger/{LEDGER,RULES}.md`、`reports/a10/{test_access_log,test_exposure}.jsonl`。
+
+唯一的代码改动：`reports/a5/` 中 4 个文件把硬编码的 `ROOT=/workspace/wmprobe` 改为 `Path(__file__).resolve().parents[2]`。不改的话，测试会把旧仓库的 `shared/` 插入 sys.path，导致 `tests/evaluation/test_eval.py::test_tracked_hidden_flags_env_rollout_inside_predict` 失败（帧路径不在本仓库根内）。这些文件不在 frozen manifest 内，不影响任何冻结哈希。
+
+排除及原因：
+- `__pycache__/`、`*.pyc`（原仓库误提交了 11 个）：属于生成物。
+- `runs/` 下的原始运行产物（约 1.2GB：decisions.jsonl、训练行日志、各 agent 的实验输出）：体积大，属于证据而非代码。仍保留在原目录，`.gitignore` 新增 `/runs/**`，只放行上面 4 个冻结权重文件。
+- 其它 `runs/a6/models/*`（fixture、v1/v2、s1/s2、latent）：不在冻结 manifest 内，复现不需要。
+- `adapters/cosmos/src`（官方 clone @18a2acc）、`.venv/`、`.pytest_cache/`：外部源码和环境，按 third_party 规则不提交。
+- `reports/a1–a10` 中的叙述报告、日志、图表、json 汇总，以及 `reports/controller/{FINAL_REPORT.md,indep_check.log}`：属于报告类，不是模块代码。结论已在本目录的 `FINAL_REPORT.md` 中，原件留在原目录。
+- 控制器过程文件、checkpoint（`runs/controller/*`）：属于运行产物。
+
+已知限制：`src/adaptation/analyze_a6.py` 仍然硬编码 `/workspace/wmprobe/runs/a6/e2/`（这是事后分析脚本，依赖未导入的 runs，故保持原样）。部分 docstring 里的运行说明仍写着 `cd /workspace/wmprobe`，在本仓库里应从仓库根运行。`reports/controller/indep_check.py` 需要本地的 `runs/controller/sealed*/episodes.csv`。
+
+导入后核验（2026-11-13 16:3x，UTC+8，使用 `/workspace/wmprobe/.venv` 的 Python 3.12）：
+- `python -m pytest -q`：71/71 通过（本仓库没有 `adapters/cosmos/src`，所以不需要 `--ignore=adapters`）。
+- 在本仓库确定性重跑一次密封集：`python -m runner.run_e2e3 --split sealed --out runs/controller/repro_wmdl_det --workers 6`，manifest 校验通过，耗时 72.5 秒。与原 `runs/controller/sealed/episodes.csv` 逐 episode 比较 5040/5040，0 个不一致；`evaluation.audit runner` 结果为 OK，密封访问为 OK。成功率与 FINAL_REPORT 相同（例如 wm_noprobe 0.758、wm_goalrule_update 0.883、belief_goalrule_update 1.000）。数值结论没有变化。这次重跑的密封访问已追加到 `reports/a10/test_access_log.jsonl` 并一起提交；它只是确定性复现，没有调参。

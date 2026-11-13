@@ -13,7 +13,7 @@ from pathlib import Path
 
 import numpy as np
 
-ROOT = Path("/workspace/wmprobe")
+ROOT = Path(__file__).resolve().parents[2]  # repo root (was hardcoded /workspace/wmprobe)
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 if str(ROOT / "src") not in sys.path:
